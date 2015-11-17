@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Radar Tuning
-subtitle: Automatic adjustment of gain and clutter settings
+title: Automatic adjustment of maritime radar
+subtitle: Gain and anti-clutter settings
 ---
 ## Background
 Human navigators adjusts the ship radar parameters regularly to obtain a good radar plot. There are several settings that can be adjusted, but the most important are gain and anti-clutter. The gain setting amplifies the return of the radar, which makes it more sensitive. This leads to an increased number of detections. To avoid too many false alarms, the operator can apply anti-clutter settings to reduce the return from waves, spray and rain.
