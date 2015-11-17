@@ -21,7 +21,7 @@ This project will look into object detection in camera images with two different
 4. Evaluate probability of detection and false alarm rate and other metrics using real data.
 5. Present the results and discuss limitations and challenges.
 
-## Recommended prerequisites
+## Prerequisites
 This is a list of *recommended* prerequisites for this master project.
 
 - Experience in either Matlab, Python or C++.
