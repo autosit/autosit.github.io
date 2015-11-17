@@ -14,6 +14,7 @@ Obstacle avoidance is a requirement for autonomous ship operations. Therefore, o
 This project will look into object detection in camera images with two different approaches. The first approach is to investigate if objects at sea can be detected by a camera placed onboard the ship. The second will look into the use of an unmanned aerial vehicle (UAV) as an airborne sensor to detect objects. Both of these approaches have advantages and one important part of the project is to compare these. Both regular and infrared camera can be used in this project, but infrared images might be easier to work with because of the temperature difference between other vessels and the water. Some data is already available and an experiment with both a ship and UAV may be conducted during the spring.
 
 ## Proposed Tasks
+
 1. Perform a litterature review over camera detection theory, algorithms and techniques in a maritime context.
 2. Evaluate detection algorithms and propose a suitable solution for maritime object detection.
 3. Implement a detection algorithm using e.g. OpenCV/Matlab/Python.
@@ -22,6 +23,7 @@ This project will look into object detection in camera images with two different
 
 ## Recommended prerequisites
 This is a list of *recommended* prerequisites for this master project.
+
 - Experience in either Matlab, Python or C++.
 - Basic knowledge of computer vision or image processing. [TDT4265](http://www.ntnu.edu/studies/courses/TDT4265) is great, but not required.
 
