@@ -4,7 +4,7 @@ title: Autonomous ships in a human world
 [//]: # subtitle: Visualization and Situation Awareness
 ---
 
-!({{site.url}}/assets/revolt.jpg)
+![]({{site.url}}/assets/revolt.jpg)
 
 In 2013 the ReVolt was initiated as a research project by the Strategic Research and Innovation group at DNV GL. It was launched externally one year later and caught a lot of attention by media around the world. The ReVolt is new shipping concept for the short-sea segment that offers a possible solution to the growing need for transport capacity. It does not require a crew and therefore goes a long way in tackling one of the shipping industries’ weakest links: the safety record. With an average of 900 fatalities per year the mortality rate in shipping is 90% higher than in comparable land-based industries. Studies have shown that the majority of these accidents are caused by human error. Unmanned vessels take this factor out of the equation and make the operation of these ships more cost-efficient.
 
