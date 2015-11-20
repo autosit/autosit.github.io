@@ -1,3 +1,7 @@
+<style type="text/css">
+ol ol { list-style-type: lower-alpha; }
+</style>
+
 ---
 layout: post
 title: Autonomous ships in a human world
@@ -15,9 +19,9 @@ The task of this assignment is to design a collision avoidance system for an unm
 ## Proposed Tasks
 
 1.	Do a study on navigational regulations (COLREGs) and how ships are manually operated to avoid collisions:
-  a.	What are the most critical situations and the main reasons for collisions?
-  b.	What are the traditional maneuvers to avoid collisions?
-  c.	How do navigators agree on solving situations?
+  1.	What are the most critical situations and the main reasons for collisions?
+  2.	What are the traditional maneuvers to avoid collisions?
+  3.	How do navigators agree on solving situations?
 2.	Do a literature survey on collision avoidance for surface vessels and assess the properties of different approaches for collision avoidance, including suitability for human interaction
 3.	Design and implement a collision avoidance system able to interact with expected human behavior.
 4.	Create a simulator for the vessel, the environment and other vessels and demonstrate the capabilities of the developed system. 
