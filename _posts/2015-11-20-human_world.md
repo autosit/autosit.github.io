@@ -3,7 +3,6 @@ layout: post
 title: Autonomous ships in a human world
 [//]: # subtitle: Visualization and Situation Awareness
 ---
-
 ![]({{site.url}}/assets/revolt.jpg)
 
 In 2013 the ReVolt was initiated as a research project by the Strategic Research and Innovation group at DNV GL. It was launched externally one year later and caught a lot of attention by media around the world. The ReVolt is new shipping concept for the short-sea segment that offers a possible solution to the growing need for transport capacity. It does not require a crew and therefore goes a long way in tackling one of the shipping industries’ weakest links: the safety record. With an average of 900 fatalities per year the mortality rate in shipping is 90% higher than in comparable land-based industries. Studies have shown that the majority of these accidents are caused by human error. Unmanned vessels take this factor out of the equation and make the operation of these ships more cost-efficient.
@@ -15,9 +14,9 @@ The task of this assignment is to design a collision avoidance system for an unm
 ## Proposed Tasks
 
 1.	Do a study on navigational regulations (COLREGs) and how ships are manually operated to avoid collisions:
-    *	What are the most critical situations and the main reasons for collisions?
-    *	What are the traditional maneuvers to avoid collisions?
-    *	How do navigators agree on solving situations?
+*	What are the most critical situations and the main reasons for collisions?
+*	What are the traditional maneuvers to avoid collisions?
+*	How do navigators agree on solving situations?
 2.	Do a literature survey on collision avoidance for surface vessels and assess the properties of different approaches for collision avoidance, including suitability for human interaction
 3.	Design and implement a collision avoidance system able to interact with expected human behavior.
 4.	Create a simulator for the vessel, the environment and other vessels and demonstrate the capabilities of the developed system. 
