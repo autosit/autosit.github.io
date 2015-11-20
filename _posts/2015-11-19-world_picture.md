@@ -1,31 +1,33 @@
 ---
 layout: post
-title: Visual Detection
-subtitle: Optical Sensors for Maritime Collision Avoidance
+title: World Picture for Maritime Collision Avoidance
+subtitle: Visualization and Situation Awareness
 ---
 ## Background
-The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to build knowledge that enables autonomous collision avoidance for maritime surface vehicles. In addition to ship instrumentation such as RADAR and AIS, a human navigator relies on his vision as an important tool to avoid collisions at sea. The International Regulations for Avoiding Collisions at Sea (COLREGS) explicitly states that navigators should use their vision in addition to RADAR. As computer vision continues to show success in many robotics domains, including extraplanetary exploration on NASAs Curiosity Mars rover and many autonomous driving applications, it is likely that optical sensors can have a prominent role in autonomous collision avoidance at sea. 
+The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to build knowledge that enables autonomous collision avoidance for maritime surface vehicles. A key objectives of the project is to involve sensor fusion so that vehicles are able to perceive the environment, and thus rely on such human-like sensing in addition radio communication and transponder systems, which may or may not be availabe. Furthermore, the general architecture of information flow in collision avoidance systems is also a topic of study in the project. 
+
 
 ## Scope
-Obstacle avoidance is a requirement for autonomous ship operations. Therefore, other objects in the planned path of the ship need to be identified and tracked. Object detection with an optical sensor (camera) is one way to detect objects. However, this is challenging in maritime environments since objects at sea can be hard to distinguish from the waterline or hidden in waves. Furthermore, cameras have a limited range and objects far from the camera might be impossible to detect or cluttered by noise or other objects. In this project detection of marine vessels are the main priority. The algorithms developed in this project are not required to run in real-time, the focus is on detection performance and evaluation.
+Collision avoidance is quite complex compared with many other cybernetical systems. While path planning, guidance and control of vehicles are largely solved problems, the synthesis of reactive collision avoidance with these tasks is not trivial, and does not easily lend itself to stability proofs and other conventional control theoretic analysis techniques. For example, when several vehicles interact, whether manned or autonomous, mutual misunderstandings of behavior can lead to dangerous situations. Sensor fusion adds another layer to the complexity. In real life, a collision avoidance system must make decisions based on incomplete and possibly faulty information, as the sensors may fail to detect obstacles, or mistake noise and clutter for real obstacles. In brief, the collision avoidance system must exhibit what is known as situation awareness. 
 
-![Infrared image taken from an UAV]({{site.url}}/assets/infrared.jpg)
+In order to keep the human in the loop, it is necessary to extract and present the essentials of this information in a meaningful manner. What is essential and meaningful may depend on the situation and the intentions of the operator. For a remote operator, limited bandwidth may be an issue, and one must then prioritize which information should be transferred to the operator. Presentation of information is also important during the development of simulators for collision avoidance. To investigate the behavior of collision avoidance methods, responding to various sensor input, researchers should be able to display sensor data, corresponding tracking and navigation results, and various collision avoidance concepts such as planned paths and velocity obstacles on-demand when this is considered useful. 
 
-This project will look into object detection in camera images with two different approaches. The first approach is to investigate if objects at sea can be detected by a camera placed onboard the ship. The second will look into the use of an unmanned aerial vehicle (UAV) as an airborne sensor to detect objects. Both of these approaches have advantages and one important part of the project is to compare these. Both regular and infrared camera can be used in this project, but infrared images might be easier to work with because of the temperature difference between other vessels and the water. Some data is already available and an experiment with both a ship and UAV may be conducted during the spring.
+The main purpose of this project is to develop a visualization toolbox to be used in simulations of sensor fusion and collision avoidance in the Autosea project. 
 
 ## Proposed Tasks
 
-1. Perform a litterature review over camera detection theory, algorithms and techniques in a maritime context.
-2. Evaluate detection algorithms and propose a suitable solution for maritime object detection.
-3. Implement a detection algorithm using e.g. OpenCV/Matlab/Python.
-4. Evaluate probability of detection and false alarm rate and other metrics using real data.
-5. Present the results and discuss limitations and challenges.
+1. Perform a litterature review over recent advances in situation awareness for (maritime) collision avoidance.
+2. Identify key concepts that should be visualized. 
+3. Identify metrics of danger etc. that can provide situation awareness. 
+4. Implement the tools in a simulator based on the Robotic Operating System. This will be done in close collaboration with the Ph.D. candidates working on the Autosea project.
+5. Discuss to which extent the visualizations provides adequate situation awareness.
 
 ## Prerequisites
 This is a list of *recommended* prerequisites for this master project.
 
-- Experience in either Matlab, Python or C++.
-- Basic knowledge of computer vision or image processing. [TDT4265](http://www.ntnu.edu/studies/courses/TDT4265) is great, but not required.
+- Strong programming skills. Experience with ROS will be very advantageous.
+- Knowledge of Kalman filtering.
+- Knowledge of guidance and navigation of surface vehicles.
 
 ## Contact
 For more information, contact main supervisor Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>).
