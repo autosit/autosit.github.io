@@ -6,7 +6,6 @@ subtitle: Visualization and Situation Awareness
 ## Background
 The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to build knowledge that enables autonomous collision avoidance for maritime surface vehicles. A key objectives of the project is to involve sensor fusion so that vehicles are able to perceive the environment, and thus rely on such human-like sensing in addition radio communication and transponder systems, which may or may not be availabe. Furthermore, the general architecture of information flow in collision avoidance systems is also a topic of study in the project. 
 
-
 ## Scope
 Collision avoidance is quite complex compared with many other cybernetical systems. While path planning, guidance and control of vehicles are largely solved problems, the synthesis of reactive collision avoidance with these tasks is not trivial, and does not easily lend itself to stability proofs and other conventional control theoretic analysis techniques. For example, when several vehicles interact, whether manned or autonomous, mutual misunderstandings of behavior can lead to dangerous situations. Sensor fusion adds another layer to the complexity. In real life, a collision avoidance system must make decisions based on incomplete and possibly faulty information, as the sensors may fail to detect obstacles, or mistake noise and clutter for real obstacles. In brief, the collision avoidance system must exhibit what is known as situation awareness. 
 
