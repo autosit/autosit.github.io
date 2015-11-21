@@ -71,7 +71,7 @@ timezone: "Europe/Oslo"
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 100 #All posts on first page
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
