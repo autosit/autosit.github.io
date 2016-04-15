@@ -3,7 +3,7 @@ layout: post
 title: Collision Avoidance System for Ships Utilizing Other Vessels' Intentions
 [//]: # subtitle: Visualization and Situation Awareness
 ---
-![Collision Avoidance]({{site.url}}/assets/intention_1.png)![Collision Avoidance]({{site.url}}/assets/intention_2.png)
+| <img src="{{site.url}}/assets/intention_1.png" width="370"> | | <img src="{{site.url}}/assets/intention_2.png" width="370"> |
 
 Over the last decades, several new sensors and systems have been introduced on ships to improve navigational safety, for example GPS, AIS (Automatic Identification System) and ECDIS (electronic maps). Despite such advances collisions and groundings are still two of the most frequent causes of maritime accidents.
 
