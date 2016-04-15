@@ -25,5 +25,5 @@ The project work aims to be extended into a master thesis for the spring of 2017
 5. Finally, combine the proposed "low-level" adaptive and nonlinear control algorithm with a "high-level" collision avoidance system, which will be provided by another MSc-student or the supervisors, to enable energy-efficient and precise collision avoidance capabilities.
 
 ## Supervisors 
-Main supervisor: Morten Breivik (<morten.breivik@itk.ntnu.no>). <br />
-Co-supervisors: Mikkel Sørensen (<mikkel.sorensen@itk.ntnu.no>) and Bjørn-Olav Eriksen (<bjorn-olav.holtung.eriksen@itk.ntnu.no>).
+Main supervisor: Morten Breivik (<http://www.ntnu.no/ansatte/mortebre>). <br />
+Co-supervisors: Mikkel Sørensen (<http://www.ntnu.no/ansatte/mikkelns>) and Bjørn-Olav Eriksen (<http://www.ntnu.no/ansatte/boerikse>).
