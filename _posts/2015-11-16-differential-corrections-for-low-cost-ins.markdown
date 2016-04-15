@@ -27,4 +27,4 @@ The task is to determine to what extent these low-cost sensors benefits from acc
 * [TTK5](http://www.itk.ntnu.no/emner/fordypning/TTK5) - Kalman Filtering and Navigation
 
 ## Contact 
-For more information, contact main supervisor Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>).
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).

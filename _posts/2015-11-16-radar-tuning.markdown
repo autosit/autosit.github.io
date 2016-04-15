@@ -19,4 +19,4 @@ To increase the autonomy of a ship, some of this functionality needs to be perfo
 * [TTK4115](http://www.ntnu.edu/studies/courses/TTK4115) - Linear System Theory
 
 ## Contact 
-For more information, contact main supervisor Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>).
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).

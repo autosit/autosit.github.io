@@ -23,6 +23,6 @@ The task of this assignment is to design a collision avoidance system for an unm
 
 ## Supervisors
 
-Main supervisor: Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>), Associate Professor, NTNU
+Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), Associate Professor, NTNU
 
 Co-supervisor: Øystein Engelhardtsen, Senior Researcher, Maritime Transport, DNV GL - Strategic Research and Innovation
