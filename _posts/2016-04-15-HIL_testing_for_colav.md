@@ -35,6 +35,9 @@ For the master thesis, the following tasks are proposed:
 
 \*The DNV GL CyberSea simulator infrastructure includes various vessel models, environmental models and a toolbox for running and analyzing simulations. This also includes a system for automatic HIL testing and result assessment called Signature. Additional simulator models may be written in a number of programming languages or tools such as Simulink.
 
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
+
 ## Supervisors
 Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), Associate Professor, NTNU
 

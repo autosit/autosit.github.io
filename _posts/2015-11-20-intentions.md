@@ -33,6 +33,9 @@ For the master thesis, the following tasks are proposed:
     * Develop/reuse another reference collision avoidance algorithm based on a method which is not utilizing other vessels’ intentions (for example VO).
 5. Create a simulator for the vehicle and the surroundings, and demonstrate the capabilities of the developed guidance system, and assess the improved collision avoidance ability resulting from utilizing other vessel intensions by considering typical sea traffic situations (e.g. head-on and crossings) as well as critical situations causing collisions between human operated vessels.
 
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
+
 ## Supervisors
 Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), Associate Professor, NTNU
 

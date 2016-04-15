@@ -6,7 +6,7 @@ Autonomous technology is spreading across numerous applications at an unpreceden
 
 When designing control systems for autonomous surface vehicles (ASVs), and particular in the design of collision avoidance (COLAV) functionality, the international regulations for preventing collisions at sea (COLREGS) must be considered. COLREGS was introduced in the late 19th century, and has been revised multiple times as technology and methods have advanced. The rules have, however, not been adapted to facilitate autonomous vessels. Evaluating which parts of COLREGS should apply in different scenarios is therefore a necessity in order to develop autonomous COLAV.
 
-This proposal is intended as a combined project and master thesis during the autumn of 2016 and spring of 2017. The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
+This proposal is intended as a combined project and master thesis during the autumn of 2016 and spring of 2017.
 
 | <img src="{{site.url}}/assets/mariner.jpg" width="370"> | | <img src="{{site.url}}/assets/telemetron4a.jpg" width="370"> |
 |:---:| :---: |:---:|
@@ -26,6 +26,9 @@ This proposal is intended as a combined project and master thesis during the aut
 3. Combine the designed algorithm with deliberate and reactive COLAV algorithms, through a suitable interface. 
 4. Evaluate the performance of the COLREGS-interpreting algorithm and the overall system through simulations.
 5. Based on the simulation results, full-scale tests may be possible.
+
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
 
 ## Supervisors 
 Main supervisor: [Morten Breivik](http://www.ntnu.no/ansatte/morten.breivik). <br />
