@@ -28,4 +28,4 @@ This is a list of *recommended* prerequisites for this master project.
 - Basic knowledge of computer vision or image processing. [TDT4265](http://www.ntnu.edu/studies/courses/TDT4265) is great, but not required.
 
 ## Contact
-For more information, contact main supervisor Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>).
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)

@@ -22,6 +22,6 @@ The guidance system can assume a sensor package and a priory chart data to provi
 
 ## Supervisors
 
-Main supervisor: Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>), Associate Professor, NTNU
+Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), Associate Professor, NTNU
 
 Co-supervisor: Steinar Låg, Principal Researcher, Maritime Transport, DNV GL - Strategic Research and Innovation

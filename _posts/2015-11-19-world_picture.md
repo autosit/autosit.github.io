@@ -29,4 +29,4 @@ This is a list of *recommended* prerequisites for this master project.
 - Knowledge of guidance and navigation of surface vehicles.
 
 ## Contact
-For more information, contact main supervisor Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>).
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).

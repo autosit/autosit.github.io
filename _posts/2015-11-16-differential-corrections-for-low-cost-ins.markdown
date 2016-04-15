@@ -28,4 +28,4 @@ The following topics should be taken concurrently to the project thesis:
 * [TTK5](http://www.itk.ntnu.no/emner/fordypning/TTK5) - Kalman Filtering and Navigation
 
 ## Contact 
-For more information, contact main supervisor Edmund F. Brekke (<http://www.ntnu.no/ansatte/edmundfo>).
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
