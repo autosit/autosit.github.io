@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HIL-testing for Maritime Collision Avoidance Systems
+title: HIL-testing for maritime collision avoidance systems
 ---
 
 ![Revolt]({{site.url}}/assets/revolt.jpg)

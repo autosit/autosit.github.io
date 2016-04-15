@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Accurate Positioning with CPOS
-subtitle: Differential Corrections for Low-Cost INS
+title: Accurate positioning with CPOS
+subtitle: Differential corrections for low-cost INS
 ---
 ## Background
 Conventional low-cost GPS solutions typically obtain an accuracy of 2-3 meters. More accurate position estimates can be obtained by differential corrections. The traditional method of suppling these corrections are from a user base station with real-time kinematics (RTK) corrections. The corrections are typically transmitted from the base station to the moving vehicle on a radio link.

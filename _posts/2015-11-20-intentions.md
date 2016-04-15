@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Collision Avoidance System for Ships Utilizing Other Vessels' Intentions
-[//]: # subtitle: Visualization and Situation Awareness
+title: Collision avoidance system for ships utilizing other vessels' intentions
+[//]: # subtitle: Visualization and situation awareness
 ---
 ![Collision Avoidance]({{site.url}}/assets/intention_1.png)![Collision Avoidance]({{site.url}}/assets/intention_2.png)
 

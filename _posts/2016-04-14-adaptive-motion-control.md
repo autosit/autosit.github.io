@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adaptive Motion Control For Ships with Cascaded Nonlinear Feedback Control
+title: Adaptive motion control for ships with cascaded nonlinear feedback control
 ---
 ## Background
 Automated motion control of ships has been a research topic since the early 20th century. In recent years, the research has expanded from control of manned vessels to also include unmanned vessels. Challenges include handling uncertain nonlinear hydrodynamics and external disturbances, since the ocean is an unreliable environment with nonlinearities and unpredictable perturbations. Hence, it is important to develop adaptive and robust control algorithms, which can deal with these internal uncertainties and external disturbances in a realistic and energy efficient manner. It is also important to consider physical magnitude and rate saturation constraints for the actuators.

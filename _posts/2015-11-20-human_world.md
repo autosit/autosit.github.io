@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous ships in a human world
-[//]: # subtitle: Visualization and Situation Awareness
+[//]: # subtitle: Visualization and situation awareness
 ---
 ![]({{site.url}}/assets/revolt.jpg)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: World Picture for Maritime Collision Avoidance
-subtitle: Visualization and Situation Awareness
+title: World picture for maritime collision avoidance
+subtitle: Visualization and situation awareness
 ---
 ## Background
 The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to build knowledge that enables autonomous collision avoidance for maritime surface vehicles. A key objectives of the project is to involve sensor fusion so that vehicles are able to perceive the environment, and thus rely on such human-like sensing in addition radio communication and transponder systems, which may or may not be availabe. Furthermore, the general architecture of information flow in collision avoidance systems is also a topic of study in the project. 
