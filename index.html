@@ -5,10 +5,28 @@ subtitle: Sensor fusion and collision avoidance for autonomous surface vehicles 
 ---
 
 <div class="list">
-    <h3>Overview</h3>
+    <h3>Collision avoidance projects</h3>
     <ul>
     {% for post in paginator.posts %}
+    {% if post.category == "COLAV" %}
     <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    <h3>Sensor fusion projects</h3>
+    <ul>
+    {% for post in paginator.posts %}
+    {% if post.category == "SF" %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    <h3>Miscellaneous projects</h3>
+    <ul>
+    {% for post in paginator.posts %}
+    {% if post.category == "MISC" %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+    {% endif %}
     {% endfor %}
     </ul>
 </div>

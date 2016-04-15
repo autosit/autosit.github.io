@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HIL-testing for maritime collision avoidance systems
+category: MISC
 ---
 
 ![Revolt]({{site.url}}/assets/revolt.jpg)

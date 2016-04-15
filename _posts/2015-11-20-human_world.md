@@ -2,6 +2,7 @@
 layout: post
 title: Autonomous ships in a human world
 [//]: # subtitle: Visualization and situation awareness
+category: COLAV
 ---
 ![]({{site.url}}/assets/revolt.jpg)
 

@@ -2,6 +2,7 @@
 layout: post
 title: Collision avoidance system for ships utilizing other vessels' intentions
 [//]: # subtitle: Visualization and situation awareness
+category: COLAV
 ---
 | <img src="{{site.url}}/assets/intention_1.png" width="370"> | | <img src="{{site.url}}/assets/intention_2.png" width="370"> |
 
