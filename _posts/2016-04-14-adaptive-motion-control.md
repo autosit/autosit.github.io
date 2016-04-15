@@ -24,6 +24,9 @@ The project work aims to be extended into a master thesis for the spring of 2017
 4. If possible, test the performance of the algorithms in full-scale experiments.In this case, a ship model must be developed using system identification/multi-variate analysis based on collected data from full-scale sea trials.
 5. Finally, combine the proposed "low-level" adaptive and nonlinear control algorithm with a "high-level" collision avoidance system, which will be provided by another MSc-student or the supervisors, to enable energy-efficient and precise collision avoidance capabilities.
 
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
+
 ## Supervisors 
 Main supervisor: [Morten Breivik](http://www.ntnu.no/ansatte/morten.breivik).
 Co-supervisors: [Mikkel Sørensen](http://www.ntnu.no/ansatte/mikkelns) and [Bjørn-Olav Eriksen](http://www.ntnu.no/ansatte/boerikse).

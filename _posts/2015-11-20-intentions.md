@@ -3,7 +3,7 @@ layout: post
 title: Collision avoidance system for ships utilizing other vessels' intentions
 [//]: # subtitle: Visualization and situation awareness
 ---
-![Collision Avoidance]({{site.url}}/assets/intention_1.png)![Collision Avoidance]({{site.url}}/assets/intention_2.png)
+| <img src="{{site.url}}/assets/intention_1.png" width="370"> | | <img src="{{site.url}}/assets/intention_2.png" width="370"> |
 
 Over the last decades, several new sensors and systems have been introduced on ships to improve navigational safety, for example GPS, AIS (Automatic Identification System) and ECDIS (electronic maps). Despite such advances collisions and groundings are still two of the most frequent causes of maritime accidents.
 
@@ -32,6 +32,9 @@ For the master thesis, the following tasks are proposed:
     * Develop/refine a collision avoidance algorithm utilizing other vessels intentions.
     * Develop/reuse another reference collision avoidance algorithm based on a method which is not utilizing other vessels’ intentions (for example VO).
 5. Create a simulator for the vehicle and the surroundings, and demonstrate the capabilities of the developed guidance system, and assess the improved collision avoidance ability resulting from utilizing other vessel intensions by considering typical sea traffic situations (e.g. head-on and crossings) as well as critical situations causing collisions between human operated vessels.
+
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
 
 ## Supervisors
 Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), Associate Professor, NTNU

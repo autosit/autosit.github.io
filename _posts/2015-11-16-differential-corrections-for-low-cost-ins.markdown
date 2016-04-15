@@ -27,5 +27,8 @@ The following topics should be taken concurrently to the project thesis:
 * [TTK4190](http://www.ntnu.edu/studies/courses/TTK4190) - Guidance and Control of Vehicles
 * [TTK5](http://www.itk.ntnu.no/emner/fordypning/TTK5) - Kalman Filtering and Navigation
 
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
+
 ## Contact 
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
