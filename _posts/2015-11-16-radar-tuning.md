@@ -5,16 +5,17 @@ subtitle: Gain and anti-clutter settings
 category: SF
 ---
 ## Background
-Human navigators adjusts the ship radar parameters regularly to obtain a good radar plot. There are several settings that can be adjusted, but the most important are gain and anti-clutter. The gain setting amplifies the return of the radar, which makes it more sensitive. This leads to an increased number of detections. To avoid too many false alarms, the operator can apply anti-clutter settings to reduce the return from waves, spray and rain.
-
-## Scope
-To increase the autonomy of a ship, some of this functionality needs to be performed by the tracking system. To tune the radar, there must be complementary sensors which are able to provide locations where there surely are targets, such as other ships, and locations where there are no targets. The radar parameters can then be adjusted to match these features.
+The key sensor used in maritime collision avoidance is the radar, which is quite reliable both day and night and in all kinds of weather. However, the output depends on the software settings, which human navigators regularly adjusts to obtain a good radar plot. There are several settings that can be adjusted, but the most important are gain and anti-clutter. The gain setting amplifies the return of the radar, which makes it more sensitive. This leads to an increased number of detections. To avoid too many false alarms, the operator can apply anti-clutter settings to reduce the return from waves, spray and rain.
 
 ## Proposed Tasks
-1. Obtain knowledge of radars with a focus on detection theory and a maritime setting.
-2. Suggest complementary sensors to ensure that the radar settings can be set correctly.
-3. Develop a method for automatically adjusting the radar settings.
-4. Present the results and discuss limitations and challenges.
+For the autumn project, the following tasks should be solved:
+
+1. Write a brief survey on different methods for radar detection and clustering.
+2. Discuss how other tracking sensors can aid radar tuning.
+3. Implement a detection and tracking algorithm.
+4. Evaluate the performance given a set of tuning parameters.
+
+For the master thesis, the results from the autumn project will be used to form interesting and relevant tasks.
 
 ## Prerequisites
 * [TTK4115](http://www.ntnu.edu/studies/courses/TTK4115) - Linear System Theory

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accurate positioning with CPOS
+title: Accurate navigation with CPOS
 subtitle: Differential corrections for low-cost INS
 category: SF
 ---
