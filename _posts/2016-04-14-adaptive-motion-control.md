@@ -5,7 +5,7 @@ title: Adaptive Motion Control For Ships with Cascaded Nonlinear Feedback Contro
 ## Background
 Automated motion control of ships has been a research topic since the early 20th century. In recent years, the research has expanded from control of manned vessels to also include unmanned vessels. Challenges include handling uncertain nonlinear hydrodynamics and external disturbances, since the ocean is an unreliable environment with nonlinearities and unpredictable perturbations. Hence, it is important to develop adaptive and robust control algorithms, which can deal with these internal uncertainties and external disturbances in a realistic and energy efficient manner. It is also important to consider physical magnitude and rate saturation constraints for the actuators.
 
-![Adaptive control loop]({{site.url}}/assets/adaptive.jpg)
+![Adaptive control loop]({{site.url}}/assets/adaptive.png)
 
 ## Scope
 The goal of this project work is to investigate a combination of adaptive and nonlinear feedback control algorithms to handle model uncertainties, external disturbances and actuator constraints.
