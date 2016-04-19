@@ -42,4 +42,5 @@ The candidate will be associated with the AUTOSEA project, which is a collaborat
 ## Supervisors
 Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), Associate Professor, NTNU
 
-Co-supervisor: Steinar Låg, Principal Researcher, Maritime Transport, DNV GL - Strategic Research and Innovation
+
+Co-supervisors:<br />Øystein Engelhardtsen, Senior Researcher, Maritime Transport, DNV GL - Strategic Research and Innovation<br />Arne Kjørsvik, Manager Digital Services, Marine Cybernetics Services, Offshore Class, DNV GL – Maritime
