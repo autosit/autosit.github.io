@@ -9,7 +9,7 @@ The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to b
 Challenging situations occur when different targets are shadowing each other. In such scenarios, the radar tracker may be tempted to terminate the track on the shadowed target prematurely, something which could be dangerous in a collision avoidance system. 
 
 ## Scope
-The key idea behind this project is that the probability that a target exists should be influenced knowledge about such shadows, through adjustment of its assumed probability of detection, which is a tuning parameter in the tracking method. This work will be based on the Integrated Probabilistic Data Association (IPDA) and multi-target extensions of this tracking method. 
+The key idea behind this project is that the probability that a target exists should be influenced knowledge about such shadows, through adjustment of its assumed probability of detection, which is a tuning parameter in the tracking method. This work will be based on the Integrated Probabilistic Data Association ([IPDA](http://ieeexplore.ieee.org/document/293185/)) and multi-target extensions of this tracking method. 
 
 ## Proposed Tasks for the 5th year project
 
