@@ -1,31 +1,33 @@
 ---
 layout: post
-title: Visual Detection
-subtitle: Optical Sensors for Maritime Collision Avoidance
+title: World picture for maritime collision avoidance
+category: SF
 ---
 ## Background
-The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to build knowledge that enables autonomous collision avoidance for maritime surface vehicles. In addition to ship instrumentation such as RADAR and AIS, a human navigator relies on his vision as an important tool to avoid collisions at sea. The International Regulations for Avoiding Collisions at Sea (COLREGS) explicitly states that navigators should use their vision in addition to RADAR. As computer vision continues to show success in many robotics domains, including extraplanetary exploration on NASAs Curiosity Mars rover and many autonomous driving applications, it is likely that optical sensors can have a prominent role in autonomous collision avoidance at sea. 
 
-## Scope
-Obstacle avoidance is a requirement for autonomous ship operations. Therefore, other objects in the planned path of the ship need to be identified and tracked. Object detection with an optical sensor (camera) is one way to detect objects. However, this is challenging in maritime environments since objects at sea can be hard to distinguish from the waterline or hidden in waves. Furthermore, cameras have a limited range and objects far from the camera might be impossible to detect or cluttered by noise or other objects. In this project detection of marine vessels are the main priority. The algorithms developed in this project are not required to run in real-time, the focus is on detection performance and evaluation.
+Collision avoidance is quite complex compared with many other cybernetical systems. While path planning, guidance and control of vehicles are largely solved problems, the synthesis of reactive collision avoidance with these tasks is not trivial, and does not easily lend itself to stability proofs and other conventional control theoretic analysis techniques. For example, when several vehicles interact, whether manned or autonomous, mutual misunderstandings of behavior can lead to dangerous situations. Sensor fusion adds another layer to the complexity. In real life, a collision avoidance system must make decisions based on incomplete and possibly faulty information, as the sensors may fail to detect obstacles, or mistake noise and clutter for real obstacles. In brief, the collision avoidance system must exhibit what is known as situation awareness.
 
-![Infrared image taken from an UAV]({{site.url}}/assets/infrared.jpg)
-
-This project will look into object detection in camera images with two different approaches. The first approach is to investigate if objects at sea can be detected by a camera placed onboard the ship. The second will look into the use of an unmanned aerial vehicle (UAV) as an airborne sensor to detect objects. Both of these approaches have advantages and one important part of the project is to compare these. Both regular and infrared camera can be used in this project, but infrared images might be easier to work with because of the temperature difference between other vessels and the water. Some data is already available and an experiment with both a ship and UAV may be conducted during the spring.
+An autonomous system should itself be prepared and able to react based on situation awareness, and it should also be able to convey the essential information of the situation to the human operator, who may or may not be required to interfere. The purpose of this autumn project is to design a collision warning system for ASVs based on these considerations. In the subsequent master thesis project, the aim will be to use the collision warning system actively. 
 
 ## Proposed Tasks
+For the autumn project, the following tasks are proposed:
 
-1. Perform a litterature review over camera detection theory, algorithms and techniques in a maritime context.
-2. Evaluate detection algorithms and propose a suitable solution for maritime object detection.
-3. Implement a detection algorithm using e.g. OpenCV/Matlab/Python.
-4. Evaluate probability of detection and false alarm rate and other metrics using real data.
-5. Present the results and discuss limitations and challenges.
+1. Perform a litterature review over recent advances in situation awareness for (maritime) collision avoidance.
+2. Propose some risk measures to be used as part of a collision avoidance system.
+3. Implement a collision warning system based on these measures. 
+4. Develop visualization tools that can form part of a graphical user interface between the collision warning system and a human operator.
+5. Discuss the findings in a report.
 
-## Prerequisites
-This is a list of *recommended* prerequisites for this master project.
+For the master thesis, the following topics should be addressed:
 
-- Experience in either Matlab, Python or C++.
-- Basic knowledge of computer vision or image processing. [TDT4265](http://www.ntnu.edu/studies/courses/TDT4265) is great, but not required.
+1. Discussion of the trade-off between false alarm rates and detection probabilities in a collision warning system.
+2. Using the developments from the autumn project to tune manoeuver parameters in a collision avoidance system, so that the system is able to maintain appropriate margins to all threatening vehicles.
+3. Based on sensor fusion data, detection of situations where another vehicle cannot be expected to follow COLREGS (e.g., because COLREGS does not apply, because its a rogue vehicle or because it is not under proper control).
+4. Blind zones, bad weather impact,etc.
+5. Assessment of multivehicle situations.
+
+## Autosea
+The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
 
 ## Contact
-For more information, contact main supervisor Edmund F. Brekke (<edmund.brekke@itk.ntnu.no>).
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).

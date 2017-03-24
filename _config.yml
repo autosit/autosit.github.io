@@ -69,9 +69,9 @@ footer-links-active:
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Oslo"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 100 #All posts on first page
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -92,6 +92,8 @@ exclude:
   - CNAME
   - LICENSE
   - README.md
+
+gems: [jekyll-paginate]
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

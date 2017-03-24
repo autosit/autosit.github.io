@@ -1,48 +1,37 @@
 ---
 layout: page
 title: Autosea
-subtitle: Sensor fusion and collision avoidance for autonomous surface vehicles
+subtitle: Sensor fusion and collision avoidance for autonomous surface vehicles - Master thesis proposals
 ---
 
+<div class="list">
+    <h3>Collision avoidance projects</h3>
+    <ul>
+    {% for post in paginator.posts %}
+    {% if post.category == "COLAV" %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    <h3>Sensor fusion projects</h3>
+    <ul>
+    {% for post in paginator.posts %}
+    {% if post.category == "SF" %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    <h3>Miscellaneous projects</h3>
+    <ul>
+    {% for post in paginator.posts %}
+    {% if post.category == "MISC" %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+</div>
 <div class="main-explain-area jumbotron">
-    <p>This page presents project- and master thesis proposals for the Autosea project. The project has scheduled several experiments, starting in December. This means that many of the results from the suggested theses can be verified with real-world data, or tested in an experiment. The project software is developed using <a href="http://www.ros.org/">ROS</a>, which means that features can be implemented in C++ or Python. Additionally, a simulator is being developed in <a href="http://gazebosim.org/">Gazebo</a>.</p>
+    <p>This page presents project- and master thesis proposals for the Autosea project. The project has gathered considerable ammounts of data in the Trondheimdsfjord during the winter of 2015/2016 together with Maritime Robotics. Many of the results from the suggested theses can be verified with the gathered data, or tested in new experiments. Matlab and Python are the main tools used for development and simulation. Some project software is developed using <a href="http://www.ros.org/">ROS</a> and <a href="http://gazebosim.org/">Gazebo</a>.</p>
     
     <p>General information about the project can be found at <a href="https://www.ntnu.edu/amos/autosea">AMOS'</a> website.</p>
 </div>
-
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-	
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}  
-    </a>
-  
-    <div class="post-entry">
-      {{ post.content | truncatewords: 50 | strip_html | xml_escape | remove:'Background' }}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-    </div>
-  
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
