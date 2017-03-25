@@ -16,12 +16,12 @@ Collision avoidance for autonomous vehicles entails a processing pipeline that i
 The goal of this project is to develop a simulator that involves all five steps of the pipeline.
 
 ## Proposed Tasks
-a) Implement a line-of-sight-based vessel motion simulator.
-b) Implement a simple simulator of data from a maritime radar mounted on a moving vessel.
-c) Implement a tracking method based on the Probabilistic Data Association Filter (PDAF) or multiple hypothesis tracking (MHT).
-d) Implement a collision avoidance (COLAV) method, such as the Velocity Obstacle (VO), or a method based on Model Predictive Control (MPC).
-e) Implement an interface between the tracking method and the COLAV method. 
-f) Write report. 
+a. Implement a line-of-sight-based vessel motion simulator.
+b. Implement a simple simulator of data from a maritime radar mounted on a moving vessel.
+c. Implement a tracking method based on the Probabilistic Data Association Filter (PDAF) or multiple hypothesis tracking (MHT).
+d. Implement a collision avoidance (COLAV) method, such as the Velocity Obstacle (VO), or a method based on Model Predictive Control (MPC).
+e. Implement an interface between the tracking method and the COLAV method. 
+f. Write report. 
 
 Solutions to many of these tasks will be available from previous research in the Autosea projects. The candidate must stitch together different solutions, or develop new solutions when this is more convenient.
 
