@@ -12,6 +12,8 @@ There are, roughly speaking, two kinds of solutions to data association: Searchi
 ## Scope
 In this project, the goal is to combine these two approaches in order to make more robust and efficient tracking methods, combining the strenghts of MHT and JPDA. Ultimately, this is an exercise in mixture reduction: We want to reduce the number of components in our description of the posterior distribution of the target state in accordance with some information-theoretic cost function. We will start in the single-target scenario, and gradually expand the complexity by introduction two or more targets as well as existence uncertainty. 
 
+![Adaptive control loop]({{site.url}}/assets/diverprediction2.png)
+
 ## Proposed Tasks for the 5th year project
 
 1. Conduct a literature survey on various approaches to mixture reduction in the target tracking literature.
