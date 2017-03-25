@@ -12,8 +12,6 @@ Collision avoidance for autonomous vehicles entails a processing pipeline that i
 5. Guidance and control according to collision avoidance maneuver.
  
 
-![Adaptive control loop]({{site.url}}/assets/adaptive.png)
-
 ## Scope
 The goal of this project is to develop a simulator that involves all five steps of the pipeline.
 
