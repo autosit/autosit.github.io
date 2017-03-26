@@ -36,4 +36,4 @@ The candidate will be associated with the AUTOSEA project, which is a collaborat
 
 ## Supervisors 
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).
-
+Co-supervisor: [Egil Eide](http://www.ntnu.no/ansatte/egil.eide).
