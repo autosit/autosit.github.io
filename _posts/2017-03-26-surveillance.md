@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Surveillance of the Channel at Brattøra
+title: Surveillance of the Channel
 category: SF
 ---
 ## Background
@@ -23,13 +23,6 @@ The project work aims to be extended into a master thesis for the spring of 2018
 - Additional measurements with other sensors.
 - Development of a sensor fusion system for collision avoidance that utilizes data from the stationary sensor station, together with other sensors onboard the ferry. 
 
-## Prerequisites
-Recommended background knowledge:
-
-- TTK4115 Linear System Theory.
-- Programming skills in Matlab, Python or C++.
-
-Courses in statistics, radar and/or computer vision beyond standard cybernetics curriculum will be useful, but are not required.
 
 ## Autosea
 The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
