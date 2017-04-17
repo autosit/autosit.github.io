@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatic generation of maritime collision avoidance scenarios
-category: MISC
+category: COLAV
 ---
 ## Background
 A key requirement for autonomous ships and autonomous surface vehicles (ASVs) is a safe and reliable collision avoidance (COLAV) system. Testing of such systems is challenging, because the system may in real life encounter a limitless number of different scenarios. To be able to test the system in a reasonable variety of scenarios, simulations are obviously needed. Such simulations can be conducted much more efficiently if hundreds and thousands of scenarios can be generated automatically.
