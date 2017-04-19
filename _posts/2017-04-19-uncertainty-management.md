@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Uncertainty management in scenario-based model predictive control for collision avoidance
+title: Uncertainty management in scenario-based MPC for collision avoidance
 category: COLAV
 ---
 ## Background
