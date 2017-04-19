@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simultaneous localization and mapping for autonomous ferry
+title: SLAM for autonomous ferry
 category: SF
 ---
 ## Background
