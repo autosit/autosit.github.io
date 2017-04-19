@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A complete collision avoidance system
-category: MISC
+category: COLAV
 ---
 ## Background
 Collision avoidance for autonomous vehicles entails a processing pipeline that involves the following tasks:
