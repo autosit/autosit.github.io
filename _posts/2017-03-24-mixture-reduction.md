@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Mixture reduction in target tracking
-subtitle: Combining the strengths of MHT and JPDA
+title: Track-before-detect
+subtitle: Tracking of nearly invisible targets
 category: SF
 ---
 ## Background
 The Autosea project in colloboration with [AMOS](http://ntnu.edu/amos) aims to build knowledge that enables autonomous collision avoidance for maritime surface vehicles. Target tracking is a key capability of autonomous vehicles moving in environments with traffic, as the autonomous vehicle needs to keep track of all other moving objects in its vicinity, and predict their future movement. Target tracking entails processing of data from various exteroceptive sensors, such as radar, lidar or camera. The tracking problem consists of two sub-tasks: Filtering and data association. The former task is about estimating the state vectors of the targets. The latter task is about identifying which measurement (e.g., radar reflection) comes from which target, so that the correct measurements are used in the filtering. 
 
-There are, roughly speaking, two kinds of solutions to data association: Searching for the best hypothesis, or averaging over all feasible hypotheses. The former approach leads to Multiple Hypothesis Tracking (MHT) while the latter approach leads to Joint Probabilistic Data Association (JPDA). 
+    There are, roughly speaking, two kinds of solutions to data association: Searching for the best hypothesis, or averaging over all feasible hypotheses. The former approach leads to Multiple Hypothesis Tracking ([MHT](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1102177)) while the latter approach leads to Joint Probabilistic Data Association ([JPDA](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1145560)). 
 
 ## Scope
-In this project, the goal is to combine these two approaches in order to make more robust and efficient tracking methods, combining the strenghts of MHT and JPDA. Ultimately, this is an exercise in mixture reduction: We want to reduce the number of components in our description of the posterior distribution of the target state in accordance with some information-theoretic cost function. We will start in the single-target scenario, and gradually expand the complexity by introduction two or more targets as well as existence uncertainty. 
+In this project, the goal is to combine these two approaches in order to make more robust and efficient tracking methods, combining the strenghts of MHT and JPDA. Ultimately, this is an exercise in [mixture reduction](http://www.diva-portal.org/smash/get/diva2:858322/FULLTEXT02.pdf): We want to reduce the number of components in our description of the posterior distribution of the target state in accordance with some information-theoretic cost function. We will start in the single-target scenario, and gradually expand the complexity by introduction two or more targets as well as existence uncertainty. 
 
-![Adaptive control loop]({{site.url}}/assets/diverprediction2.png)
+![Example of mixture reduction in PDAF]({{site.url}}/assets/diverprediction2.png)
 
 ## Proposed Tasks for the 5th year project
 
