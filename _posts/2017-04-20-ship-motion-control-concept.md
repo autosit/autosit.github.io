@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Ship Motion Control Concept Inherently Satisfying Actuator Constraints
+title: A ship motion control concept inherently satisfying actuator constraints
 category: MISC
 ---
 ## Background
