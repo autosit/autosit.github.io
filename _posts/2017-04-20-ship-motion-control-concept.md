@@ -6,8 +6,6 @@ category: MISC
 ## Background
 When a ship sails on the sea, its autopilot system usually leads the ship along the desired course. Countless motion controllers and autopilots have been proposed over the year. However, many control algorithms found in the literature do not consider saturation constraints for the actuators. 
 
-#![Adaptive control loop]({{site.url}}/assets/adaptive.png)
-
 ## Scope
 The goal of this project work is to investigate a combination of dynamic window and nonlinear feedback control algorithms to handle actuator constraints.
 
