@@ -17,7 +17,7 @@ The goal of this project work is to investigate a combination of dynamic window 
 5. Combine a selection of constraint handling control algorithms from the literature study with the nonlinear feedback controllers, to handle actuator constrains.
 6. Compare the closed-loop performance of the combined control algorithms using performance metrics.
 
-The project work aims to be extended into a master thesis. While the project goal is to get an overview of existing solutions, and test and compare these solutions through simulations in Matlab/Simulink, the master thesis goal is then to further develop and implement new methods, and perhaps test and compare these through both simulations and using model-scale ships in the Marine Cybernetics labo- ratory, see http://www.ntnu.no/imt/lab/cybernetics.
+The project work aims to be extended into a master thesis. While the project goal is to get an overview of existing solutions, and test and compare these solutions through simulations in Matlab/Simulink, the master thesis goal is then to further develop and implement new methods, and perhaps test and compare these through both simulations and using model-scale ships in the Marine Cybernetics labo- ratory, see <http://www.ntnu.edu/imt/lab/cybernetics>.
 
 Specifically, the project work is suggested to be **extended into master thesis work**, including the following tasks:
 1. Further develop the control algorithms from the project work such that they handle actuator constrains in an energy-efficient manner.
