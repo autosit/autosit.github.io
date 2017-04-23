@@ -18,11 +18,13 @@ For the autumn project, the following tasks are proposed:
 4. Develop visualization tools that can form part of a graphical user interface between the collision warning system and a human operator.
 5. Discuss the findings in a report.
 
-For the master thesis, the following topics should be addressed:
+For the master thesis, the aim is to analyze the collision warning system in greater detail, and to extent it into a more comprehenive decision support system. The decision support system should be able to recommend different maneuvers to a human operator. 
+
+The following topics should be addressed:
 
 1. Discussion of the trade-off between false alarm rates and detection probabilities in a collision warning system.
-2. Using the developments from the autumn project to tune manoeuver parameters in a collision avoidance system, so that the system is able to maintain appropriate margins to all threatening vehicles.
-3. Based on sensor fusion data, detection of situations where another vehicle cannot be expected to follow COLREGS (e.g., because COLREGS does not apply, because its a rogue vehicle or because it is not under proper control).
+2. Automatic suggestion of actions (maneuvers) to be considered by a human operator.
+3. Detection of situations where another vehicle cannot be expected to follow COLREGS (e.g., because COLREGS does not apply, because its a rogue vehicle or because it is not under proper control).
 4. Blind zones, bad weather impact,etc.
 5. Assessment of multivehicle situations.
 
@@ -30,4 +32,5 @@ For the master thesis, the following topics should be addressed:
 The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
 
 ## Contact
-For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
+Main supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).<br />
+Co-supervisors: Thor Hukkelås (Kongsberg) and Thomas Porathe. 
