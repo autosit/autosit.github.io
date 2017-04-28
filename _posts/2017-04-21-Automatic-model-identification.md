@@ -13,7 +13,8 @@ As mentioned, this proposal is intended as a combined project and master thesis.
 |:---:| :---: |:---:|
 | USV Mariner, an unmanned surface vehicle | | MR Telemetron, a dual-use surface vessel |
 
-[![High-speed velcoity control using MR Telemetron](https://img.youtube.com/vi/VQ8CDdKDJl4/0.jpg)](https://www.youtube.com/watch?v=VQ8CDdKDJl4)
+|[![High-speed velcoity control using MR Telemetron](https://img.youtube.com/vi/VQ8CDdKDJl4/0.jpg)](https://www.youtube.com/watch?v=VQ8CDdKDJl4)|
+| High-speed velcoity control using MR Telemetron |
 
 ## Proposed Tasks
 **For the project assignment, the following tasks are proposed:**
