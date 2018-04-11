@@ -24,7 +24,7 @@ subtitle: Autonomous all-electric passenger ferries for urban water transport - 
     <h3>Power and propulsion projects</h3>
     <ul>
     {% for post in paginator.posts %}
-    {% if post.category == "MISC" %}
+    {% if post.category == "POWER" %}
     <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
     {% endif %}
     {% endfor %}
@@ -32,7 +32,7 @@ subtitle: Autonomous all-electric passenger ferries for urban water transport - 
     <h3>Human factors projects</h3>
     <ul>
         {% for post in paginator.posts %}
-        {% if post.category == "MISC" %}
+        {% if post.category == "HUMAN" %}
         <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
         {% endif %}
         {% endfor %}
@@ -40,7 +40,7 @@ subtitle: Autonomous all-electric passenger ferries for urban water transport - 
     <h3>Communications and cyber security projects</h3>
     <ul>
         {% for post in paginator.posts %}
-        {% if post.category == "MISC" %}
+        {% if post.category == "CYBER" %}
         <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
         {% endif %}
         {% endfor %}
@@ -48,14 +48,13 @@ subtitle: Autonomous all-electric passenger ferries for urban water transport - 
     <h3>Risk management projects</h3>
     <ul>
         {% for post in paginator.posts %}
-        {% if post.category == "MISC" %}
+        {% if post.category == "RISK" %}
         <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>
 </div>
 <div class="main-explain-area jumbotron">
-    <p>This page presents project- and master thesis proposals for the Autoferry project. Many of the results from the suggested theses can be verified with the gathered data, or tested in new experiments. Matlab and Python are the main tools used for development and simulation. Some project software is developed using <a href="http://www.ros.org/">ROS</a></p>
-    
-    <p>General information about the project can be found at <a href="https://www.ntnu.no/ansatte/edmundfo">Edmund Brekke's</a> website.</p>
+    <p>This page presents project- and master thesis proposals for the Autoferry project. The overall goal of the project is to build and demonstrate a passengerer ferry for autonomous urban water transport. The proposals are relevant for students from a wide range of departments at NTNU, inluding ITK, IMT, IE, ID and IIK.</p>
+    <p>Prosjektet har fått mye oppmerksomhet i media, blant annet <a href="https://trondheim24.no/nyheter/forerlos-framtid-flotmann-baten/">denne artikkelen.</a></p>
 </div>
