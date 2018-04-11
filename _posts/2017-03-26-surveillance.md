@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Surveillance of the Channel
+title: Surveillance of the Canal
 category: SF
 ---
 ## Background
@@ -18,14 +18,11 @@ The goal of this project is to provide an analysis of the traffic in the Channel
 4. Write report.
 
 
-The project work aims to be extended into a master thesis for the spring of 2018. Depending on the interest of the students, there are several possibilities for this extension:
+The project work aims to be extended into a master thesis for the spring of 2019. Depending on the interest of the students, there are several possibilities for this extension:
 - More elaborate statistical analysis of the observations.
 - Additional measurements with other sensors.
 - Development of a sensor fusion system for collision avoidance that utilizes data from the stationary sensor station, together with other sensors onboard the ferry. 
 
-
-## Autosea
-The candidate will be associated with the AUTOSEA project, which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics, focused on achieving world-leading competence and knowledge in the design and verification of methods and systems for sensor fusion and COLAV for ASVs. The project has access to supervision and physical test platforms through our industry partners.
 
 ## Supervisors 
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).
