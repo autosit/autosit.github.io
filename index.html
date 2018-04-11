@@ -5,7 +5,7 @@ subtitle: Autonomous all-electric passenger ferries for urban water transport - 
 ---
 
 <div class="list">
-    <h3>Autonomy projects</h3>
+    <h3>Automation and autonomy projects</h3>
     <ul>
     {% for post in paginator.posts %}
     {% if post.category == "COLAV" %}
@@ -21,13 +21,37 @@ subtitle: Autonomous all-electric passenger ferries for urban water transport - 
     {% endif %}
     {% endfor %}
     </ul>
-    <h3>Miscellaneous projects</h3>
+    <h3>Power and propulsion projects</h3>
     <ul>
     {% for post in paginator.posts %}
     {% if post.category == "MISC" %}
     <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
     {% endif %}
     {% endfor %}
+    </ul>
+    <h3>Human factors projects</h3>
+    <ul>
+        {% for post in paginator.posts %}
+        {% if post.category == "MISC" %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <h3>Communications and cyber security projects</h3>
+    <ul>
+        {% for post in paginator.posts %}
+        {% if post.category == "MISC" %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <h3>Risk management projects</h3>
+    <ul>
+        {% for post in paginator.posts %}
+        {% if post.category == "MISC" %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
     </ul>
 </div>
 <div class="main-explain-area jumbotron">
