@@ -9,7 +9,10 @@ Researchers at NTNU are currently developing an autonomous ferry designed for ca
 ![Brattøra]({{site.url}}/assets/brattora.jpg)
 
 ## Scope
-The goal of this project is to provide an analysis of the traffic in the Channel, by accessing data recorded by this system. 
+The goal of this project is to provide an analysis of the traffic in the Channel, by accessing data recorded by this system. The project will build on a previous specialization project / master thesis, where the choice was made
+to focus on analyzing the radar data, since these are easier to interpret than the camera data.
+
+![Coalescence]({{site.url}}/assets/coalescence.jpg)
 
 ## Proposed Tasks
 1. Implement a detector for extracting measurements of surface vessels in radar and/or camera data from the sensor station at Ravnkloa.
@@ -29,4 +32,4 @@ Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).
 Co-supervisor: [Egil Eide](http://www.ntnu.no/ansatte/egil.eide).
 Co-supervisor: [Frank Lindseth](https://www.ntnu.no/ansatte/frankl).
 
-![Coalescence]({{site.url}}/assets/coalescence.jpg)
+
