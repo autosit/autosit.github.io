@@ -10,7 +10,7 @@ Researchers at NTNU are currently developing an autonomous ferry designed for ca
 
 ## Scope
 The goal of this project is to provide an analysis of the traffic in the Channel, by accessing data recorded by this system. The project will build on a previous specialization project / master thesis, where the choice was made
-to focus on analyzing the radar data, since these are easier to interpret than the camera data. 
+to focus on analyzing the radar data, since these are easier to interpret than the camera data.
 
 
 
@@ -28,8 +28,8 @@ The project work aims to be extended into a master thesis for the spring of 2019
 
 
 ## Supervisors 
-Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).
-Co-supervisor: [Egil Eide](http://www.ntnu.no/ansatte/egil.eide).
+Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).<br>
+Co-supervisor: [Egil Eide](http://www.ntnu.no/ansatte/egil.eide).<br>
 Co-supervisor: [Frank Lindseth](https://www.ntnu.no/ansatte/frankl).
 
 <img src="{{site.url}}/assets/coalescence.jpg" width="370">
