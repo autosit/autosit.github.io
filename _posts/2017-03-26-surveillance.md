@@ -32,5 +32,5 @@ Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).<br>
 Co-supervisor: [Egil Eide](http://www.ntnu.no/ansatte/egil.eide).<br>
 Co-supervisor: [Frank Lindseth](https://www.ntnu.no/ansatte/frankl).
 
-<img src="{{site.url}}/assets/coalescence.jpg" width="370">
+<img src="{{site.url}}/assets/coalescence.jpg" width="570">
 
