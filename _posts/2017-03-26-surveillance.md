@@ -21,9 +21,12 @@ The goal of this project is to provide an analysis of the traffic in the Channel
 The project work aims to be extended into a master thesis for the spring of 2019. Depending on the interest of the students, there are several possibilities for this extension:
 - More elaborate statistical analysis of the observations.
 - Additional measurements with other sensors.
-- Development of a sensor fusion system for collision avoidance that utilizes data from the stationary sensor station, together with other sensors onboard the ferry. 
+- Development of a sensor fusion system for collision avoidance that utilizes data from the stationary sensor station, together with other sensors onboard the ferry.
 
 
 ## Supervisors 
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).
 Co-supervisor: [Egil Eide](http://www.ntnu.no/ansatte/egil.eide).
+Co-supervisor: [Frank Lindseth](https://www.ntnu.no/ansatte/frankl).
+
+![Coalescence]({{site.url}}/assets/coalescence.jpg)
