@@ -3,7 +3,7 @@ layout: post
 title: Comparison of path-planning methods for autonomous ships
 category: COLAV
 ---
-<img src="{{site.url}}/assets/path-planning-illustration.jpg" alt="Path illustration" width="auto" height="auto" max-width="100%">
+![Path illustration]{:width="450px"}
 
 For surface vessels, several methods exist for path planning, and a main distinction is made between roadmap methods and complete-path optimization-based methods.
 The former uses some technique of adding waypoints to a map, and subsequently searches through the resulting graph for a feasible path.
@@ -42,6 +42,7 @@ Co-supervisors: Rein Anders Apeland (Kongsberg Maritime) and [Glenn Bitar].
 
 [Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
 [Glenn Bitar]: https://www.ntnu.no/ansatte/glenn.bitar
+[Path illustration]: {{site.url}}/assets/path-planning-illustration.jpg
 [Path planning methods]: {{site.url}}/assets/path-planning-methods.png
 [K-MATE]: http://subseaworldnews.com/2017/07/19/kongsberg-k-mate-autonomy-controller-for-new-usv-auv-platform/
 [Bitar2017]: http://hdl.handle.net/11250/2465617
