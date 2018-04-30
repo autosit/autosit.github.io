@@ -3,7 +3,7 @@ layout: post
 title: Comparison of path-planning methods for autonomous ships
 category: COLAV
 ---
-![Path illustration]
+![Path illustration]{:width="500px"}
 
 For surface vessels, several methods exist for path planning, and a main distinction is made between roadmap methods and complete-path optimization-based methods.
 The former uses some technique of adding waypoints to a map, and subsequently searches through the resulting graph for a feasible path.
