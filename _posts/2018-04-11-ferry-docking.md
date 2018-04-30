@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docking for autonomous ferry
+title: Docking sensors for autonomous ferry
 category: SF
 ---
 ## Background
