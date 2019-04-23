@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -24,93 +23,27 @@
 <ul class="ul1">
   <li class="li1"><span class="s2"></span><span class="s1">{% for post in paginator.posts %} {% if post.category == “LTP” %}</span></li>
   <li class="li1"><span class="s2"><a href="file:///Users/edmundbrekke/Documents/autosit.github.io/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D"><span class="s3">{{ post.title }}</span></a></span></li>
-  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
 </ul>
 <h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Sensor fusion projects</b></span></h3>
 <ul class="ul1">
   <li class="li1"><span class="s2"></span><span class="s1">{% for post in paginator.posts %} {% if post.category == "SF" %}</span></li>
   <li class="li1"><span class="s2"><a href="file:///Users/edmundbrekke/Documents/autosit.github.io/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D"><span class="s3">{{ post.title }}</span></a></span></li>
-  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
 </ul>
 <h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Extended object tracking projects</b></span></h3>
 <ul class="ul1">
   <li class="li1"><span class="s2"></span><span class="s1">{% for post in paginator.posts %} {% if post.category == “EOT” %}</span></li>
   <li class="li1"><span class="s2"><a href="file:///Users/edmundbrekke/Documents/autosit.github.io/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D"><span class="s3">{{ post.title }}</span></a></span></li>
-  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
 </ul>
 <h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Collision avoidance projects</b></span></h3>
 <ul class="ul1">
   <li class="li1"><span class="s2"></span><span class="s1">{% for post in paginator.posts %} {% if post.category == “COLAV” %}</span></li>
   <li class="li1"><span class="s2"><a href="file:///Users/edmundbrekke/Documents/autosit.github.io/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D"><span class="s3">{{ post.title }}</span></a></span></li>
-  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
 </ul>
 <p class="p3"><span class="s1">This page presents project- and master thesis proposals for the Autoferry project. The overall goal of the project is to build and demonstrate a passengerer ferry for autonomous urban water transport. The proposals are relevant for students from a wide range of departments at NTNU, inluding ITK, IMT, IE, ID and IIK.</span></p>
 <p class="p3"><span class="s1">The project has received a lot of media attention, for example <a href="https://trondheim24.no/nyheter/forerlos-framtid-flotmann-baten/"><span class="s4">this article.</span></a></span></p>
 </body>
 </html>
-=======
----
-layout: page
-title: Autosit
-subtitle: Autonomous ships, intentions and situational awareness - Master thesis proposals
----
-
-<div class="list">
-    <h3>Automation and autonomy projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "COLAV" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Sensor fusion projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "SF" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Power and propulsion projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "POWER" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Human factors projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "HUMAN" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Communications and cyber security projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "CYBER" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Risk management projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "RISK" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-</div>
-<div class="main-explain-area jumbotron">
-<p>
-This page presents project- and master thesis proposals for the Autoferry project. The overall goal of the project is to build and demonstrate a passengerer ferry for autonomous urban water transport. The proposals are relevant for students from a wide range of departments at NTNU, inluding ITK, IMT, IE, ID and IIK.
-</p>
-<p>
-The project has received a lot of media attention, for example <a href="https://trondheim24.no/nyheter/forerlos-framtid-flotmann-baten/">this article.</a>
-</p>
-</div>
->>>>>>> 4476436b53a7915d1f360c4bd7d081fc04d946f2
