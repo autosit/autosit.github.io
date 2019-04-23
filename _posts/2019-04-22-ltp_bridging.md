@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bridging densities
+title: Bridging distributions
 category: LTP
 ---
 ## Background
@@ -11,25 +11,23 @@ where deviations from straight motion are modeled by white process noise. To cov
 and this leads to very large uncertainties when the model is used over time horizons measured in minutes or beyond. 
 An alternative to the CV model is the constant turn-rate (CT) model which typically is used to model maneuvers. While this model sometimes can yield more accurate predictions, we must have some idea about the turn-rate to use it. As yet another alternative, several MSc theses affiliated with the Autosea project have explored fundamentally data-driven methods for vessel prediction [Hexeberg2017] [Dalsnes2016]. 
 
-The goal of this project is to explore the middle ground between model-driven and data-driven prediction methods. 
+The middle ground between model-driven and data-driven prediction methods remains largely unexplored.
 As a fundamental research question, we ask whether knowledge about a ships possible destination harbors can be used to improve the prediction, without additional historical data. 
-This line of reasoning has recently been pursued by researchers at University of Cambridge [Ahmad2016], where they introduced something called bridging densities to model this kind of information. 
+This line of reasoning has recently been pursued by researchers at University of Cambridge [Ahmad2016], where they introduced something called bridging distributions to model this kind of information. 
 
 
 ## Scope
 
 The goal of the specialization project will be to study the bridging density concept and its potential for long term vessel prediction. 
-This approach can be tested on the same AIS data as were used in 
+This approach can be tested on the same AIS data as were used in [Hexeberg2017] and [Dalsnes2016], or on data that will be recorded as part of the Autoferry project during the summer or early autumn 2019. It is also a goal to benchmark different prediction techniques against each other. 
 
 ## Proposed Tasks for the 5th year project
 
-bla bla
-
-* bla bla
-* bla bla
-* bla bla
-* bla bla
-* bla bla
+* Study and summarize different potential long-term prediction techniques, including conventional kinematic models, mean-reverting processes, bridging distributions, the modified neighbor course distribution method of [Dalsnes2016], etc. 
+* Implement and evaluate the bridging distributions approach in simulated scenarios. 
+* Implement and evaluate the bridging distributions approach on real data. 
+* Benchmark it against one or more of the methods mentioned above.
+* Write report. 
 
 ## Proposed Tasks for the master thesis
 
@@ -37,8 +35,8 @@ bla bla
 
 
 ## References
-* Ahmad et al. (2016). "Bayesian Intent Prediction in Object Tracking Using Bridging Distributions." IEEE Transactions on Cybernetics , vol. 48, no. 1. [Ahmad2016]  
-* Hexeberg, S. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452108">AIS-based Vessel Trajectory Prediction for ASV Collision Avoidance.</a>" MSc thesis, NTNU.[Hexeberg2017]  
+* Ahmad et al. (2016). "<a href="https://ieeexplore.ieee.org/document/7765149">Bayesian Intent Prediction in Object Tracking Using Bridging Distributions.</a>" IEEE Transactions on Cybernetics , vol. 48, no. 1. [Ahmad2016]  
+* Hexeberg, S. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452108">AIS-based Vessel Trajectory Prediction for ASV Collision Avoidance.</a>" MSc thesis, NTNU. [Hexeberg2017]  
 * Dalsnes, B. (2018). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2557943">Long-term Vessel Prediction Using AIS Data.</a>" MSc thesis, NTNU. [Dalsnes2018]
 
 ## Contact
