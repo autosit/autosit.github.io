@@ -31,8 +31,13 @@ This approach can be tested on the same AIS data as were used in [Hexeberg2017] 
 
 ## Proposed Tasks for the master thesis
 
-bla bla
+Several variations of MSc projects are possible, depending on the findings of the specialization project. Some suggestions are proposed below. 
 
+* Experiment with introducing elements of machine learning. Can the stricter frames provided by bridging distributions framework make it easier to learn behaviors than in a pure data-driven approach?
+* Utilization of class information. Should we expect Hurtigruta, a frigate and a fishing boat to approach different harbors? 
+* Utilization of online AIS information and/or integration with a multi-target tracking system. 
+
+This project can be expanded into a PhD or integrated PhD for a candidate with sufficient skills, background knowledge and motivation. 
 
 ## References
 * Ahmad et al. (2016). "<a href="https://ieeexplore.ieee.org/document/7765149">Bayesian Intent Prediction in Object Tracking Using Bridging Distributions.</a>" IEEE Transactions on Cybernetics , vol. 48, no. 1. [Ahmad2016]  
