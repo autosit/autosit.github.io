@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Surveillance of the Canal
-category: SF
+category: MISC
 ---
 ## Background
 Researchers at NTNU are currently developing an autonomous ferry designed for carrying pedestrians and cyclists between Ravnkloa and Brattøra. The development of a robust collision avoidance system for this ferry will benefit from a thorough analysis of traffic patterns in the channel. For this purpose a radar and a camera have been placed at Ravnkloa.

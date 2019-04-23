@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docking sensors for autonomous ferry
-category: SF
+category: MISC
 ---
 ## Background
 For autonomous vehicles to be of practical utility they must be able to leave and approach their docking stations on their own. For this to be done in a safe manner, accurate navigation is necessary. While RTK-GPS often can give sufficient accuracy, it is not possible to depend on this system alone since GPS is not always available. The vehicle must therefore be equipped with other sensors, such as lidar, cameras and/or radio systems.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: System identification and control of model ship
-category: COLAV
+category: MISC
 ---
 ![Autonomous shuttle ferry]
 ![Model scale vessels]
