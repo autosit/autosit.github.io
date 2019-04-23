@@ -1,30 +1,33 @@
 ---
 layout: post
-title: Visualization for the PMBM filter
+title: Bridging densities
 category: LTP
 ---
 ## Background
 
-Can we use Godsills concept of bridging densities?
+A collision avoidance (COLAV) system for autonomous vessels depends on its future predictions of the motion of other vessels. 
+This is typically done by means of a Kalman filter or extended Kalman filter. The simplest model suitable for moving vessels is the constant velocity (CV) model,
+where deviations from straight motion are modeled by white process noise. To cover all the possibilities of future behavior with this model its plant noise strength has to be fairly large,
+and this leads to very large uncertainties when the model is used over time horizons measured in minutes or beyond. 
+An alternative to the CV model is the constant turn-rate (CT) model which typically is used to model maneuvers. While this model sometimes can yield more accurate predictions, we must have some idea about the turn-rate to use it. As yet another alternative, several MSc theses affiliated with the Autosea project have explored fundamentally data-driven methods for vessel prediction. 
 
-Accurate ship models are hard to come by, and many nonlinear control approaches are dependent on rigorous descriptions of the ship dynamics.
-A common approach for generating a mathematical model is to build a scaled ship model, perform system identification on that model, and scale up this mathematical representation using prime or bis nondimensional models [(Fossen, 2011)](#Fossen2011).
+The goal of this project is to explore the middle ground between model-driven and data-driven prediction methods. 
+As a fundamental research question, we ask whether 
+
 
 ## Scope
 
-During this assignment, the candidate will familiarize themselves with system identification techniques, ship modeling and control.
-They will work one of the depicted ship models and identify an accurate mathematical description of its dynamics.
-Additionally, the candidate will develop controllers for the ship, and verify and validate their performance experimentally.
+bla bla
 
 ## Proposed Tasks for the 5th year project
 
-During the project period the candidate will perform a literature review of system identification techniques and experiments, familiarize themselves with the lab and the available tools, as well as write a report containing their findings.
-Time permitting, the candidate will also work on the following suggested objectives for a continuation towards a master's thesis:
-* Create an accurate mathematical model of the dynamics of one of the depicted ships.
-* Create an accurate mathematical model of the ship's actuators.
-* Verify and validate the model using simulation and experiments.
-* Create ship controllers for course and speed.
-* Verify and validate the performance of these controllers experimentally.
+bla bla
+
+* bla bla
+* bla bla
+* bla bla
+* bla bla
+* bla bla
 
 ## Proposed Tasks for the master thesis
 
