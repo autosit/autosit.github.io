@@ -37,9 +37,9 @@ bla bla
 
 
 ## References
-[Ahmad et al. (2016). "Bayesian Intent Prediction in Object Tracking Using Bridging Distributions." IEEE Transactions on Cybernetics , vol. 48, no. 1.][Ahmad2016]  
-[Hexeberg, S. (2017). "AIS-based Vessel Trajectory Prediction for ASV Collision Avoidance." MSc thesis, NTNU.][Hexeberg2017]  
-[Dalsnes, B. (2018). "Long-term Vessel Prediction Using AIS Data." MSc thesis, NTNU.][Dalsnes2018]
+* Ahmad et al. (2016). "Bayesian Intent Prediction in Object Tracking Using Bridging Distributions." IEEE Transactions on Cybernetics , vol. 48, no. 1. [Ahmad2016]  
+* Hexeberg, S. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452108">AIS-based Vessel Trajectory Prediction for ASV Collision Avoidance.</a>" MSc thesis, NTNU.[Hexeberg2017]  
+* Dalsnes, B. (2018). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2557943">Long-term Vessel Prediction Using AIS Data.</a>" MSc thesis, NTNU. [Dalsnes2018]
 
 ## Contact
 
