@@ -6,16 +6,23 @@ category: SF
 ## Background
 
 Multi-target tracking is a crucial component of situational awareness systems for autonomous ships. 
-The tracking problem can be decomposed into filtering and data association. 
-The former 
-
 Historically, the gold standard for multi-target tracking has been variations of the Multiple Hypothesis Tracker (MHT), 
+which attempt to enumerate all possible data association hypotheses so that the best hypothesis can be found, and then uses Kalman filtering 
+to estimate kinematics of the targets conditional on such hypotheses. 
 
+A more refined version of MHT known as the Poisson Multi-Bernoulli Mixture (PMBM) filter has recently emerged with basis in the theory of random finite sets. 
+PMBM has a more economical hypothesis representation than conventional MHT, and has stronger optimality properties. 
+However, state-of-the-art PMBM implementations have not yet reached the same maturity as established MHT implementations. 
 
-Accurate ship models are hard to come by, and many nonlinear control approaches are dependent on rigorous descriptions of the ship dynamics.
-A common approach for generating a mathematical model is to build a scaled ship model, perform system identification on that model, and scale up this mathematical representation using prime or bis nondimensional models [(Fossen, 2011)](#Fossen2011).
+A goal in the Autoferry project is to develop a multi-sensor PMBM tracker that will form the backbone of Milliampere's sensor fusion system. 
+In the Autosit project, the PMBM formalism will be used as a foundation for radar-AIS fusion. 
+To enable these ambitions it is extremely important to have a sufficient arsenal of functions to visualize what goes on inside the multi-target tracker. 
+This can quickly lead into deep fundamental questions, such as how the user interface should decide which out of several conflicting hypotheses are to be displayed to a human operator. 
 
 ## Scope
+
+
+
 
 During this assignment, the candidate will familiarize themselves with system identification techniques, ship modeling and control.
 They will work one of the depicted ship models and identify an accurate mathematical description of its dynamics.
