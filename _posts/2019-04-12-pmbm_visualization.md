@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualization for the PMBM filter
+title: Visualization and situational awareness for the PMBM filter
 category: SF
 ---
 ## Background
@@ -28,7 +28,8 @@ A secondary goal is to consider different possibilities for how their output sho
 
 ## Proposed Tasks for the 5th year project
 
-During the project period the candidate will perform a literature review of system identification techniques and experiments, familiarize themselves with the lab and the available tools, as well as write a report containing their findings.
+In the specialization project the main focus will be on a track display for PMBM. 
+
 Time permitting, the candidate will also work on the following suggested objectives for a continuation towards a master's thesis:
 * Create an accurate mathematical model of the dynamics of one of the depicted ships.
 * Create an accurate mathematical model of the ship's actuators.
@@ -38,7 +39,7 @@ Time permitting, the candidate will also work on the following suggested objecti
 
 ## Proposed Tasks for the master thesis
 
-bla bla
+In the MSc thesis the candidate will aim to further expand the work from the specialization project into a system for situational awareness. The context of situational awareness applies both to a human operator overseeing the autonomous system, and collision avoidance methods that use the PMBM results as input. The following tasks are proposed
 
 
 ## References
