@@ -46,6 +46,7 @@ In the MSc thesis the candidate will aim to further expand the work from the spe
 * Expand the work from the specialization project to handle heterogeneous multi-sensor tracking, e.g., fusion of cameras and radar. 
 * Test the visualization systems on trained operators and compare with professional ARPA displays. 
 
+This project can be expanded into a PhD or integrated PhD for a candidate with sufficient skills, background knowledge and motivation. 
 
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
