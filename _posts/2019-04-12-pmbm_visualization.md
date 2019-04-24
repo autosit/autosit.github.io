@@ -39,9 +39,12 @@ In the specialization project the main focus will be on a track display for PMBM
 
 ## Proposed Tasks for the master thesis
 
-In the MSc thesis the candidate will aim to further expand the work from the specialization project into a system for situational awareness. The context of situational awareness applies both to a human operator overseeing the autonomous system, and collision avoidance methods that use the PMBM results as input. The following tasks are proposed for the MSc project
+In the MSc thesis the candidate will aim to further expand the work from the specialization project into a system for situational awareness. The context of situational awareness applies both to a human operator overseeing the autonomous system, and collision avoidance methods that use the PMBM results as input. Several variations are possible, depending on the interests of the candidate. 
 
-* 
+* Experiment with closed-loop usage of the tracking system as part of a COLAV system in simulations. This approach will involve collaboration with one or more of the PhD students who currently work on maritime COLAV at ITK.
+* Investigate more carefully how accurate different output representations really are. Which measures can we use to quantify this?
+* Expand the work from the specialization project to handle heterogeneous multi-sensor tracking, e.g., fusion of cameras and radar. 
+* Test the visualization systems on trained operators and compare with professional ARPA displays. 
 
 
 ## References
