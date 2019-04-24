@@ -21,12 +21,8 @@ This can quickly lead into deep fundamental questions, such as how the user inte
 
 ## Scope
 
+During this assignment, the candidate will become familiar with implementations of PMBM under development in Matlab or Python. 
 
-
-
-During this assignment, the candidate will familiarize themselves with system identification techniques, ship modeling and control.
-They will work one of the depicted ship models and identify an accurate mathematical description of its dynamics.
-Additionally, the candidate will develop controllers for the ship, and verify and validate their performance experimentally.
 
 ## Proposed Tasks for the 5th year project
 
