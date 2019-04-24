@@ -22,6 +22,8 @@ This can quickly lead into deep fundamental questions, such as how the user inte
 ## Scope
 
 During this assignment, the candidate will become familiar with implementations of PMBM under development in Matlab or Python. 
+The main goal is not primarily to further develop these methods, but to construct functions to that makes it easy for a human operator to understand how these implementations operate. 
+A secondary goal is to consider different possibilities for how their output should be processed in order to be used as input in a collision avoidance system. 
 
 
 ## Proposed Tasks for the 5th year project
@@ -40,7 +42,7 @@ bla bla
 
 
 ## References
-[Williams, J. (2015). "Marginal multi-bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member." IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.][Williams2015]  
+[Williams, J. (2015). "Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member." IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.][Williams2015]  
 
 ## Contact
 
