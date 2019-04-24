@@ -28,22 +28,23 @@ A secondary goal is to consider different possibilities for how their output sho
 
 ## Proposed Tasks for the 5th year project
 
-In the specialization project the main focus will be on a track display for PMBM. 
+In the specialization project the main focus will be on a track display for PMBM. The following tasks are proposed for the specialization project:
 
-Time permitting, the candidate will also work on the following suggested objectives for a continuation towards a master's thesis:
-* Create an accurate mathematical model of the dynamics of one of the depicted ships.
-* Create an accurate mathematical model of the ship's actuators.
+* Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
+* Write a survey on existing research on visualization of multi-target tracking.
 * Verify and validate the model using simulation and experiments.
 * Create ship controllers for course and speed.
 * Verify and validate the performance of these controllers experimentally.
 
 ## Proposed Tasks for the master thesis
 
-In the MSc thesis the candidate will aim to further expand the work from the specialization project into a system for situational awareness. The context of situational awareness applies both to a human operator overseeing the autonomous system, and collision avoidance methods that use the PMBM results as input. The following tasks are proposed
+In the MSc thesis the candidate will aim to further expand the work from the specialization project into a system for situational awareness. The context of situational awareness applies both to a human operator overseeing the autonomous system, and collision avoidance methods that use the PMBM results as input. The following tasks are proposed for the MSc project
+
+* 
 
 
 ## References
-[Williams, J. (2015). "Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member." IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.][Williams2015]  
+Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.]
 
 ## Contact
 
