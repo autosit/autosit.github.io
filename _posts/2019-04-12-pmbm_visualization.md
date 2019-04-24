@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualization and situational awareness for the PMBM filter
+title: Visualization and situational awareness with the PMBM filter
 category: SF
 ---
 ## Background
