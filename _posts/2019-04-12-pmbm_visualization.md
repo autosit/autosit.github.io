@@ -47,3 +47,4 @@ bla bla
 Supervisor: [Edmund Brekke].  
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
+[Williams2015]: https://ieeexplore.ieee.org/document/7272821
