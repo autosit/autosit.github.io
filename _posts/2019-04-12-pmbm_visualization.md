@@ -32,9 +32,9 @@ In the specialization project the main focus will be on a track display for PMBM
 
 * Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
 * Write a survey on existing research on visualization of multi-target tracking.
-* Verify and validate the model using simulation and experiments.
-* Create ship controllers for course and speed.
-* Verify and validate the performance of these controllers experimentally.
+* Suggest a handful of output representations from the PMBM filter, and discuss their usefulness and reliability. Such representations can be the tracks of the top hypotheses, multi-target versions of maximum a posteriori estimates, occupancy grids, etc. 
+* Implement functions to obtain the chosen output representations, and experiment with graphical effects (e.g., coloring) to convey the information in the best possible way. 
+* Write report and discuss the findings in the report. 
 
 ## Proposed Tasks for the master thesis
 
@@ -44,7 +44,8 @@ In the MSc thesis the candidate will aim to further expand the work from the spe
 
 
 ## References
-Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.]
+Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
+Crouse, D., Willett, P. and Bar-Shalom, Y. (2011). "[Developing a Real-Time Track Display That Operators Do Not Hate.][Crouse2011]" IEEE Transactions on Signal Processing, vol. 59, no. 7.
 
 ## Contact
 
@@ -52,3 +53,4 @@ Supervisor: [Edmund Brekke].
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
 [Williams2015]: https://ieeexplore.ieee.org/document/7272821
+[Crouse2011]: https://ieeexplore.ieee.org/document/5740994
