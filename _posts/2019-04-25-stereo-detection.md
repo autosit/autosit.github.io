@@ -27,20 +27,25 @@ This project will explore the last of these options.
 
 ## Scope
 
-Bla bla 
+The primary goal of this project is to explore how much stereo vision can improve visual vessel detection.
+This will involve recording relevant data and developing new detection methods. Based on the results, the candidate may during the MSc thesis choose to go more in-depth into stereo vision,
+or explore alternative approaches for utilizing range information. 
+
+The candidate will install a stereo camera system on a suitable vessel such as the autonomous ferry Milliampere or the manned/unmanned sport vessel Telemetron. 
 
 ## Proposed Tasks for the 5th year project
 
-* Bla bla
+The following tasks are proposed for the specialization project:
+
+* Conduct a litterature survey on visual detection and relevant research results in stereo vision. 
+* Install a stereo camera system on a suitable vessel such as the autonomous ferry Milliampere or the manned/unmanned sport vessel Telemetron. 
+* The camera system must be synchronized with the GPS-based navigation system, and possibly also with other sensors such as radar, lidar and 360 degree camera systems. 
+* Record a sufficient amount of data to be used for training and testing of detectors. 
+* Implement a detection method. This may be something like a CNN that takes two images simultaneously. However, classical techniques or combinations of classical techniques and CNNs should also be considered. 
+* Analyze the performance of the detection method, and compare with the results from the networks that were trained by Grini (2019). 
 * Write report. 
 
-## Proposed Tasks for the master thesis
 
-Several variations of MSc projects are possible, depending on the findings of the specialization project. Some suggestions are proposed below. 
-
-* Bla bla
-* Bla bla 
-* Bla bla 
 
 ## References
 * Tangstad, E. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452113">Visual Detection of Maritime Vessels.</a>" MSc thesis, NTNU.
