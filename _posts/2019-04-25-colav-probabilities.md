@@ -19,6 +19,8 @@ under sufficiently general circumstances to be of practical utility. The work wi
 
 ## Proposed Tasks for the 5th year project
 
+The focus in the 5th year project shall be on establishing a conceptual framework, rather than on computational feasibility. 
+
 1. Write a survey on collision risk approaches in the scientific literature. 
 2. Formulate the collision probability problem mathematically under reasonably general assumptions.
 3. Identify simplified cases and propose solutions for the collision probabilities in these cases. 
