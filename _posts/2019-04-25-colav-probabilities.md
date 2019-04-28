@@ -15,15 +15,15 @@ It is then of interest to evaluate the probability that two such processes at so
 
 ## Scope
 The main goal of the project is to provide formulas or algorithms for reliable quantification of collision probability
-under sufficiently general circumstances to be of practical utility. 
+under sufficiently general circumstances to be of practical utility. The work will build on a master thesis being written this semester. 
 
 ## Proposed Tasks for the 5th year project
 
 1. Write a survey on collision risk approaches in the scientific literature. 
-2. x
-3. x
-4. x
-5. x
+2. Formulate the collision probability problem mathematically under reasonably general assumptions.
+3. Identify simplified cases and propose solutions for the collision probabilities in these cases. 
+4. Verify that the evaluated probabilities make sense, ideally both from an intuitive and from a frequentist perspective. 
+5. Write report.
 
 ## Proposed Tasks for the master thesis
 
