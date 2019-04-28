@@ -24,16 +24,17 @@ The focus in the 5th year project shall be on establishing a conceptual framewor
 1. Write a survey on collision risk approaches in the scientific literature. 
 2. Formulate the collision probability problem mathematically under reasonably general assumptions.
 3. Identify simplified cases and propose solutions for the collision probabilities in these cases. 
-4. Verify that the evaluated probabilities make sense, ideally both from an intuitive and from a frequentist perspective. 
+4. Verify that the evaluated probabilities make sense, ideally both from an intuitive perspective and according to simulations (i.e., a frequentist perspective).
 5. Write report.
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2020. Depending on the interest of the students, several important challenges may be addressed:
+The project work aims to be extended into a master thesis for the spring of 2020. Depending on the interest of the students, several directions are possible:
 
-- x
-- x
-- x
+- Combination with approaches to long-term prediction, as explored in the bridging densities project or in the master theses of Hexeberg (2017) and Dalsnes (2018). 
+- Further generalization of the work done in the specialization project. 
+- Approximations needed to utilize the work in COLAV methods.
+- Design of new MPC-based COLAV methods capable of using collision probabilities or related risk measures in a meaningful way. 
 
 ## Prerequisites
 
