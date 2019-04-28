@@ -19,7 +19,7 @@ under sufficiently general circumstances to be of practical utility.
 
 ## Proposed Tasks for the 5th year project
 
-1. x
+1. Write a survey on collision risk approaches in the scientific literature. 
 2. x
 3. x
 4. x
@@ -32,6 +32,10 @@ The project work aims to be extended into a master thesis for the spring of 2020
 - x
 - x
 - x
+
+## Prerequisites
+
+This project is suitable for a candidate with high degree of mathematical maturity. The candidate should have a good understanding of topics such as Monte-Carlo integration, stochastic processes, series expansions and partial differential equations. 
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
