@@ -44,8 +44,13 @@ This specialization project can be done in collaboration with another specializa
 
 ## Proposed Tasks for the MSc thesis
 
-In the MSc thesis the main goal will be to investigate the role played by attitude in the simulation-based detection. The main challenge is to identify how existing machine learning methods can be adapted to the joint detection and pose recognition problem. References such as (Sans-Muntadas 2019) may serve as inspiration. 
+In the MSc thesis the main goal will be to investigate the role played by attitude in the simulation-based detection. Tasks include:
 
+* Identify how existing machine learning methods can be adapted to the joint detection and pose recognition problem. References such as (Sans-Muntadas 2019) may serve as inspiration. 
+* Train a machine learning method to recognize attitude
+* Obtain a test data set. It is important that the test set is recorded such that a ground truth is available for pose, meaning that synchronization with other sensors and/or GPS/compass must be sufficiently accurate. 
+* Test the joint detection and attitude recognition method, and quantify performance. 
+* Write report. 
 
 ## References
 * Tangstad, E. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452113">Visual Detection of Maritime Vessels.</a>" MSc thesis, NTNU.
