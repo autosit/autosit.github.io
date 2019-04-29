@@ -40,6 +40,7 @@ The following tasks are proposed for the specialization project:
 5. Investigate how this affects the performance of the neural networks on real data. 
 6. Write report. 
 
+This specialization project can be done in collaboration with another specialization project on [Simulation of sensor data for Milliampere]. 
 
 ## Proposed Tasks for the MSc thesis
 
@@ -58,4 +59,5 @@ Supervisors: [Edmund Brekke] and [Annette Stahl]
 
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
-[Annette Stahl]: www.ntnu.edu/employees/annette.stahl
+[Annette Stahl]: www.ntnu.edu/employees/annette.stahl 
+[Simulation of sensor data for Milliampere]: https://autoferry.github.io/sf/2019/04/25/simcam/
