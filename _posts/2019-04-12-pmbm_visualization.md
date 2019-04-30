@@ -56,6 +56,10 @@ Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, 
 
 Crouse, D., Willett, P. and Bar-Shalom, Y. (2011). "[Developing a Real-Time Track Display That Operators Do Not Hate.][Crouse2011]" IEEE Transactions on Signal Processing, vol. 59, no. 7.
 
+## Prerequisites
+
+Mathematical maturity and strong programming skills are essential to succeed with this project. The candidate should consider taking the new 7.5 credit course TTK4250 Sensor Fusion instead of the conventional two 2.75 credit specialization themes. 
+
 ## Contact
 
 Supervisor: [Edmund Brekke].  
