@@ -19,6 +19,9 @@ In the Autosit project, the PMBM formalism will be used as a foundation for rada
 To enable these ambitions it is extremely important to have a sufficient arsenal of functions to visualize what goes on inside the multi-target tracker. 
 This can quickly lead into deep fundamental questions, such as how the user interface should decide which out of several conflicting hypotheses are to be displayed to a human operator. 
 
+|<img src="{{site.url}}/assets/whyClusterSplittingIsNeeded.png" width="570"> | 
+| Simulation results for a PMBM implementation where high-quality tracks are seen to form limited clusters, while including the low-quality tracks leads to one big cluster.  |
+
 ## Scope
 
 During this assignment, the candidate will become familiar with implementations of PMBM under development in Matlab or Python. 
