@@ -45,6 +45,11 @@ The following tasks are proposed for the specialization project:
 * Analyze the performance of the detection method, and compare with the results from the networks that were trained by Grini (2019). 
 * Write report. 
 
+## Prerequisites
+
+The candidate should take 
+TTK21 VSLAM and TTK25 Computer Vision for Control in parallel with the 5th year project. Additional background in computer vision, 
+for example from TDT4171 Artificial intelligence methods or TDT4265 Computer vision and deep learning, will be useful. 
 
 
 ## References
