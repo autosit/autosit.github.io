@@ -4,7 +4,7 @@ title: Bridging distributions
 category: LTP
 ---
 
-|<img src="{{site.url}}/assets/ais-data-trd.png" width="570"> | 
+|<img src="{{site.url}}/assets/ais-data-trd.png" width="670"> | 
 | Historical AIS data show many patterns for how ships tend to move. Understanding of these patterns can be used to plan trajectories so that dangerous situations are prevented from arising.  | 
 
 ## Background
@@ -19,7 +19,7 @@ The middle ground between model-driven and data-driven prediction methods remain
 As a fundamental research question, we ask whether knowledge about a ships possible destination harbors can be used to improve the prediction, without additional historical data. 
 This line of reasoning has recently been pursued by researchers at University of Cambridge [Ahmad2016], where they introduced something called bridging distributions to model this kind of information. 
 
-|<img src="{{site.url}}/assets/predictionproblem.png" width="570"> | 
+|<img src="{{site.url}}/assets/predictionproblem.png" width="670"> | 
 | The fundamental problem of long-term prediction: Standard kinematic models yield very large uncertainties after a couple of minutes. One must guess the other vessel's intentions if more accurate predictions are desired. | 
 
 ## Scope
