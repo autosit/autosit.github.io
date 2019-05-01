@@ -3,10 +3,6 @@ layout: post
 title: Bridging distributions
 category: LTP
 ---
-
-|<img src="{{site.url}}/assets/ais-data-trd.png" width="670"> | 
-| Historical AIS data show many patterns for how ships tend to move. Understanding of these patterns can be used to plan trajectories so that dangerous situations are prevented from arising.  | 
-
 ## Background
 
 A collision avoidance (COLAV) system for autonomous vessels depends on its future predictions of the motion of other vessels. 
@@ -44,6 +40,9 @@ Several variations of MSc projects are possible, depending on the findings of th
 * Utilization of online AIS information and/or integration with a multi-target tracking system. 
 
 This project can be expanded into a PhD or integrated PhD for a candidate with sufficient skills, background knowledge and motivation. 
+
+|<img src="{{site.url}}/assets/ais-data-trd.png" width="670"> | 
+| Historical AIS data show many patterns for how ships tend to move. Understanding of these patterns can be used to plan trajectories so that dangerous situations are prevented from arising.  | 
 
 ## References
 * Ahmad et al. (2016). "<a href="https://ieeexplore.ieee.org/document/7765149">Bayesian Intent Prediction in Object Tracking Using Bridging Distributions.</a>" IEEE Transactions on Cybernetics , vol. 48, no. 1. [Ahmad2016]  
