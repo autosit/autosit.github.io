@@ -51,6 +51,7 @@ The following tasks are proposed for the specialization project:
 * Tangstad, E. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452113">Visual Detection of Maritime Vessels.</a>" MSc thesis, NTNU.
 * Grini, S. (2019). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf">Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images.</a>" MSc thesis, NTNU. 
 * Kamsvåg, V. (2018). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/kamsvaag_msc.pdf">Fusion between camera and lidar for autonomous surface vehicles.</a>" MSc thesis, NTNU.
+* Liszewski, A. (2019). "<a href="https://gizmodo.com/elon-musk-was-right-cheap-cameras-could-replace-lidar-1834266742">Elon Musk Was Right: Cheap Cameras Could Replace Lidar on Self-Driving Cars, Researchers Find.</a>" Gizmodo magazine.
 
 ## Contact
 
