@@ -60,7 +60,7 @@ for example from TDT4171 Artificial intelligence methods or TDT4265 Computer vis
 
 ## Contact
 
-Supervisors: [Edmund Brekke] and [Annette Stahl]
+Supervisors: [Edmund Brekke], [Annette Stahl] and Øystein K. Helgesen.
 
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
