@@ -3,6 +3,10 @@ layout: post
 title: Bridging distributions
 category: LTP
 ---
+
+|<img src="{{site.url}}/assets/ais-data-trd.png" width="570"> | 
+| Historical AIS data show many patterns for how ships tend to move. Understanding of these patterns can be used to plan trajectories so that dangerous situations are prevented from arising.  | 
+
 ## Background
 
 A collision avoidance (COLAV) system for autonomous vessels depends on its future predictions of the motion of other vessels. 
@@ -16,7 +20,7 @@ As a fundamental research question, we ask whether knowledge about a ships possi
 This line of reasoning has recently been pursued by researchers at University of Cambridge [Ahmad2016], where they introduced something called bridging distributions to model this kind of information. 
 
 |<img src="{{site.url}}/assets/predictionproblem.png" width="570"> | 
-| The fundamental problem of long-term prediction: Standard kinematic models yield very large uncertainties after a couple of minutes. One must guess the other vessels intentions if more accurate predictions are desired. | 
+| The fundamental problem of long-term prediction: Standard kinematic models yield very large uncertainties after a couple of minutes. One must guess the other vessel's intentions if more accurate predictions are desired. | 
 
 ## Scope
 
@@ -48,6 +52,7 @@ This project can be expanded into a PhD or integrated PhD for a candidate with s
 
 ## Contact
 
-Supervisor: [Edmund Brekke].  
+Supervisors: [Edmund Brekke] and [Adil Rasheed].  
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
+[Adil Rasheed]: https://www.ntnu.no/ansatte/adil
