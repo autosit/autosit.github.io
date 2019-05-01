@@ -52,6 +52,11 @@ In the MSc thesis the main goal will be to investigate the role played by attitu
 * Test the joint detection and attitude recognition method, and quantify performance. 
 * Write report. 
 
+## Prerequisites
+
+Background in machine learning, for example from TDT4171 Artificial intelligence methods or TDT4265 Computer vision and deep learning, will be useful. The candidate should take 
+TTK21 VSLAM and TTK25 Computer Vision for Control in parallel with the 5th year project. 
+
 ## References
 * Tangstad, E. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452113">Visual Detection of Maritime Vessels.</a>" MSc thesis, NTNU.
 * Kamsvåg, V. (2018). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/kamsvaag_msc.pdf">Fusion between camera and lidar for autonomous surface vehicles.</a>" MSc thesis, NTNU.
