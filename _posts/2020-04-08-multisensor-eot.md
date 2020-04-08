@@ -30,8 +30,6 @@ The goal of this combined specialization and MSc project is to develop an EOT al
 
 ## Proposed Tasks for the 5th year project
 
-The 5th year project will focus on Bla bla
-
 The following tasks are proposed for the specialization project:
 
 * Data consolidation. Do interesting data exist? Make experiments or use Gemini Autoferry. 
