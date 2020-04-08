@@ -33,20 +33,20 @@ The goal of this combined specialization and MSc project is to develop an EOT al
 The following tasks are proposed for the specialization project:
 
 * Data consolidation. Do interesting data exist? Make experiments or use Gemini Autoferry. 
-* Synchronization and calibration
+* Synchronization and calibration. 
 * Literature review: Investigate relevant techniques, including different EOT algorithms, alternative pose estimation techniques (ICP, PCA) and structure-from-motion approaches. 
 * Problem formulation: Identify missing building blocks in the above “lego collection”, and suggest possible fusion architectures. 
 * Implementation: Adhering to the Einstein maxim (as simple as possible, but not simpler), implement a scheme for multi-sensor joint tracking and pose estimation.  
 
 ## Proposed Tasks for the MSc thesis
 
-In the MSc thesis the main goal will be to further develop what was done in the specialization project into a bona-fide multi-target tracking method.
+In the MSc thesis the goal will be to integrate the work from the specialization project into the framework of multi-target tracking. 
 
-* Identify how existing machine learning methods can be adapted to the joint detection and pose recognition problem. References such as (Sans-Muntadas 2019) may serve as inspiration. 
-* Train a machine learning method to recognize attitude
-* Obtain a test data set. It is important that the test set is recorded such that a ground truth is available for pose, meaning that synchronization with other sensors and/or GPS/compass must be sufficiently accurate. 
-* Test the joint detection and attitude recognition method, and quantify performance. 
-* Write report. 
+* Conduct a literature survey on the most popular and relevant approaches to multi-target tracking. 
+* Define a suitable state representation and motion model based on the findings from the specialization project. 
+* 
+* 
+* 
 
 ## Prerequisites
 
