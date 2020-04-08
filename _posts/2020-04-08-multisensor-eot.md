@@ -55,7 +55,7 @@ Useful courses include TTK4250 Sensor fusion, TTK21 VSLAM, TTK25 Computer Vision
 
 ## References
 * Granström, K., Baum, M. and Reuter, S. (2017). "<a href="http://isif.org/journal/12/2/1557-6418">Extended Object Tracking: Introduction, Overview and Applications.</a>" Journal of Advances in Information Fusion.
-* Granström, K., Fatemi, M. and Svensson, L. (2017). "<a href="https://ieeexplore.ieee.org/document/8730493">Poisson multi-Bernoulli mixture conjugate prior for multiple extended target filtering.</a>" IEEE Transactions on Aerospace and Electronic Systems.
+* Granström, K., Fatemi, M. and Svensson, L. (2020). "<a href="https://ieeexplore.ieee.org/document/8730493">Poisson multi-Bernoulli mixture conjugate prior for multiple extended target filtering.</a>" IEEE Transactions on Aerospace and Electronic Systems.
 * Ruud, K., Brekke, E., & Eidsvik, J. (2018): “[LIDAR Extended Object Tracking of a Maritime Vessel Using an Ellipsoidal Contour Model](https://www.researchgate.net/publication/328890666_LIDAR_Extended_Object_Tracking_of_a_Maritime_Vessel_Using_an_Ellipsoidal_Contour_Model)”, SDF 2018.
 * Kamsvåg, V. (2018). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/kamsvaag_msc.pdf">Fusion between camera and lidar for autonomous surface vehicles.</a>" MSc thesis, NTNU.
 * Lopez, E. (2019). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/lopez_eot.pdf">LIDAR Extended Object Tracking of a Maritime Vessel using Gaussian Processes.</a>" Specialization project, NTNU. 
