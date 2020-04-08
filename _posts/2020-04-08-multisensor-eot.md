@@ -5,20 +5,26 @@ category: SF
 ---
 ## Background
 
-Situational awareness for an autonomous vehicle (e.g., autonomous ship) depends on sensors that can perceive obstacles and other vehicles, 
+Situational awareness (SITAW) for an autonomous vehicle (e.g., autonomous ship) depends on sensors that can perceive obstacles and other vehicles, 
 and track and predict their motion so that collisions are avoided. 
 Popular sensors include maritime radar, lidar, optical cameras and infrared cameras. 
+
+Traditional maritime SITAW systems have been centred around the maritime radar, which is the only reliable sensor when the sensing system must cover several kilometers on the open sea. However, on shorter ranges lidars and cameras can provide richer information, which can be of crucial importance when margins of errors are smaller due to increased congestion or more confined environments (e.g., in harbours). In particular, both in lidar data and in camera data it is possible to make inference about the shape and extent of other boats. 
+
+While the traditional tracking methods from the 70s and 80s have assumed that all targets are points, more recent methods for extended object tracking (EOT) attempt to estimate the shapes of the targets. This is an active research area, which has not yet arrived at the same maturity as traditional tracking methods.  
+
+
+
 
 
 ## Scope
 
-The goal of this specialization / master project is to explore the utility of simulated camera in the context of ship detection by means of machine learning methods. 
-The focus will be on theory and programming. Several data sets that can serve as inspiration and also be used for validation purposes are available already, as are CNNs trained on these data sets. Some experimental work may be required towards the end of the master project to obtain data suitable for verification of attitude estimation. 
+Bla bla
 
 
 ## Proposed Tasks for the 5th year project
 
-The 5th year project will focus on automatic simulation of camera data in a maritime environment. It is also a goal to explore whether augmenting real data with simulated data can improve training of CNNs for visual vessel detection. 
+The 5th year project will focus on Bla bla
 
 The following tasks are proposed for the specialization project:
 
@@ -29,7 +35,7 @@ The following tasks are proposed for the specialization project:
 5. Investigate how this affects the performance of the neural networks on real data. 
 6. Write report. 
 
-This specialization project can be done in collaboration with another specialization project on [Simulation of sensor data for Milliampere], but each student has to write a separate report.
+
 
 ## Proposed Tasks for the MSc thesis
 
