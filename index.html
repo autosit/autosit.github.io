@@ -5,7 +5,7 @@ subtitle: Autonomous ships, intentions and situational awareness - Master thesis
 ---
 
 <div class="list">
-    <h3>Long term prediction projects</h3>
+    <h3>Situational awareness projects</h3>
     <ul>
     {% for post in paginator.posts %}
     {% if post.category == "LTP" %}
@@ -17,22 +17,6 @@ subtitle: Autonomous ships, intentions and situational awareness - Master thesis
     <ul>
     {% for post in paginator.posts %}
     {% if post.category == "SF" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Pose estimation projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "EOT" %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    <h3>Collision avoidance projects</h3>
-    <ul>
-    {% for post in paginator.posts %}
-    {% if post.category == "COLAV" %}
     <li><a href="{{ post.url | prepend: site.baseurl }}" style="color: #000000">{{ post.title }}</a></li>
     {% endif %}
     {% endfor %}
