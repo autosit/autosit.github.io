@@ -32,11 +32,11 @@ The goal of this combined specialization and MSc project is to develop an EOT al
 
 The following tasks are proposed for the specialization project:
 
-* Data consolidation. Do interesting data exist? Make experiments or use Gemini Autoferry. 
+* Data consolidation. Do interesting data exist? Make experiments or use the Experts-in-teams MilliAmpere digital twin. 
 * Synchronization and calibration. 
 * Literature review: Investigate relevant techniques, including different EOT algorithms, alternative pose estimation techniques (ICP, PCA) and structure-from-motion approaches. 
 * Problem formulation: Identify missing building blocks in the above “lego collection”, and suggest possible fusion architectures. 
-* Implementation: Adhering to the Einstein maxim (as simple as possible, but not simpler), implement a scheme for multi-sensor joint tracking and pose estimation.  
+* Implement a scheme for multi-sensor joint tracking and pose estimation.  
 
 ## Proposed Tasks for the MSc thesis
 
@@ -44,14 +44,14 @@ In the MSc thesis the goal will be to integrate the work from the specialization
 
 * Conduct a literature survey on the most popular and relevant approaches to multi-target tracking. 
 * Define a suitable state representation and motion model based on the findings from the specialization project. 
-* 
-* 
-* 
+* Formulate measurement models for the sensors involved, so that Bayesian state estimation can be used. 
+* Implement a Bayesian filter for the single-target multi-sensor EOT problem. 
+* Include models for clutter, misdetections and multi-target association uncertainty. 
+* Implement a multi-target multi-sensor EOT method. 
 
 ## Prerequisites
 
-Background in machine learning, for example from TDT4171 Artificial intelligence methods or TDT4265 Computer vision and deep learning, will be useful. The candidate should take 
-TTK21 VSLAM and TTK25 Computer Vision for Control in parallel with the 5th year project. 
+Useful courses include TTK4250 Sensor fusion, TTK21 VSLAM, TTK25 Computer Vision for Control  and TTK4255 Robotic Vision. The candidate should have taken some of these already, and considering taking the remaining courses in parallell with the specialization project. 
 
 ## References
 * Tangstad, E. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452113">Visual Detection of Maritime Vessels.</a>" MSc thesis, NTNU.
