@@ -36,13 +36,11 @@ The following tasks are proposed for the specialization project:
 * Synchronization and calibration
 * Literature review: Investigate relevant techniques, including different EOT algorithms, alternative pose estimation techniques (ICP, PCA) and structure-from-motion approaches. 
 * Problem formulation: Identify missing building blocks in the above “lego collection”, and suggest possible fusion architectures. 
-* Implementation: 
-
-
+* Implementation: Adhering to the Einstein maxim (as simple as possible, but not simpler), implement a scheme for multi-sensor joint tracking and pose estimation.  
 
 ## Proposed Tasks for the MSc thesis
 
-In the MSc thesis the main goal will be to investigate the role played by attitude in the simulation-based detection. Tasks include:
+In the MSc thesis the main goal will be to further develop what was done in the specialization project into a bona-fide multi-target tracking method.
 
 * Identify how existing machine learning methods can be adapted to the joint detection and pose recognition problem. References such as (Sans-Muntadas 2019) may serve as inspiration. 
 * Train a machine learning method to recognize attitude
