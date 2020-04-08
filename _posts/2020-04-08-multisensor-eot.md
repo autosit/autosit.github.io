@@ -25,7 +25,7 @@ Nevertheless, the time may be ripe for a breakthrough in maritime extended objec
  
 ## Scope
 
-Bla bla
+The goal of this combined specialization and MSc project is to develop an EOT algorithm that combines data from an active sensor (lidar) with data from a passive sensor (infrared or optical camera). 
 
 
 ## Proposed Tasks for the 5th year project
@@ -34,12 +34,11 @@ The 5th year project will focus on Bla bla
 
 The following tasks are proposed for the specialization project:
 
-1. Make an informed choice between the different simulation tools available. 
-2. Obtain or construct CAD models of the most important elements in the surroundings. 
-3. Simulate camera data with ships at different ranges, attitudes, occlusion conditions etc. 
-4. Train pre-trained neural networks (YOLO, SSD, Faster-RCNN) on the simulated images using transfer learning. 
-5. Investigate how this affects the performance of the neural networks on real data. 
-6. Write report. 
+* Data consolidation. Do interesting data exist? Make experiments or use Gemini Autoferry. 
+* Synchronization and calibration
+* Literature review: Investigate relevant techniques, including different EOT algorithms, alternative pose estimation techniques (ICP, PCA) and structure-from-motion approaches. 
+* Problem formulation: Identify missing building blocks in the above “lego collection”, and suggest possible fusion architectures. 
+* Implementation: 
 
 
 
