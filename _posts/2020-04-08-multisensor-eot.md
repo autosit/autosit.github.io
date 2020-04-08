@@ -13,11 +13,15 @@ Traditional maritime SITAW systems have been centred around the maritime radar, 
 
 While the traditional tracking methods from the 70s and 80s have assumed that all targets are points, more recent methods for extended object tracking (EOT) attempt to estimate the shapes of the targets. This is an active research area, which has not yet arrived at the same maturity as traditional tracking methods.  Key challenges include the following:
 
-* Bla bla
-* Bla bla
+* Different parametrizations of of extent are possible. These include random matrices, ellipses or more general star-convex shapes, Gaussian processes, etc. All come with different strengths and weaknesses, and are in general nontrivial to work with. 
+* A multi-target EOT method should ideally consider all plausible partitions of the data into different combinations of extended objects. This leads to a data association problem that is much more complex than for traditional multi-target tracking. 
+* Measurement models rely on approximations that are questionable and poorly understood (e.g., random matrices of Gaussian processes for lidar) or it may not even be clear how a measurement model should be formulated (for EOT based on cameras). 
+* It is difficult to make a good process model that accounts for the subtle correlations between orientation and velocity. 
 
+Nevertheless, the time may be ripe for a breakthrough in maritime extended object tracking. Reasons for optimism and ambition include the following:
 
-
+* Significant strides have been made by the sensor fusion community, in particular at Chalmers University in Sweden. This includes a general framework for integration of EOT in the Poisson Multi-Bernoulli Mixture (PMBM) framework, which is the de facto gold standard for multi-target tracking. 
+* bla bla
 
 ## Scope
 
