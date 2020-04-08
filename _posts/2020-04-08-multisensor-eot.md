@@ -54,10 +54,11 @@ In the MSc thesis the goal will be to integrate the work from the specialization
 Useful courses include TTK4250 Sensor fusion, TTK21 VSLAM, TTK25 Computer Vision for Control  and TTK4255 Robotic Vision. The candidate should have taken some of these already, and considering taking the remaining courses in parallell with the specialization project. 
 
 ## References
-* Tangstad, E. (2017). "<a href="https://brage.bibsys.no/xmlui/handle/11250/2452113">Visual Detection of Maritime Vessels.</a>" MSc thesis, NTNU.
+* Granström, K., Baum, M. and Reuter, S. (2017). "<a href="http://isif.org/journal/12/2/1557-6418">Extended Object Tracking: Introduction, Overview and Applications.</a>" MSc thesis, NTNU.
 * Kamsvåg, V. (2018). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/kamsvaag_msc.pdf">Fusion between camera and lidar for autonomous surface vehicles.</a>" MSc thesis, NTNU.
-* Grini, S. (2019). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf">Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images.</a>" MSc thesis, NTNU. 
-* Sans-Muntadas, A. et al. (2019). "<a href="https://reader.elsevier.com/reader/sd/pii/S2468601818300191?token=00F31C37E53FDBDA590029A2114E54FF84EC6C9076728369CB319FE96DB516A41446CB0DBA59563177F22BDB59147FA1">Learning an AUV docking maneuver with a convolutional neural network.</a>" IFAC Journal of Systems and Control.
+* Lopez, E. (2019). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/lopez_eot.pdf">LIDAR Extended Object Tracking of a Maritime Vessel using Gaussian Processes.</a>" Specialization project, NTNU. 
+* Lauvsnes, M. (2019). "<a href="http://folk.ntnu.no/edmundfo/msc2019-2020/lauvsnes_pose_estimation.pdf">Detection and pose estimation by
+means of synthetic camera data.</a>" Specialization project, NTNU.
 
 
 ## Contact
