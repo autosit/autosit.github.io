@@ -14,8 +14,7 @@ possibly end destination information and so on.
 Data from several ferries or vessels in the Trondheimsfjord can be obtained and used, for instance those shown in the Figure below. Relevant AIS data for these vessels can then be used 
 for learning or estimation purposes. Project proposals employing AIS data from these (or possibly also other vessels) are given in the next sections.
 
-|<img src="{{site.url}}/assets/MS_Trondheimsfjord_1.jpg" width="310"> |  |<img src="{{site.url}}/assets/Trondhfjord2.jpg" width="310"> |  |<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> |  
-|<img src="{{site.url}}/assets/glutra.jpg" width="310"> |  
+|<img src="{{site.url}}/assets/MS_Trondheimsfjord_1.jpg" width="310"> |  |<img src="{{site.url}}/assets/Trondhfjord2.jpg" width="310"> |  |<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> |  |<img src="{{site.url}}/assets/glutra.jpg" width="310"> |  
 | Local vessels operating in the Trondheimsfjord.  |
 
 ## Learn a Bayesian network for obstacle intent inference
@@ -43,7 +42,7 @@ learning the structure, several methods exist.
 * Validate the resulting network in simulation on test data, for each vessel considered.
 
 
-## Estimate Ornstein-Uhlenbeck process parameters for maritime collision avoidance
+## Estimate Ornstein-Uhlenbeck process parameters for an obstacle prediction model
 
 The Ornstein-Uhlenbeck (OU) process is a stochastic process originally applied to model the Brownian motion of a particle under friction [Uhlenbeck1930]. Compared to Wiener motion (random walk) which can drift off 
 its initial state, the OU process has a tendency to revert back towards its mean. This is a reasonable assumption for many vessels in traffic, as they will most likely keep a constant speed in transit, close to their 
