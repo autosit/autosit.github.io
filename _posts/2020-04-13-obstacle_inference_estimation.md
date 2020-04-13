@@ -64,24 +64,24 @@ Both projects can be extended into a Master's thesis, where the results are inte
 
 ## References
 
-Eriksen, B.-O. H., Bitar, G. I., Breivik, M., and Lekkas, A. M., "[Hybrid collision avoidance for ASVs compliant with COLREGs rules 8 and 13-17][Eriksen2019]" ArXiv, vol. abs/1907.00198, 2019.
+[Eriksen2019][1] Eriksen, B.-O. H., Bitar, G. I., Breivik, M., and Lekkas, A. M., "Hybrid collision avoidance for ASVs compliant with COLREGs rules 8 and 13-17" ArXiv, vol. abs/1907.00198, 2019.
 
-Heckerman, D., "[A tutorial on learning with bayesian networks,” Studies in Computational Intelligence][Heckerman2020]" pp. 33–82, 2020.
+[Heckerman2020][2] Heckerman, D., "A tutorial on learning with bayesian networks" Studies in Computational Intelligence, pp. 33–82, 2020.
 
-IMO, "[COLREGS - International Regulations for Preventing Collisions at Sea][IMO1972]" Convention on the International Regulations for Preventing Collisions at Sea, 1972, 1972.
+[IMO1972][3] IMO, "COLREGS - International Regulations for Preventing Collisions at Sea" Convention on the International Regulations for Preventing Collisions at Sea, 1972, 1972.
 
-Johansen, T. A., Perez, T., and Cristofaro, A., "[Ship collision avoidance and COLREGS compliance using simulation-based control behavior selection with predictive hazard assessment][Johansen2016]" IEEE
+[Johansen2016][4] Johansen, T. A., Perez, T., and Cristofaro, A., "Ship collision avoidance and COLREGS compliance using simulation-based control behavior selection with predictive hazard assessment" IEEE
 Transactions on Intelligent Transportation Systems, vol. 17, no. 12, pp. 3407–3422, Dec. 2016.
 
-Mazzarella, F., Arguedas, V. F., and Vespe, M., "[Knowledge-based vessel position prediction using historical ais data][Mazzarella2015]" in Proc. Applications (SDF) 2015 Sensor Data Fusion: Trends, Solutions, Oct. 2015,
+[Mazzarella2015][5] Mazzarella, F., Arguedas, V. F., and Vespe, M., "Knowledge-based vessel position prediction using historical ais data" in Proc. Applications (SDF) 2015 Sensor Data Fusion: Trends, Solutions, Oct. 2015,
 pp. 1–6.
 
-Millefiori, L. M., Braca, P., Bryan, K., and Willett, P., "[Long-term vessel kinematics prediction exploiting mean-reverting processes][Millefiori2016]" in 2016 19th International Conference on Information Fusion
+[Millefiori2016][6] Millefiori, L. M., Braca, P., Bryan, K., and Willett, P., "Long-term vessel kinematics prediction exploiting mean-reverting processes" in 2016 19th International Conference on Information Fusion
 (FUSION), Jul. 2016, pp. 232–239.
 
-Tengesdal, T. (2020). "[Risk-based Maritime Autonomous Collision Avoidance Considering Obstacle Intentions.][Tengesdal2020b]" in 2020 23rd International Conference on Information Fusion (FUSION), South Africa, in press.
+[Tengesdal2020b][7] Tengesdal, T. (2020). "Risk-based Maritime Autonomous Collision Avoidance Considering Obstacle Intentions." in 2020 23rd International Conference on Information Fusion (FUSION), South Africa, in press.
 
-Uhlenbeck, G. E. and Ornstein, L. S., "[On the theory of the brownian motion][Uhlenbeck1930]", Phys. Rev., vol. 36, pp. 823–841, 5 Sep. 1930.
+[Uhlenbeck1930][8] Uhlenbeck, G. E. and Ornstein, L. S., "On the theory of the brownian motion", Phys. Rev., vol. 36, pp. 823–841, 5 Sep. 1930.
 
 ## Contact
 
