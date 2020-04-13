@@ -14,7 +14,8 @@ possibly end destination information and so on.
 Data from several ferries or vessels in the Trondheimsfjord can be obtained and used, for instance those shown in the Figure below. Relevant AIS data for these vessels can then be used 
 for learning or estimation purposes. Project proposals employing AIS data from these (or possibly also other vessels) are given in the next sections.
 
-|<img src="{{site.url}}/assets/MS_Trondheimsfjord_1.jpg" width="310"> |  |<img src="{{site.url}}/assets/Trondhfjord2.jpg" width="310"> |  |<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> |  |<img src="{{site.url}}/assets/glutra.jpg" width="310"> |  
+|<img src="{{site.url}}/assets/MS_Trondheimsfjord_1.jpg" width="310"> |  |<img src="{{site.url}}/assets/Trondhfjord2.jpg" width="310"> |  
+|<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> |  |<img src="{{site.url}}/assets/glutra.jpg" width="310"> |  
 | Local vessels operating in the Trondheimsfjord.  |
 
 ## Learn a Bayesian network for obstacle intent inference
