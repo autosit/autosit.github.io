@@ -11,11 +11,11 @@ Thus, it would be beneficial in terms of reducing the tuning complexity and incr
 Identification System (AIS) data from relevant nearby vessels or obstacles. The AIS data is sent from most commercial vessels, which transmits information about their position, course, speed, turn rate, identification number, 
 possibly end destination information and so on. 
 
-Data from several ferries or vessels in the Trondheimsfjord can be obtained and used, for instance those shown in the Figure below. Relevant AIS data for these vessels can then be used 
+Data from several ferries or vessels in the Trondheimsfjord can be obtained and used, with some examples shown in the Figure below. Relevant AIS data for these vessels can then be used 
 for learning or estimation purposes. Project proposals employing AIS data from these (or possibly also other vessels) are given in the next sections.
 
 |<img src="{{site.url}}/assets/MS_Trondheimsfjord_1.jpg" width="310"> |  |<img src="{{site.url}}/assets/Trondhfjord2.jpg" width="310"> |  
-|<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> |  |<img src="{{site.url}}/assets/glutra.jpg" width="310"> |  
+|<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> | |<img src="{{site.url}}/assets/glutra.JPG" width="310"> |  
 | Local vessels operating in the Trondheimsfjord.  |
 
 ## Learn a Bayesian network for obstacle intent inference
@@ -28,7 +28,7 @@ information to consider when choosing what avoidance maneuver to use in a proact
 Here, Bayesian networks are a convenent way of representing the dependencies for obstacle intention, and several methods exist for learning such networks [[2]](#2), depending on whether the network structure is given 
 or not. An example Bayesian net for obstacle intention inference is given in the Figure below.
 
-|<img src="{{site.url}}/assets/int_bn_sketch.jpg" width="620"> |  
+|<img src="{{site.url}}/assets/int_bn_sketch.jpg" width="400"> |  
 | Example Bayesian net for intention inference for an obstacle ship, considering seven factors (topmost nodes). The situation type is here either overtaking, head-on or crossing, and whether or not the obstacle is stand-on 
 or give-way vessel. Definitions of these situations can be found in [[3]](#3). Nearby dynamic obstacles can e.g. be represented by a list containing data structures carrying data on their states [[7]](#7). |
 
