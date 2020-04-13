@@ -16,7 +16,7 @@ for learning or estimation purposes. Project proposals employing AIS data from t
 
 |<img src="{{site.url}}/assets/MS_Trondheimsfjord_1.jpg" width="310"> |  |<img src="{{site.url}}/assets/Trondhfjord2.jpg" width="310"> |  
 |<img src="{{site.url}}/assets/korsfjord.JPG" width="310"> | |<img src="{{site.url}}/assets/glutra.JPG" width="310"> |  
-| Local vessels operating in the Trondheimsfjord.  |
+| Local vessels operating in the Trondheimsfjord. From top left to bottom right going left to right: Trondheimsfjord 1 & 2, Korsfjord and Glutra.  |
 
 ## Learn a Bayesian network for obstacle intent inference
 
