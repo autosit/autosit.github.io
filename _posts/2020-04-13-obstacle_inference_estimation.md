@@ -25,7 +25,7 @@ However, work is still needed to establish a module for infering the intention o
 intent information for use in the COLAV system. The module can then for instance also have estimated offline to what degree the obstacle will adhere to the maritime traffic rules (COLREGS) [[3]](#3), which is valuable 
 information to consider when choosing what avoidance maneuver to use in a proactive COLAV system.
 
-Here, Bayesian networks are a convenent way of representing the dependencies for obstacle intention, and several methods exist for learning such networks [[2]](#2), depending on whether the network structure is given 
+Here, Bayesian networks are a conveinent way of representing the dependencies for obstacle intention, and several methods exist for learning such networks [[2]](#2), depending on whether the network structure is given 
 or not. An example Bayesian net for obstacle intention inference is given in the Figure below.
 
 |<img src="{{site.url}}/assets/int_bn_sketch.jpg" width="400"> |  
@@ -80,7 +80,7 @@ pp. 1-6.
 <a id="6">[6]</a>  Millefiori, L. M., Braca, P., Bryan, K., and Willett, P., "Long-term vessel kinematics prediction exploiting mean-reverting processes" in 2016 19th International Conference on Information Fusion
 (FUSION), Jul. 2016, pp. 232-239.
 
-<a id="7">[7]</a>  Tengesdal, T. (2020). "Risk-based Maritime Autonomous Collision Avoidance Considering Obstacle Intentions." in 2020 23rd International Conference on Information Fusion (FUSION), South Africa, in press.
+<a id="7">[7]</a>  Tengesdal, T., Johansen, T. A., and Brekke, E. (2020). "Risk-based Maritime Autonomous Collision Avoidance Considering Obstacle Intentions." in 2020 23rd International Conference on Information Fusion (FUSION), South Africa, in press.
 
 <a id="8">[8]</a>  Uhlenbeck, G. E. and Ornstein, L. S., "On the theory of the brownian motion", Phys. Rev., vol. 36, pp. 823-841, 5 Sep. 1930.
 
