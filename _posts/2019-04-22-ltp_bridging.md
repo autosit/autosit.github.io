@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bridging distributions
-category: LTP
+category: NA
 ---
 ## Background
 
