@@ -18,6 +18,9 @@ While the traditional tracking methods from the 70s and 80s have assumed that al
 * Measurement models rely on approximations that are questionable and poorly understood (e.g., random matrices of Gaussian processes for lidar) or it may not even be clear how a measurement model should be formulated (for EOT based on cameras). 
 * It is difficult to make a good process model that accounts for the subtle correlations between orientation and velocity. 
 
+|<img src="{{site.url}}/assets/gpeot.jpg" width="700"> | 
+| Gaussian process EOT parametrization from Lopez (2019). | 
+
 Nevertheless, the time may be ripe for a breakthrough in maritime extended object tracking. Reasons for optimism and ambition include the following:
 
 * Significant progress on EOT have been made by handful of research groups, in particular at Chalmers University in Sweden. This includes a general framework for integration of EOT in the Poisson Multi-Bernoulli Mixture (PMBM) framework, which is the de facto gold standard for multi-target tracking. 
