@@ -30,6 +30,8 @@ Nevertheless, the time may be ripe for a breakthrough in maritime extended objec
 
 The goal of this combined specialization and MSc project is to develop an EOT algorithm that combines data from an active sensor (lidar) with data from a passive sensor (infrared or optical camera). 
 
+|<img src="{{site.url}}/assets/simeigen.png" width="700"> | 
+| Point cloud reconstruction of milliAmpere2 from monocular simulation in the EiT digital twin. | 
 
 ## Proposed Tasks for the 5th year project
 
