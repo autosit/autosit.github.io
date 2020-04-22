@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Long-term vessel prediction with reinforcement learning
+title: COLREG-compliant path following and collision avoidance with moving obstacles in the Trondheim fjord
 category: LTP
 ---
 ## Background
