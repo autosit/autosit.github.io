@@ -3,6 +3,9 @@ layout: post
 title: Multi-sensor extended object tracking
 category: SF
 ---
+|<img src="{{site.url}}/assets/nidarholmdata.png" width="700"> | 
+|<span style="color:#959595"> The ferry MS Nidarholm and its maneuvering out of its quay position recorded in lidar data. The goal of extended object tracking is to estimate its position, velocity, size and orientation from these data. </span>| 
+
 ## Background
 
 Situational awareness (SITAW) for an autonomous vehicle (e.g., autonomous ship) depends on sensors that can perceive obstacles and other vehicles, 
