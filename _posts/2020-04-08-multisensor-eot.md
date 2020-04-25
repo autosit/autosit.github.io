@@ -12,7 +12,7 @@ Situational awareness (SITAW) for an autonomous vehicle (e.g., autonomous ship) 
 and track and predict their motion so that collisions are avoided. 
 Popular sensors include maritime radar, lidar, optical cameras and infrared cameras. 
 
-Traditional maritime SITAW systems have been centred around the maritime radar, which is the only reliable sensor when the sensing system must cover several kilometers on the open sea. However, on shorter ranges lidars and cameras can provide richer information, which can be of crucial importance when margins of errors are smaller due to increased congestion or more confined environments (e.g., in harbours). In particular, both in lidar data and in camera data it is possible to make inference about the shape and extent of other boats. 
+Traditional maritime SITAW systems have been centred around the maritime radar, which is the only reliable sensor when the sensing system must cover several kilometers on the open sea. However, on shorter ranges lidars and cameras can provide richer information, which can be of crucial importance when margins of errors are smaller due to increased congestion or more confined environments (e.g., in harbours). Both in lidar data and in camera data it is possible to make inference about the shape and extent of other boats. 
 
 While the traditional tracking methods from the 70s and 80s have assumed that all targets are points, more recent methods for extended object tracking (EOT) attempt to estimate the shapes of the targets. This is an active research area, which has not yet arrived at the same maturity as traditional tracking methods.  Key challenges include the following:
 
