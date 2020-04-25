@@ -4,7 +4,7 @@ title: Multi-sensor extended object tracking
 category: SF
 ---
 |<img src="{{site.url}}/assets/nidarholmdata.png" width="700"> | 
-|<span style="color:#959595"> The ferry MS Nidarholm and its maneuvering out of its quay position recorded in lidar data (different colors are different time steps). The goal of extended object tracking is to estimate its position, velocity, shape and orientation from these data. </span>| 
+|<span style="color:#959595"> The ferry MS Nidarholm and its maneuvering out of its quay position recorded in lidar data (different colors are different time steps). The goal of extended object tracking is to estimate its position, velocity, shape and orientation from these data. Based on Ruud et al. (2018). </span>| 
 
 ## Background
 
@@ -34,7 +34,7 @@ Nevertheless, the time may be ripe for a breakthrough in maritime extended objec
 The goal of this combined specialization and MSc project is to develop an EOT algorithm that combines data from an active sensor (lidar) with data from a passive sensor (infrared or optical camera). 
 
 |<img src="{{site.url}}/assets/SimEigen.png" width="700"> | 
-|<span style="color:#959595"> Point cloud reconstruction of milliAmpere2 from monocular simulation in the EiT digital twin. </span>| 
+|<span style="color:#959595"> Point cloud reconstruction of milliAmpere2 from monocular camera simulation in the EiT digital twin. </span>| 
 
 ## Proposed Tasks for the 5th year project
 
