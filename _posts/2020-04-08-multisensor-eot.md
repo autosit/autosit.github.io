@@ -40,7 +40,7 @@ The goal of this combined specialization and MSc project is to develop an EOT al
 
 The following tasks are proposed for the specialization project:
 
-* Data consolidation. Do interesting data exist? Make experiments or use the Gemini Autoferry simulator that was developed by an Experts-in-team group during the spring 2019. 
+* Data consolidation. Do interesting data exist? Make experiments or use the [Gemini Autoferry simulator].
 * Synchronization and calibration. 
 * Literature review: Investigate relevant techniques, including different EOT algorithms, alternative pose estimation techniques (ICP, PCA) and structure-from-motion approaches. 
 * Problem formulation: Identify missing building blocks in the above “lego collection”, and suggest possible fusion architectures. 
@@ -89,3 +89,4 @@ Supervisors: [Edmund Brekke], [Annette Stahl] and [Rudolf Mester]
 [Poisson Multi-Bernoulli Mixture (PMBM)]: https://ieeexplore.ieee.org/document/7272821
 [general framework]: https://ieeexplore.ieee.org/document/8730493
 [simultaneous localization and mapping (SLAM)]: https://www.cs.cmu.edu/~kaess/pub/Kaess12ijrr.pdf
+[Gemini Autoferry simulator]: http://folk.ntnu.no/edmundfo/msc2020-2021/eitdigtwin.pdf
