@@ -16,7 +16,7 @@ Traditional maritime SITAW systems have been centred around the maritime radar, 
 
 While the traditional tracking methods from the 70s and 80s have assumed that all targets are points, more recent methods for extended object tracking (EOT) attempt to estimate the shapes of the targets. This is an active research area, which has not yet arrived at the same maturity as traditional tracking methods.  Key challenges include the following:
 
-* Different parametrizations of of extent are possible. These include random matrices, ellipses or more general star-convex shapes, Gaussian processes, etc. All come with different strengths and weaknesses, and are in general nontrivial to work with. 
+* Different parametrizations of of extent are possible. These include [random matrices], [ellipses] or more general [star-convex shapes], [Gaussian processes], etc. All come with different strengths and weaknesses, and are in general nontrivial to work with. 
 * A multi-target EOT method should ideally consider all plausible partitions of the data into different combinations of extended objects. This leads to a data association problem that is much more complex than for traditional multi-target tracking. 
 * Measurement models rely on approximations that are questionable and poorly understood (e.g., random matrices of Gaussian processes for lidar) or it may not even be clear how a measurement model should be formulated (for EOT based on cameras). 
 * It is difficult to make a good process model that accounts for the subtle correlations between orientation and velocity. 
@@ -80,3 +80,7 @@ Supervisors: [Edmund Brekke], [Annette Stahl] and [Rudolf Mester]
 [Edmund Brekke]: https://www.ntnu.edu/employees/edmund.brekke
 [Annette Stahl]: https://www.ntnu.edu/employees/annette.stahl 
 [Rudolf Mester]: https://www.ntnu.edu/employees/rudolf.mester
+[ellipses]: https://www.researchgate.net/publication/328890666_LIDAR_Extended_Object_Tracking_of_a_Maritime_Vessel_Using_an_Ellipsoidal_Contour_Model
+[random matrices]: https://ieeexplore.ieee.org/abstract/document/4655362
+[star-convex shapes]: https://ieeexplore.ieee.org/document/6809906 
+[Gaussian processes]: https://ieeexplore.ieee.org/document/7088657
