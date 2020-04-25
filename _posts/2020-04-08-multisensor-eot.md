@@ -18,8 +18,8 @@ While the traditional tracking methods from the 70s and 80s have assumed that al
 
 * Different parametrizations of of extent are possible. These include [random matrices], [ellipses] or more general [star-convex shapes], [Gaussian processes], etc. All come with different strengths and weaknesses, and are in general nontrivial to work with. 
 * A multi-target EOT method should ideally consider all plausible [partitions] of the data into different combinations of extended objects. This leads to a data association problem that is much more complex than for traditional multi-target tracking. 
-* Measurement models rely on approximations that are questionable and poorly understood (e.g., random matrices of Gaussian processes for lidar) or it may not even be clear how a measurement model should be formulated (for EOT based on cameras). 
-* It is difficult to make a good process model that accounts for the subtle correlations between orientation and velocity. 
+* Measurement models rely on questionable approximations (e.g., random matrices or Gaussian processes for lidar) or it may not even be clear how a measurement model should be formulated (for EOT based on cameras). 
+* It is difficult to make a good [process model] that accounts for the subtle correlations between orientation and velocity. 
 
 |<img src="{{site.url}}/assets/gpeot.jpg" width="700"> | 
 | <span style="color:#959595">Gaussian process EOT parametrization from Lopez (2019). </span>| 
@@ -85,3 +85,4 @@ Supervisors: [Edmund Brekke], [Annette Stahl] and [Rudolf Mester]
 [star-convex shapes]: https://ieeexplore.ieee.org/document/6809906 
 [Gaussian processes]: https://ieeexplore.ieee.org/document/7088657
 [partitions]: https://ieeexplore.ieee.org/document/7995696
+[process model]: https://ieeexplore.ieee.org/document/6850178
