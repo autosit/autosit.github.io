@@ -59,7 +59,7 @@ In the MSc thesis the goal will be to integrate the work from the specialization
 
 ## Prerequisites
 
-Useful courses include TTK4250 Sensor fusion, TTK21 VSLAM, TTK25 Computer Vision for Control  and TTK4255 Robotic Vision. The candidate should have taken some of these already, and take some of the remaining courses in parallell with the specialization project. 
+Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Vision for Control  and TTK4255 Robotic Vision. The candidate should have taken some of these already, and take some of the remaining courses in parallell with the specialization project. 
 
 ## References
 * Granström, K., Baum, M. and Reuter, S. (2017). "<a href="http://isif.org/journal/12/2/1557-6418">Extended Object Tracking: Introduction, Overview and Applications.</a>" Journal of Advances in Information Fusion.
@@ -90,3 +90,4 @@ Supervisors: [Edmund Brekke], [Annette Stahl] and [Rudolf Mester]
 [general framework]: https://ieeexplore.ieee.org/document/8730493
 [simultaneous localization and mapping (SLAM)]: https://www.cs.cmu.edu/~kaess/pub/Kaess12ijrr.pdf
 [Gemini Autoferry simulator]: http://folk.ntnu.no/edmundfo/msc2020-2021/eitdigtwin.pdf
+[TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
