@@ -40,7 +40,7 @@ The goal of this combined specialization and MSc project is to develop an EOT al
 
 The following tasks are proposed for the specialization project:
 
-* Data consolidation. Do interesting data exist? Make experiments or use the Experts-in-teams MilliAmpere digital twin. 
+* Data consolidation. Do interesting data exist? Make experiments or use the Gemini Autoferry simulator that was developed by an Experts-in-team group during the spring 2019. 
 * Synchronization and calibration. 
 * Literature review: Investigate relevant techniques, including different EOT algorithms, alternative pose estimation techniques (ICP, PCA) and structure-from-motion approaches. 
 * Problem formulation: Identify missing building blocks in the above “lego collection”, and suggest possible fusion architectures. 
