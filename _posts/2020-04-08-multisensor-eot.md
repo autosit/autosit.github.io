@@ -26,7 +26,7 @@ While the traditional tracking methods from the 70s and 80s have assumed that al
 
 Nevertheless, the time may be ripe for a breakthrough in maritime extended object tracking. Reasons for optimism and ambition include the following:
 
-* Significant progress on EOT have been made by handful of research groups, in particular at Chalmers University in Sweden. This includes a general framework for integration of EOT in the [Poisson Multi-Bernoulli Mixture (PMBM)] framework, which is the de facto gold standard for multi-target tracking. 
+* Significant progress on EOT have been made by handful of research groups, in particular at Chalmers University in Sweden. This includes a [general framework] for integration of EOT in the [Poisson Multi-Bernoulli Mixture (PMBM)] framework, which is the de facto gold standard for multi-target tracking. 
 * The related problem of simultaneous localization and mapping (SLAM) has been extensively researched over the next decade. It may be possible to adapt techniques from SLAM to EOT (e.g., pose graph optimization).
  
 ## Scope
@@ -87,3 +87,4 @@ Supervisors: [Edmund Brekke], [Annette Stahl] and [Rudolf Mester]
 [partitions]: https://ieeexplore.ieee.org/document/7995696
 [process model]: https://ieeexplore.ieee.org/document/6850178
 [Poisson Multi-Bernoulli Mixture (PMBM)]: https://ieeexplore.ieee.org/document/7272821
+[general framework]: https://ieeexplore.ieee.org/document/8730493
