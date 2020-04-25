@@ -24,9 +24,9 @@ While the traditional tracking methods from the 70s and 80s have assumed that al
 |<img src="{{site.url}}/assets/gpeot.jpg" width="700"> | 
 | <span style="color:#959595">Gaussian process EOT parametrization from Lopez (2019). </span>| 
 
-Nevertheless, the time may be ripe for a breakthrough in maritime extended object tracking. Reasons for optimism and ambition include the following:
+Nevertheless, the time may be ripe for a breakthrough in maritime extended object tracking. There are reasons to be optimistic and ambitious:
 
-* Significant progress on EOT have been made by handful of research groups, in particular at Chalmers University in Sweden. This includes a [general framework] for integration of EOT in the [Poisson Multi-Bernoulli Mixture (PMBM)] framework, which is the de facto gold standard for multi-target tracking. 
+* Significant progress on EOT has been made by handful of research groups, in particular at Chalmers University in Sweden. This includes a [general framework] for integration of EOT in the [Poisson Multi-Bernoulli Mixture (PMBM)] framework, which is the de facto gold standard for multi-target tracking. 
 * The related problem of [simultaneous localization and mapping (SLAM)] has been extensively researched over the last decade. It may be possible to adapt techniques from SLAM to EOT (e.g., pose graph optimization).
  
 ## Scope
