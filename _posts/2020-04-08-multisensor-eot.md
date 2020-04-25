@@ -19,7 +19,7 @@ While the traditional tracking methods from the 70s and 80s have assumed that al
 * It is difficult to make a good process model that accounts for the subtle correlations between orientation and velocity. 
 
 |<img src="{{site.url}}/assets/gpeot.jpg" width="700"> | 
-| Gaussian process EOT parametrization from Lopez (2019). | 
+| <span style="color:#959595">Gaussian process EOT parametrization from Lopez (2019). </span>| 
 
 Nevertheless, the time may be ripe for a breakthrough in maritime extended object tracking. Reasons for optimism and ambition include the following:
 
@@ -31,7 +31,7 @@ Nevertheless, the time may be ripe for a breakthrough in maritime extended objec
 The goal of this combined specialization and MSc project is to develop an EOT algorithm that combines data from an active sensor (lidar) with data from a passive sensor (infrared or optical camera). 
 
 |<img src="{{site.url}}/assets/SimEigen.png" width="700"> | 
-| Point cloud reconstruction of milliAmpere2 from monocular simulation in the EiT digital twin. | 
+|<span style="color:#959595"> Point cloud reconstruction of milliAmpere2 from monocular simulation in the EiT digital twin. </span>| 
 
 ## Proposed Tasks for the 5th year project
 
@@ -74,6 +74,6 @@ means of synthetic camera data.</a>" Specialization project, NTNU.
 Supervisors: [Edmund Brekke], [Annette Stahl] and [Rudolf Mester]
 
 
-[Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
-[Annette Stahl]: www.ntnu.edu/employees/annette.stahl 
-[Rudolf Mester]: www.ntnu.edu/employees/rudolf.mester
+[Edmund Brekke]: https://www.ntnu.edu/employees/edmund.brekke
+[Annette Stahl]: https://www.ntnu.edu/employees/annette.stahl 
+[Rudolf Mester]: https://www.ntnu.edu/employees/rudolf.mester
