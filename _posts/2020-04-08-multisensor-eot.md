@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multi-sensor extended object tracking
-category: SF
+category: Nonsense
 ---
 |<img src="{{site.url}}/assets/nidarholmdata.png" width="700"> | 
 |<span style="color:#959595"> The ferry MS Nidarholm maneuvering out of its quay position as seen in lidar data (different colors are different time steps). The goal of extended object tracking is to estimate its position, velocity, shape and orientation from these data. Based on Ruud et al. (2018). </span>| 
