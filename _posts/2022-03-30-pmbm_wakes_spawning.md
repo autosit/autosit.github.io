@@ -1,0 +1,95 @@
+---
+layout: post
+title: The PMBM filter 1: The most powerful tracker in the world
+category: SF
+---
+## Background
+
+
+
+
+To safely navigate among other ships, an autonomous ship needs means to keep track of where other ships are as well as their motions. 
+On the fundamental level, there are two ways to achieve this. On the one hand, ships may broadcast their locations and other relevant information to each other. 
+All ships of a certain size are obliged to do this through the Automatic Identification System (AIS). 
+On the other hand, ships can perceive their environment including other ships by means of exteroceptive sensors such as radar, lidar, optical cameras and infrared cameras. 
+
+|<img src="{{site.url}}/assets/ais_slide.png" width="700"> | 
+
+AIS is easy to work with because AIS data are inherently tidy: There is a unique measurement from each boat that has an AIS transmitter. 
+For radar, on the other hand, one must always solve the problem of data association: 
+Of several returns in a radar image one must decide which return comes from which ship. 
+However, radar or other exteroceptive sensors are always needed because not all ships have AIS, and because AIS depends on satellite communication with its own reliability issues. 
+
+In the [Autosea project][Autosea], both radar and AIS have been used as information sources in collision avoidance (COLAV) experiments. 
+However, the two data sources were never used together, because a sufficiently mature algorithm for fusing radar and AIS never was developed. 
+
+It is not immediately obvious how radar and AIS should be fused in order to benefit maximally from the two data sources complementary properties. 
+One can, however, expect that optimal fusion only is possible if the fusion algorithm is based on an optimal approach to multi-target tracking. 
+Such an approach is provided by the Poisson Multi-Bernoulli Mixture (PMBM) filter, which has emerged as the de facto gold standard in multi-target tracking during the last decade. 
+
+
+## Scope
+
+During this assignment, the candidate will develop a multi-target tracking algorithm that fuses both radar data and AIS data within the PMBM framework. 
+
+## Proposed Tasks for the 5th year project
+
+In the specialization project the main focus will be on mastering the fundamental building blocks of PMBM and radar-AIS fusion. The following tasks are proposed for the specialization project: 
+
+* Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
+* Design simple toy scenarios that will enable careful analysis of the expected benefits of radar-AIS fusion. 
+* Revise the hypothesis structure of the PMBM filter so that its hypotheses not only are able to account for associations between measurements in consecutive radar scans, but also associations between these and AIS tracks. 
+* Revise the expressions for the probabilities of the association hypotheses according to the revision of the hypothesis structure. 
+* Revise the estimation of target kinematics according to the two data sources.
+* Test the revisions in simulations. 
+* Write report.
+
+## Proposed Tasks for the master thesis
+
+In the MSc thesis the work should move from toy scenarios to more comprehensive simulations and real data. It is also desirable to strengthen the theoretical foundations of the work using the tools of random finite set theory such as functional derivatives. The following topics are expected to be of central importance. 
+
+* Study mixture reduction techniques to limit the number of hypotheses. 
+* Benchmark against other approaches to AIS-radar fusion, such as Liland (2017) or Habtemariam (2014).
+* Generate more elaborate simulations and/or participate in field experiments to record real data. 
+
+This project can be expanded into a PhD or integrated PhD for a candidate with sufficient skills, background knowledge and motivation. 
+
+|<img src="{{site.url}}/assets/giorgio-den-helder.jpeg" width="700"> | 
+| Giorgio Kufoalor during [Autosea] experiments in the Netherlands where AIS data were used |
+
+|<img src="{{site.url}}/assets/wilthilsyn.jpg" width="700"> | 
+| Erik Wilthil during [Autosea] experiments in Trondheimsfjorden where radar tracking was used |
+
+## Prerequisites
+This is a challenging project that goes to the core of modern theory in sensor fusion. The following recommendations should therefore be considered. 
+
+- Experience with sensor fusion or radar systems from internships or voluntary activities will be useful.
+- It will be very useful to have had significant exposure to statistics and estimation from courses beyond ITK, e.g., from IES or IMF at NTNU, or from exchange studies. 
+- It will be useful to take the course TTK4250 Sensor Fusion in parallell with the specialization project, instead of the conventional 2.75 SP modules. 
+- The candidate must like mathematics and to analyze problems on a very detailed level.
+
+## References
+Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
+
+Habtemariam et al. (2014): “[Measurement levelAIS/radar fusion][Habtemariam2014]”, Signal Processing.
+
+Liland (2017): “[AIS Aided Multi Hypothesis Tracker][Liland2017]”, Master’s thesis, NTNU.
+
+
+## Contact
+
+Supervisor: [Edmund Brekke].  
+
+
+|<img src="{{site.url}}/assets/MS_Nidarholm.jpg" width="700"> | 
+| Example application 1: The autonomous ferry [Milliampere] should be able to use AIS for warm track initiation on the Munkholmen ferry when it approaches under the bridge. |
+
+|<img src="{{site.url}}/assets/droneit.png" width="570"> | 
+| Example application 2: The same theory can be used for fusion of drone transponders with 3D airport surveillance radar. |
+
+[Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
+[Williams2015]: https://ieeexplore.ieee.org/document/7272821
+[Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
+[Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
+[Autosea]: https://www.ntnu.edu/autosea
+[Milliampere]: https://www.ntnu.edu/autoferry
