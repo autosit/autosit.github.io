@@ -38,6 +38,7 @@ In the MSc thesis the focus should be on allowing the user to chose the right tr
 * Implement solutions to bottlenecks in C, C++ or similar.
 * Develop additional heuristics to control the number of clusters, hypotheses etc. 
 * Investigate whether it is possible to include a limited level of JPDA-style hypothesis merging. 
+* Design benchmark scenarios, and compare with other state-of-the-art tracking methods.
 
 
 ## Prerequisites
