@@ -6,7 +6,7 @@ category: SF
 ## Background
 
 
-The Poisson Multi-Bernoulli Mixture (PMBM) filter is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where the probabilities of all sufficiently plausible data association hypotheses are calculated. 
+The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where the probabilities of all sufficiently plausible data association hypotheses are calculated. 
 For each of the data association hypotheses in the prior distribution, there will be several new association hypotheses in the posterior distribution. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where the data association hypotheses are combined after every estimation cycle in order to mitigate complexity. 
 
 To make a PMBM filter run in real time, one has to use other heuristics and approximations. These including pruning and cluster management. 
@@ -24,7 +24,7 @@ The primary objective of this project is to implement a PMBM filter which can be
 ## Proposed Tasks for the 5th year project
 
 * Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
-* Design the software architecture of an overall PMBM filter, taking the pipelines used in Autoferry og Autosit into account. 
+* Design the software architecture of an overall PMBM filter, taking the pipelines used in [Autoferry] og [Autosit] into account. 
 * Identify bottlenecks, and open source code elements that can be used as part of the implementation. 
 * Implement procedures for prediction, estimation, cluster merging, hypothesis generation, pruning and cluster merging.
 * Verify the procedures and combine them in a complete PMBM filter.
@@ -61,8 +61,9 @@ Supervisor: [Edmund Brekke].
 [Williams2015]: https://ieeexplore.ieee.org/document/7272821
 [Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
-[Autosea]: https://www.ntnu.edu/autosea
-[Milliampere]: https://www.ntnu.edu/autoferry
+[Autosit]: https://www.ntnu.edu/autosit
+[Autoferry]: https://www.ntnu.edu/autoferry
 [(Garcia-Fernandez et al. 2018)]: https://ieeexplore.ieee.org/document/8289337
 [(Brekke and Tokle 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf
 [TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
+[Poisson Multi-Bernoulli Mixture (PMBM) filter]: https://ieeexplore.ieee.org/document/7272821
