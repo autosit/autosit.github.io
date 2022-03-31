@@ -1,31 +1,19 @@
 ---
 layout: post
-title: The PMBM filter 3 -  Wakes and spawned targets
+title: The PMBM filter 3 -  Beyond the standard model
 category: SF
 ---
 ## Background
 
+Methods for multi-target tracking in maritime and military applications are typically based on a common set of model assumptions, which can be called the standard model (page 137 in [Fundamentals of Sensor Fusion]). In particular, two aspects of the standard model are worth mentioning. First, it invokes the at-most-one assumptions, which says that maximally one measurement comes from each target, and that at most one target can be the source of any measurement. Second, it invokes several independence assumptions. Both false alarms and new targets are according to the standard model independent of the previously existing targets. 
 
-
-
-To safely navigate among other ships, an autonomous ship needs means to keep track of where other ships are as well as their motions. 
-On the fundamental level, there are two ways to achieve this. On the one hand, ships may broadcast their locations and other relevant information to each other. 
-All ships of a certain size are obliged to do this through the Automatic Identification System (AIS). 
-On the other hand, ships can perceive their environment including other ships by means of exteroceptive sensors such as radar, lidar, optical cameras and infrared cameras. 
+There are, however, many real-world applications where these assumptions fail to hold. An example is ship wakes in maritime tracking. 
 
 |<img src="{{site.url}}/assets/ais_slide.png" width="700"> | 
 
-AIS is easy to work with because AIS data are inherently tidy: There is a unique measurement from each boat that has an AIS transmitter. 
-For radar, on the other hand, one must always solve the problem of data association: 
-Of several returns in a radar image one must decide which return comes from which ship. 
-However, radar or other exteroceptive sensors are always needed because not all ships have AIS, and because AIS depends on satellite communication with its own reliability issues. 
 
-In the [Autosea project][Autosea], both radar and AIS have been used as information sources in collision avoidance (COLAV) experiments. 
-However, the two data sources were never used together, because a sufficiently mature algorithm for fusing radar and AIS never was developed. 
-
-It is not immediately obvious how radar and AIS should be fused in order to benefit maximally from the two data sources complementary properties. 
-One can, however, expect that optimal fusion only is possible if the fusion algorithm is based on an optimal approach to multi-target tracking. 
-Such an approach is provided by the Poisson Multi-Bernoulli Mixture (PMBM) filter, which has emerged as the de facto gold standard in multi-target tracking during the last decade. 
+The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where the probabilities of all sufficiently plausible data association hypotheses are calculated. 
+For each of the data association hypotheses in the prior distribution, there will be several new association hypotheses in the posterior distribution. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where the data association hypotheses are combined after every estimation cycle in order to mitigate complexity. 
 
 
 ## Scope
@@ -93,3 +81,4 @@ Supervisor: [Edmund Brekke].
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
 [Autosea]: https://www.ntnu.edu/autosea
 [Milliampere]: https://www.ntnu.edu/autoferry
+[Fundamentals of Sensor Fusion]: https://folk.ntnu.no/edmundfo/msc2020-2021/sf2020c.pdf
