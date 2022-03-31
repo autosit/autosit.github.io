@@ -13,8 +13,7 @@ To make a PMBM filter run in real time, one has to use other heuristics and appr
 The core principle in cluster management is to work with tracks that are far apart independently. Cluster management depends on procedures to merge clusters when the clusters get so close that they cannot be separated, and procedures to split clusters when a cluster safely can be decomposed into several independent tracking problems. 
 Cluster management is important because multi-target tracking in reality reduces to single-target tracking 99&#37; of the time. The number of hypotheses needed to describe the posterior distribution in a single-target tracking problem will be much lower than the number of hypotheses needed in a tracking problem with several targets. 
 
-A Matlab implementation of a PMBM filter without cluster management was recently reported in [(Garcia-Fernandez et al. 2018)].  Since then, a Matlab implementation of PMBM with cluster management has been made, which uses a novel algorithm for combined hypothesis search cluster merging [(Brekke and Tokle 2022)]. 
-
+A Matlab implementation of a PMBM filter without cluster management was recently reported in [(Garcia-Fernandez et al. 2018)].  Since then, a Matlab implementation of PMBM with cluster management has been made, which uses a novel algorithm for combined hypothesis search and cluster merging [(Brekke and Tokle 2022)]. 
 
 
 
@@ -25,36 +24,26 @@ The primary objective of this project is to implement a PMBM filter which can be
 ## Proposed Tasks for the 5th year project
 
 * Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
-* Design simple toy scenarios that will enable careful analysis of the expected benefits of radar-AIS fusion. 
-* Revise the hypothesis structure of the PMBM filter so that its hypotheses not only are able to account for associations between measurements in consecutive radar scans, but also associations between these and AIS tracks. 
-* Revise the expressions for the probabilities of the association hypotheses according to the revision of the hypothesis structure. 
-* Revise the estimation of target kinematics according to the two data sources.
-* Test the revisions in simulations. 
+* Design the software architecture of an overall PMBM filter, taking the pipelines used in Autoferry og Autosit into account. 
+* Identify bottlenecks, and open source code elements that can be used as part of the implementation. 
+* Implement procedures for prediction, estimation, cluster merging, hypothesis generation, pruning and cluster merging.
+* Verify the procedures and combine them in a complete PMBM filter.
 * Write report.
 
 ## Proposed Tasks for the master thesis
 
-In the MSc thesis the focus should be on allowing the user to chose the right trade-off between run-time and performance. 
+In the MSc thesis the focus should be on allowing the user to chose the right trade-off between run-time and performance. The following tasks are meant to support this goal.
 
-* Study mixture reduction techniques to limit the number of hypotheses. 
-* Benchmark against other approaches to AIS-radar fusion, such as Liland (2017) or Habtemariam (2014).
-* Generate more elaborate simulations and/or participate in field experiments to record real data. 
+* Implement visualization tools for the PMBM filter. 
+* Implement solutions to bottlenecks in C, C++ or similar.
+* Develop additional heuristics to control the number of clusters, hypotheses etc. 
+* Investigate whether it is possible to include a limited level of JPDA-style hypothesis merging. 
 
-This project can be expanded into a PhD or integrated PhD for a candidate with sufficient skills, background knowledge and motivation. 
-
-|<img src="{{site.url}}/assets/giorgio-den-helder.jpeg" width="700"> | 
-| Giorgio Kufoalor during [Autosea] experiments in the Netherlands where AIS data were used |
-
-|<img src="{{site.url}}/assets/wilthilsyn.jpg" width="700"> | 
-| Erik Wilthil during [Autosea] experiments in Trondheimsfjorden where radar tracking was used |
 
 ## Prerequisites
-This is a challenging project that goes to the core of modern theory in sensor fusion. The following recommendations should therefore be considered. 
 
-- Experience with sensor fusion or radar systems from internships or voluntary activities will be useful.
-- It will be very useful to have had significant exposure to statistics and estimation from courses beyond ITK, e.g., from IES or IMF at NTNU, or from exchange studies. 
-- It will be useful to take the course TTK4250 Sensor Fusion in parallell with the specialization project, instead of the conventional 2.75 SP modules. 
-- The candidate must like mathematics and to analyze problems on a very detailed level.
+The candidate should have had the course [TTK4250 Sensor Fusion]. Strong programming skills are essential.
+
 
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
@@ -68,13 +57,6 @@ Garcia-Fernandez, A., Williams, J., Granström, K and Svensson, L. (2018). "[Poi
 
 Supervisor: [Edmund Brekke].  
 
-
-|<img src="{{site.url}}/assets/MS_Nidarholm.jpg" width="700"> | 
-| Example application 1: The autonomous ferry [Milliampere] should be able to use AIS for warm track initiation on the Munkholmen ferry when it approaches under the bridge. |
-
-|<img src="{{site.url}}/assets/droneit.png" width="570"> | 
-| Example application 2: The same theory can be used for fusion of drone transponders with 3D airport surveillance radar. |
-
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
 [Williams2015]: https://ieeexplore.ieee.org/document/7272821
 [Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
@@ -83,3 +65,4 @@ Supervisor: [Edmund Brekke].
 [Milliampere]: https://www.ntnu.edu/autoferry
 [(Garcia-Fernandez et al. 2018)]: https://ieeexplore.ieee.org/document/8289337
 [(Brekke and Tokle 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf
+[TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
