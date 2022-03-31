@@ -7,7 +7,7 @@ category: SF
 
 Methods for multi-target tracking in maritime and military applications are typically based on a common set of model assumptions, which can be called the standard model (page 137 in [Fundamentals of Sensor Fusion]). In particular, two aspects of the standard model are worth mentioning. First, it invokes the at-most-one assumptions, which says that maximally one measurement comes from each target, and that at most one target can be the source of any measurement. Second, it invokes several independence assumptions. Both false alarms and new targets are according to the standard model independent of the previously existing targets. 
 
-There are, however, many real-world applications where these assumptions fail to hold. An example is ship wakes in maritime tracking. 
+There are, however, many real-world applications where these assumptions fail to hold. An example is ship wakes in maritime tracking. Measurements from the wake are of limited use in estimating the state of the boat, and are therefore discarded as clutter. But since the wake always is behind the boat, there is a dependency between the wake and the target state that violates the standard model. 
 
 |<img src="{{site.url}}/assets/ais_slide.png" width="700"> | 
 
