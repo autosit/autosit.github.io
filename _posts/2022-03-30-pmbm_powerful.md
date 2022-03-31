@@ -6,26 +6,13 @@ category: SF
 ## Background
 
 
+The Poisson Multi-Bernoulli Mixture (PMBM) filter is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where the probabilities of all sufficiently plausible data association hypotheses are calculated. 
+For each of the data association hypotheses in the prior distribution, there will be several new association hypotheses in the posterior distribution. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where the data association hypotheses are combined after every estimation cycle in order to mitigate complexity. 
 
+To make a PMBM filter run in real time, one has to use other heuristics and approximations. These including pruning and cluster management. 
+The core principle in cluster management is to work with tracks that are far apart independently. Cluster management depends on procedures to merge clusters when the clusters get so close that they cannot be separated, and procedures to split clusters when a cluster safely can be decomposed into several independent tracking problems. 
+Cluster management is important because multi-target tracking in reality reduces to single-target tracking 99 &#37; of the time. 
 
-To safely navigate among other ships, an autonomous ship needs means to keep track of where other ships are as well as their motions. 
-On the fundamental level, there are two ways to achieve this. On the one hand, ships may broadcast their locations and other relevant information to each other. 
-All ships of a certain size are obliged to do this through the Automatic Identification System (AIS). 
-On the other hand, ships can perceive their environment including other ships by means of exteroceptive sensors such as radar, lidar, optical cameras and infrared cameras. 
-
-|<img src="{{site.url}}/assets/ais_slide.png" width="700"> | 
-
-AIS is easy to work with because AIS data are inherently tidy: There is a unique measurement from each boat that has an AIS transmitter. 
-For radar, on the other hand, one must always solve the problem of data association: 
-Of several returns in a radar image one must decide which return comes from which ship. 
-However, radar or other exteroceptive sensors are always needed because not all ships have AIS, and because AIS depends on satellite communication with its own reliability issues. 
-
-In the [Autosea project][Autosea], both radar and AIS have been used as information sources in collision avoidance (COLAV) experiments. 
-However, the two data sources were never used together, because a sufficiently mature algorithm for fusing radar and AIS never was developed. 
-
-It is not immediately obvious how radar and AIS should be fused in order to benefit maximally from the two data sources complementary properties. 
-One can, however, expect that optimal fusion only is possible if the fusion algorithm is based on an optimal approach to multi-target tracking. 
-Such an approach is provided by the Poisson Multi-Bernoulli Mixture (PMBM) filter, which has emerged as the de facto gold standard in multi-target tracking during the last decade. 
 
 
 ## Scope
