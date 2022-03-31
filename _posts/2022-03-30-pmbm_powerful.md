@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The PMBM filter 1 - The most powerful tracker in the world
+title: The PMBM filter 1 - The world's most powerful tracker
 category: SF
 ---
 ## Background
