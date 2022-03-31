@@ -11,17 +11,18 @@ For each of the data association hypotheses in the prior distribution, there wil
 
 To make a PMBM filter run in real time, one has to use other heuristics and approximations. These including pruning and cluster management. 
 The core principle in cluster management is to work with tracks that are far apart independently. Cluster management depends on procedures to merge clusters when the clusters get so close that they cannot be separated, and procedures to split clusters when a cluster safely can be decomposed into several independent tracking problems. 
-Cluster management is important because multi-target tracking in reality reduces to single-target tracking 99 &#37; of the time. 
+Cluster management is important because multi-target tracking in reality reduces to single-target tracking 99&#37; of the time. The number of hypotheses needed to describe the posterior distribution in a single-target tracking problem will be much lower than the number of hypotheses needed in a tracking problem with several targets. 
+
+A Matlab implementation of a PMBM filter without cluster management was recently reported in [(Garcia-Fernandez et al. 2018)].  Since then, a Matlab implementation of PMBM with cluster management has been made, which uses a novel algorithm for combined hypothesis search cluster merging [(Brekke and Tokle 2022)]. 
+
 
 
 
 ## Scope
 
-During this assignment, the candidate will develop a multi-target tracking algorithm that fuses both radar data and AIS data within the PMBM framework. 
+The primary objective of this project is to implement a PMBM filter which can be used as part of the autonomy pipelines in maritime surface autonomy at NTNU. All of the algorithmic building blocks are ready, although there is certainly room for improvement. Core challenges are to implement the building blocks in a suitable language (possible a combination of Python and C), improve run-time and make sure the code is streamlined, transparent and configurable.  
 
 ## Proposed Tasks for the 5th year project
-
-In the specialization project the main focus will be on mastering the fundamental building blocks of PMBM and radar-AIS fusion. The following tasks are proposed for the specialization project: 
 
 * Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
 * Design simple toy scenarios that will enable careful analysis of the expected benefits of radar-AIS fusion. 
@@ -33,7 +34,7 @@ In the specialization project the main focus will be on mastering the fundamenta
 
 ## Proposed Tasks for the master thesis
 
-In the MSc thesis the work should move from toy scenarios to more comprehensive simulations and real data. It is also desirable to strengthen the theoretical foundations of the work using the tools of random finite set theory such as functional derivatives. The following topics are expected to be of central importance. 
+In the MSc thesis the focus should be on allowing the user to chose the right trade-off between run-time and performance. 
 
 * Study mixture reduction techniques to limit the number of hypotheses. 
 * Benchmark against other approaches to AIS-radar fusion, such as Liland (2017) or Habtemariam (2014).
@@ -58,9 +59,9 @@ This is a challenging project that goes to the core of modern theory in sensor f
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
 
-Habtemariam et al. (2014): “[Measurement levelAIS/radar fusion][Habtemariam2014]”, Signal Processing.
+Garcia-Fernandez, A., Williams, J., Granström, K and Svensson, L. (2018). "[Poisson multi-Bernoulli mixture filter: direct derivation and implementation.][(Garcia-Fernandez et al. 2018)]" IEEE Transactions on Aerospace and Electronic Systems.
 
-Liland (2017): “[AIS Aided Multi Hypothesis Tracker][Liland2017]”, Master’s thesis, NTNU.
+* Brekke, E. and Tokle, L.-C. (2022): “[Hypothesis Exploration in Multiple Hypothesis Tracking with Multiple Clusters](https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf)”, Submitted to Fusion 2022. 
 
 
 ## Contact
@@ -80,3 +81,5 @@ Supervisor: [Edmund Brekke].
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
 [Autosea]: https://www.ntnu.edu/autosea
 [Milliampere]: https://www.ntnu.edu/autoferry
+[(Garcia-Fernandez et al. 2018)]: https://ieeexplore.ieee.org/document/8289337
+[(Brekke and Tokle 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf
