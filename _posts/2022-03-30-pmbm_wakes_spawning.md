@@ -59,7 +59,8 @@ The candidate will be associated with the AUTOSIT project,
 which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics.
 The goal of the AUTOSIT project is 
 to deliver algorithms for situational awareness that enable autonomous surface vessels (ASVs) to guess and predict the intentions of other vessels. 
-The AUTOSIT project is a direct successor of the AUTOSEA project, 
+The AUTOSIT project is a direct successor of the AUTOSEA project, which focused on sensor fusion and collision avoidance for ASVs. 
+A list of students who previous have written master theses on autonomous ship technology at NTNU can be found [here].
 
 
 ## Contact
@@ -78,3 +79,4 @@ Supervisor: [Edmund Brekke].
 [(Rødningsby et al. 2009)]: https://confcats_isif.s3.amazonaws.com/web-files/journals/entries/JAIF_article_multitarget2.pdf
 [(Vo et al. 2008)]: https://people.eng.unimelb.edu.au/bnvo/vo/VVC_RFSO_SIC07.pdf
 [TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
+[here]: https://folk.ntnu.no/edmundfo/autoseastudents/autoseastudents.html
