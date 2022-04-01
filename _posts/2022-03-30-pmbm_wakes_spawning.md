@@ -47,7 +47,7 @@ In the master thesis the goal is to make a PMBM filter that can account for wake
 The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallell with the specialization project. Experience with sensor fusion from extracurricular activities will also be useful. 
 
 ## References
-Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
+Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.]([Williams2015)]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
 
 Brekke, E., Hallingstad, O. and Glattetre, J. (2012) "[Improved target tracking in the presence of wakes.][(Brekke et al. 2012)]" IEEE Transactions on Aerospace and Electronic Systems, vol. 48, no. 2.
 
