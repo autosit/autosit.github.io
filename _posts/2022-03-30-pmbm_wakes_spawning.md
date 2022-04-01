@@ -12,7 +12,7 @@ There are, however, many real-world applications where these assumptions fail to
 |<img src="{{site.url}}/assets/boatwakes.jpg" width="700"> | 
 | Wake behind a motorboat as seen in optical camera, lidar and radar. |
 
-The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where several competing association hypotheses are generated and maintained at each estimation cycle. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where all the association hypotheses are combined after every estimation cycle. This makes the PMBM filter more robust, at the price of higher computational requirements. 
+The Poisson Multi-Bernoulli Mixture (PMBM) filter [(Williams 2015)] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where several competing association hypotheses are generated and maintained at each estimation cycle. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where all the association hypotheses are combined after every estimation cycle. This makes the PMBM filter more robust, at the price of higher computational requirements. 
 
 So far, variations of the PMBM filter exist for the standard model, and for extended object tracking, where several detections can originate from each target. 
 
@@ -22,9 +22,9 @@ During this assignment, the candidate will develop variations of the PMBM filter
 
 ## Proposed Tasks for the 5th year project
 
-In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in [(Brekke et al. 2012)] and Vo2009, and in JPDA context in [(Rødningsby et al. 2009)]. 
+In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in [(Brekke et al. 2012)] and [(Vo et al. 2008)], and in JPDA context in [(Rødningsby et al. 2009)]. 
 
-* Summarize similarities and differences between [(Brekke et al. 2012)], Vo2009 and [(Rødningsby et al. 2009)].
+* Summarize similarities and differences between [(Brekke et al. 2012)], [(Vo et al. 2008)] and [(Rødningsby et al. 2009)].
 * Make a simple simulation environment to study targets with and without wakes.
 * Specify a complete model for multi-target tracking with wakes and existence uncertainty. Pay particular attention to how the cardinalities of bona-fide clutter measurements and wake measurements are modeled.
 * Revise an existing JIPDA implementation to work in accordance with the new models.
@@ -53,6 +53,8 @@ Brekke, E., Hallingstad, O. and Glattetre, J. (2012) "[Improved target tracking 
 
 Rødningsby, A., Bar-Shalom, Y., Hallingstad, O. and Glattetre, J. (2012) "[Multitarget multisensor tracking in the presence of wakes.][(Rødningsby et al. 2009)]" Journal of Advances in Information Fusion, vol. 4, no. 2.
 
+Vo, B.-T., Vo, B.-N. and Cantoni, A. (2012) "[Bayesian filtering with random finite set observations.][(Vo et al. 2008)]" IEEE Transactions on Signal Processing, vol. 56, no. 4.
+
 
 ## Contact
 
@@ -66,7 +68,7 @@ Supervisor: [Edmund Brekke].
 | Example application 2: The same theory can be used for fusion of drone transponders with 3D airport surveillance radar. |
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
-[Williams2015]: https://ieeexplore.ieee.org/document/7272821
+[(Williams 2015)]: https://ieeexplore.ieee.org/document/7272821
 [Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
 [Autosea]: https://www.ntnu.edu/autosea
@@ -74,3 +76,4 @@ Supervisor: [Edmund Brekke].
 [Fundamentals of Sensor Fusion]: https://folk.ntnu.no/edmundfo/msc2020-2021/sf2020c.pdf
 [(Brekke et al. 2012)]: https://ieeexplore.ieee.org/document/6178045
 [(Rødningsby et al. 2009)]: https://confcats_isif.s3.amazonaws.com/web-files/journals/entries/JAIF_article_multitarget2.pdf
+[(Vo et al. 2008)]: https://people.eng.unimelb.edu.au/bnvo/vo/VVC_RFSO_SIC07.pdf
