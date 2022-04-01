@@ -22,9 +22,9 @@ During this assignment, the candidate will develop variations of the PMBM filter
 
 ## Proposed Tasks for the 5th year project
 
-In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in Brekke2012 and Vo2009, and in JPDA context in Rødningsby2009. 
+In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in [(Brekke et al. 2012)] and Vo2009, and in JPDA context in [(Rødningsby et al. 2009)]. 
 
-* Summarize similarities and differences between Brekke2012, Vo2009 and Rødningsby2009.
+* Summarize similarities and differences between [(Brekke et al. 2012)], Vo2009 and [(Rødningsby et al. 2009)].
 * Make a simple simulation environment to study targets with and without wakes.
 * Specify a complete model for multi-target tracking with wakes and existence uncertainty. Pay particular attention to how the cardinalities of bona-fide clutter measurements and wake measurements are modeled.
 * Revise an existing JIPDA implementation to work in accordance with the new models.
@@ -42,9 +42,6 @@ In the master thesis the goal is to make a PMBM filter that can account for wake
 * Investigate performance of the wake-PMBM filter in simulations and on real radar/lidar data.
 * Write report.
 
-|<img src="{{site.url}}/assets/wilthilsyn.jpg" width="700"> | 
-| Erik Wilthil during [Autosea] experiments in Trondheimsfjorden where radar tracking was used |
-
 ## Prerequisites
 
 The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallell with the specialization project. Experience with sensor fusion from extracurricular activities will also be useful. 
@@ -52,9 +49,9 @@ The candidate should have had the course [TTK4250 Sensor Fusion], or take it in 
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
 
-Habtemariam et al. (2014): “[Measurement levelAIS/radar fusion][Habtemariam2014]”, Signal Processing.
+Brekke, E., Hallingstad, O. and Glattetre, J. (2012) "[Improved target tracking in the presence of wakes.][(Brekke et al. 2012)]" IEEE Transactions on Aerospace and Electronic Systems, vol. 48, no. 2.
 
-Liland (2017): “[AIS Aided Multi Hypothesis Tracker][Liland2017]”, Master’s thesis, NTNU.
+Rødningsby, A., Bar-Shalom, Y., Hallingstad, O. and Glattetre, J. (2012) "[Multitarget multisensor tracking in the presence of wakes.][(Rødningsby et al. 2009)]" Journal of Advances in Information Fusion, vol. 4, no. 2.
 
 
 ## Contact
@@ -75,3 +72,5 @@ Supervisor: [Edmund Brekke].
 [Autosea]: https://www.ntnu.edu/autosea
 [Milliampere]: https://www.ntnu.edu/autoferry
 [Fundamentals of Sensor Fusion]: https://folk.ntnu.no/edmundfo/msc2020-2021/sf2020c.pdf
+[(Brekke et al. 2012)]: https://ieeexplore.ieee.org/document/6178045
+[(Rødningsby et al. 2009)]: https://confcats_isif.s3.amazonaws.com/web-files/journals/entries/JAIF_article_multitarget2.pdf
