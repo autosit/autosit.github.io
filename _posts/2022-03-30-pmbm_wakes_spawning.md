@@ -53,16 +53,19 @@ Rødningsby, A., Bar-Shalom, Y., Hallingstad, O. and Glattetre, J. (2012) "[Mult
 Vo, B.-T., Vo, B.-N. and Cantoni, A. (2012) "[Bayesian filtering with random finite set observations.][(Vo et al. 2008)]" IEEE Transactions on Signal Processing, vol. 56, no. 4.
 
 
+## Autosit
+
+The candidate will be associated with the AUTOSIT project, 
+which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics.
+The goal of the AUTOSIT project is 
+to deliver algorithms for situational awareness that enable autonomous surface vessels (ASVs) to guess and predict the intentions of other vessels. 
+The AUTOSIT project is a direct successor of the AUTOSEA project, 
+
+
 ## Contact
 
 Supervisor: [Edmund Brekke].  
 
-
-|<img src="{{site.url}}/assets/MS_Nidarholm.jpg" width="700"> | 
-| Example application 1: The autonomous ferry [Milliampere] should be able to use AIS for warm track initiation on the Munkholmen ferry when it approaches under the bridge. |
-
-|<img src="{{site.url}}/assets/droneit.png" width="570"> | 
-| Example application 2: The same theory can be used for fusion of drone transponders with 3D airport surveillance radar. |
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
 [(Williams 2015)]: https://ieeexplore.ieee.org/document/7272821
