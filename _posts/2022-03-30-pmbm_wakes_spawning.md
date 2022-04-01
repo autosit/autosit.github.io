@@ -12,19 +12,19 @@ There are, however, many real-world applications where these assumptions fail to
 |<img src="{{site.url}}/assets/ais_slide.png" width="700"> | 
 
 
-The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where the probabilities of all sufficiently plausible data association hypotheses are calculated. 
-For each of the data association hypotheses in the prior distribution, there will be several new association hypotheses in the posterior distribution. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where the data association hypotheses are combined after every estimation cycle in order to mitigate complexity. 
+The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where several competing association hypotheses are generated and maintained at each estimation cycle. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where all the association hypotheses are combined after every estimation cycle. This makes the PMBM filter more robust, at the price of higher computational requirements. 
 
+So far, variations of the PMBM filter exist for the standard model, and for extended object tracking, where several detections can originate from each target. 
 
 ## Scope
 
-During this assignment, the candidate will develop a multi-target tracking algorithm that fuses both radar data and AIS data within the PMBM framework. 
+During this assignment, the candidate will develop variations of the PMBM filter that can handle other violations of the standard model, such as ship wakes. 
 
 ## Proposed Tasks for the 5th year project
 
-In the specialization project the main focus will be on mastering the fundamental building blocks of PMBM and radar-AIS fusion. The following tasks are proposed for the specialization project: 
+In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in Brekke2012 and Vo2009, and in JPDA context in Rødningsby2009. 
 
-* Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
+* Summarize similarities and differences between Brekke2012, Vo2009 and Rødningsby2009.
 * Design simple toy scenarios that will enable careful analysis of the expected benefits of radar-AIS fusion. 
 * Revise the hypothesis structure of the PMBM filter so that its hypotheses not only are able to account for associations between measurements in consecutive radar scans, but also associations between these and AIS tracks. 
 * Revise the expressions for the probabilities of the association hypotheses according to the revision of the hypothesis structure. 
@@ -34,7 +34,7 @@ In the specialization project the main focus will be on mastering the fundamenta
 
 ## Proposed Tasks for the master thesis
 
-In the MSc thesis the work should move from toy scenarios to more comprehensive simulations and real data. It is also desirable to strengthen the theoretical foundations of the work using the tools of random finite set theory such as functional derivatives. The following topics are expected to be of central importance. 
+In the master thesis the goal is to make a PMBM filter that can account for wake clutter. If time permits, the candidate may also include other non-standard elements such as targets spawning other targets, merged measurements or extended objects. 
 
 * Study mixture reduction techniques to limit the number of hypotheses. 
 * Benchmark against other approaches to AIS-radar fusion, such as Liland (2017) or Habtemariam (2014).
