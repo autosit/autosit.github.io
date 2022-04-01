@@ -74,3 +74,4 @@ Supervisor: [Edmund Brekke].
 [(Brekke et al. 2012)]: https://ieeexplore.ieee.org/document/6178045
 [(Rødningsby et al. 2009)]: https://confcats_isif.s3.amazonaws.com/web-files/journals/entries/JAIF_article_multitarget2.pdf
 [(Vo et al. 2008)]: https://people.eng.unimelb.edu.au/bnvo/vo/VVC_RFSO_SIC07.pdf
+[TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
