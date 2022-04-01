@@ -25,36 +25,29 @@ During this assignment, the candidate will develop variations of the PMBM filter
 In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in Brekke2012 and Vo2009, and in JPDA context in Rødningsby2009. 
 
 * Summarize similarities and differences between Brekke2012, Vo2009 and Rødningsby2009.
-* Design simple toy scenarios that will enable careful analysis of the expected benefits of radar-AIS fusion. 
-* Revise the hypothesis structure of the PMBM filter so that its hypotheses not only are able to account for associations between measurements in consecutive radar scans, but also associations between these and AIS tracks. 
-* Revise the expressions for the probabilities of the association hypotheses according to the revision of the hypothesis structure. 
-* Revise the estimation of target kinematics according to the two data sources.
-* Test the revisions in simulations. 
+* Make a simple simulation environment to study targets with and without wakes.
+* Specify a complete model for multi-target tracking with wakes and existence uncertainty. Pay particular attention to how the cardinalities of bona-fide clutter measurements and wake measurements are modeled.
+* Revise an existing JIPDA implementation to work in accordance with the new models.
+* Run experiments on both simulated data and real data (radar or lidar). Is the accuracy acceptable? Is the track-loss rate acceptable? Is the algorithm capable of fast initiation of new tracks?
 * Write report.
 
 ## Proposed Tasks for the master thesis
 
-In the master thesis the goal is to make a PMBM filter that can account for wake clutter. If time permits, the candidate may also include other non-standard elements such as targets spawning other targets, merged measurements or extended objects. 
+In the master thesis the goal is to make a PMBM filter that can account for wake clutter. If time permits, the candidate may also include other non-standard elements such as targets spawning other targets, merged measurements or extended objects. In principle, the same modeling framework that was used in the specialization project can also be used here, but care must be exercised since the PMBM filter is more complex than the JIPDA.
 
-* Study mixture reduction techniques to limit the number of hypotheses. 
-* Benchmark against other approaches to AIS-radar fusion, such as Liland (2017) or Habtemariam (2014).
-* Generate more elaborate simulations and/or participate in field experiments to record real data. 
-
-This project can be expanded into a PhD or integrated PhD for a candidate with sufficient skills, background knowledge and motivation. 
-
-|<img src="{{site.url}}/assets/giorgio-den-helder.jpeg" width="700"> | 
-| Giorgio Kufoalor during [Autosea] experiments in the Netherlands where AIS data were used |
+* Consider whether any adjustments or more fundamental changes should be made to the work in the specialization project to improve performance.
+* The presence of a wake will lead to considerably more non-target measurements. This is likely to make hypothesis exploration and cluster management more challenging. How can this be handled? 
+* Should wake targets be treated in a different way than regular targets? If so, the multiple models framework may be appropriate. 
+* Implement a PMBM filter, based on an existing code base and the models developed. 
+* Investigate performance of the wake-PMBM filter in simulations and on real radar/lidar data.
+* Write report.
 
 |<img src="{{site.url}}/assets/wilthilsyn.jpg" width="700"> | 
 | Erik Wilthil during [Autosea] experiments in Trondheimsfjorden where radar tracking was used |
 
 ## Prerequisites
-This is a challenging project that goes to the core of modern theory in sensor fusion. The following recommendations should therefore be considered. 
 
-- Experience with sensor fusion or radar systems from internships or voluntary activities will be useful.
-- It will be very useful to have had significant exposure to statistics and estimation from courses beyond ITK, e.g., from IES or IMF at NTNU, or from exchange studies. 
-- It will be useful to take the course TTK4250 Sensor Fusion in parallell with the specialization project, instead of the conventional 2.75 SP modules. 
-- The candidate must like mathematics and to analyze problems on a very detailed level.
+The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallell with the specialization project. Experience with sensor fusion from extracurricular activities will also be useful. 
 
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
