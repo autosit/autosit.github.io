@@ -9,8 +9,8 @@ Methods for multi-target tracking in maritime and military applications are typi
 
 There are, however, many real-world applications where these assumptions fail to hold. An example is ship wakes in maritime tracking. Measurements from the wake are of limited use in estimating the state of the boat, and are therefore discarded as clutter. But since the wake always is behind the boat, there is a dependency between the wake and the target state that violates the standard model. 
 
-|<img src="{{site.url}}/assets/ais_slide.png" width="700"> | 
-
+|<img src="{{site.url}}/assets/boatwakes.jpg" width="700"> | 
+| Wake behind a motorboat as seen in optical camera, lidar and radar. |
 
 The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where several competing association hypotheses are generated and maintained at each estimation cycle. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where all the association hypotheses are combined after every estimation cycle. This makes the PMBM filter more robust, at the price of higher computational requirements. 
 
