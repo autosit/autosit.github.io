@@ -12,17 +12,14 @@ There are, however, many real-world applications where these assumptions fail to
 |<img src="{{site.url}}/assets/boatwakes.jpg" width="700"> | 
 | Wake behind a motorboat as seen in optical camera, lidar and radar. |
 
-The Poisson Multi-Bernoulli Mixture (PMBM) filter [(Williams 2015)] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where several competing association hypotheses are generated and maintained at each estimation cycle. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where all the association hypotheses are combined after every estimation cycle. This makes the PMBM filter more robust, at the price of higher computational requirements. 
-
-So far, variations of the PMBM filter exist for the standard model, and for extended object tracking, where several detections can originate from each target. 
-
 ## Scope
 
-During this assignment, the candidate will develop variations of the PMBM filter that can handle other violations of the standard model, such as ship wakes. 
+During this assignment, the goal is to arrive at a variation of the Poisson Multi-Bernoulli Mixture (PMBM) filter that can handle other violations of the standard model, such as ship wakes. 
 
 ## Proposed Tasks for the 5th year project
 
-In the specialization project the goal is to make a JIPDA that can account for wake clutter. This problem has been addressed in a single-target context in [(Brekke et al. 2012)] and [(Vo et al. 2008)], and in JPDA context in [(Rødningsby et al. 2009)]. 
+
+The wake problem has previously been addressed in a single-target context by [(Brekke et al. 2012)] and [(Vo et al. 2008)], and in the multi-target Joint Probabilistic Data Assocation (JPDA) by [(Rødningsby et al. 2009)]. A natural stepping stone will be to make solution to the wake problem in the Joint Integrated Probabilistic Data Asociation (JIPDA), which also involves an existence probability for each track. The following tasks are suggested:
 
 * Summarize similarities and differences between [(Brekke et al. 2012)], [(Vo et al. 2008)] and [(Rødningsby et al. 2009)].
 * Make a simple simulation environment to study targets with and without wakes.
