@@ -52,8 +52,6 @@ Rødningsby, A., Bar-Shalom, Y., Hallingstad, O. and Glattetre, J. (2012) "[Mult
 
 Vo, B.-T., Vo, B.-N. and Cantoni, A. (2012) "[Bayesian filtering with random finite set observations.][(Vo et al. 2008)]" IEEE Transactions on Signal Processing, vol. 56, no. 4.
 
-|[<img src="https://img.youtube.com/vi/XqZ_lbwwspo/0.jpg" width="700">](https://www.youtube.com/watch?v=XqZ_lbwwspo) |
-|AUTOSEA final demonstration based on radar tracking.|
 
 ## Autosit
 
@@ -61,7 +59,7 @@ The candidate will be associated with the AUTOSIT project,
 which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics.
 The goal of the AUTOSIT project is 
 to deliver algorithms for situational awareness that enable autonomous surface vessels (ASVs) to guess and predict the intentions of other vessels. 
-The AUTOSIT project is a direct successor of the [AUTOSEA] project, which focused on sensor fusion and collision avoidance for ASVs. 
+The AUTOSIT project is a direct successor of the [AUTOSEA] project, which focused on [sensor fusion and collision avoidance for ASVs]. 
 A list of students who previous have written master theses on autonomous ship technology at NTNU can be found [here].
 
 
@@ -83,3 +81,4 @@ Supervisor: [Edmund Brekke].
 [TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
 [here]: https://folk.ntnu.no/edmundfo/autoseastudents/autoseastudents.html
 [AUTOSEA]: https://www.ntnu.edu/autosea/
+[sensor fusion and collision avoidance for ASVs]: https://www.youtube.com/watch?v=XqZ_lbwwspo
