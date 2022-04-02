@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collision probabilities
-category: COLAV
+category: LTP
 ---
 ## Background
 Risk evaluations are an obvious component of a collision avoidance (COLAV) system. But what exactly is meant by risk? Is it a qualitative or a quantitative concept? A related concept is probability. Whether or not a collision is likely to happen if a ship follows a given course is clearly something that matters for whether that course is safe. 
