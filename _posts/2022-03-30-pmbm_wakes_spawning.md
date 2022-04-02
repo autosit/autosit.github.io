@@ -52,6 +52,8 @@ Rødningsby, A., Bar-Shalom, Y., Hallingstad, O. and Glattetre, J. (2012) "[Mult
 
 Vo, B.-T., Vo, B.-N. and Cantoni, A. (2012) "[Bayesian filtering with random finite set observations.][(Vo et al. 2008)]" IEEE Transactions on Signal Processing, vol. 56, no. 4.
 
+|[<img src="https://img.youtube.com/vi/FuWedx0oLX4/0.jpg" width="700">](https://www.youtube.com/watch?v=XqZ_lbwwspo) |
+|AUTOSEA final demonstration based on radar tracking.|
 
 ## Autosit
 
