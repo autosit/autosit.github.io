@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Topics on obstacle intent inference and motion model parameter estimation
-category: LTP
+category: Nonsense
 ---
 ## Background
 
