@@ -38,7 +38,7 @@ The project work aims to be extended into a master thesis for the spring of 2020
 
 ## Prerequisites
 
-This project is suitable for a candidate with high degree of mathematical maturity. The candidate should have a good understanding of topics such as Monte-Carlo integration, stochastic processes, series expansions and partial differential equations. 
+The candidate should have taken the course [TTK4250 Sensor fusion]  before this project, or take it in parallell. Additional courses in statistic, estimation or probability will be useful. 
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
@@ -48,3 +48,6 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 * Tengesdal, T.,  Brekke, E. and Johansen, T. A. (2020): [“On collision risk assessment for autonomous ships using scenario-based MPC”](https://folk.ntnu.no/torarnj/TTengesdal_2020_On_collision_risk_assessment_for_autonomous_ships_using_scenario_based_mpc.pdf), Proc. IFAC World Congress.
 
 * Tengesdal, T., Johansen, T. A. and Brekke, E. (2022): [“Ship Collision Avoidance Utilizing the Cross-Entropy Method for Collision Risk Assessment”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828), IEEE Transactions on Intelligent Transportation Systems.
+
+
+[TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
