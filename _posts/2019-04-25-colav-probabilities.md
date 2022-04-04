@@ -18,18 +18,20 @@ The main goal of the project is to develop a method for evaluating collision pro
 
 ## Proposed Tasks for the 5th year project
 
-The focus in the 5th year project shall be on establishing a conceptual framework, rather than on computational feasibility. 
+The focus in the 5th year project shall be on exploring the collision probability problem. The following tasks and research questions should be addressed.
 
-1. Write a survey on collision risk approaches in the scientific literature. 
-2. Formulate the collision probability problem mathematically under reasonably general assumptions.
-3. Identify simplified cases and propose solutions for the collision probabilities in these cases. 
-4. Verify that the evaluated probabilities make sense, ideally both from an intuitive perspective and according to simulations (i.e., a frequentist perspective).
-5. Write report.
+1. Write a survey on collision risk approaches in the scientific literature. Discuss assumptions, approximations, strengths and weaknesses.
+2. Can the definition in of collision probabilities in [(Tengesdal et al. 2020)] be adapted to more complex scenarios than pure straight-line motion? 
+3. The difficulties with the approach in [(Tengesdal et al. 2020)] stem from representing the safety zone constraints in the initial state space. Explore how these can be represented. 
+4. Write a survey on techniques that can be used for integrating a Gaussian over a non-trivial set of hard constraints. 
+5. Identify a promising alternative to brute-force importance sampling and implement it. Analyze accuracy and computational demands. 
+6. Write report.
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2020. Depending on the interest of the students, several directions are possible:
+The project work aims to be extended into a master thesis for the spring of 2020. Here, verification and utilization of the results from the specialization project will be central. 
 
+- Verify that the evaluated probabilities make sense, ideally both from an intuitive perspective and according to simulations (i.e., a frequentist perspective).
 - Combination with approaches to long-term prediction, as explored in the bridging densities project or in the master theses of Hexeberg (2017) and Dalsnes (2018). 
 - Further generalization of the work done in the specialization project. 
 - Approximations needed to utilize the work in COLAV methods.
