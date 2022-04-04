@@ -10,6 +10,9 @@ In [(Tengesdal et al. 2020)] such probabilities were evaluated based on the assu
 
 A slightly different approach was taken in [(Tengesdal et al. 2022)]. Here, an instantaneous collision probability was evaluated by integrating the target ship probability density function over the ownship safety zone. The Cross-Entropy method was used to implement a more efficient Importance sampler. However, the instantaneous interpretation is problematic if one wants to accumulate the probability of collision over several segments in a trajectory, because the sample time will affect the result. 
 
+|<img src="{{site.url}}/assets/colavprobs.png" width="650" > | 
+| <span style="color:#959595">Illustrations of the philosophies used in  [(Tengesdal et al. 2020)] and [(Tengesdal et al. 2022)]. </span> | 
+
 ## Scope
 The main goal of the project is to develop a method for evaluating collision probabilities that is more efficient than [(Tengesdal et al. 2020)], but which retains the invariance to time step length. 
 
