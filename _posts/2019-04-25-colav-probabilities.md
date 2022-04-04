@@ -45,4 +45,6 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## References
 
+* Tengesdal, T.,  Brekke, E. and Johansen, T. A. (2020): [“On collision risk assessment for autonomous ships using scenario-based MPC”](https://folk.ntnu.no/torarnj/TTengesdal_2020_On_collision_risk_assessment_for_autonomous_ships_using_scenario_based_mpc.pdf), Proc. IFAC World Congress.
+
 * Tengesdal, T., Johansen, T. A. and Brekke, E. (2022): [“Ship Collision Avoidance Utilizing the Cross-Entropy Method for Collision Risk Assessment”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828), IEEE Transactions on Intelligent Transportation Systems.
