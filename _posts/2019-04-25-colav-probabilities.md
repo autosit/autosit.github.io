@@ -6,12 +6,12 @@ category: LTP
 ## Background
 Risk evaluations are an obvious component of a collision avoidance (COLAV) system. But what exactly is meant by risk? Is it a qualitative or a quantitative concept? We often think of risk as related to probability. This leads to the research question: Can we estimate the probability that a future collision will occur given some knowledge about the autonomous ship and other ships in its vicinity? 
 
-In [(Tengesdal et al. 2020)] such probabilities were evaluated under an assumption of straight line motion. Importance sampling was used because the collision zone constraints necessarily are of a non-linear nature. See also Example 5.4 in Page 80 in [the sensor fusion book] for a more elaborate explanation. Since the random sampling leads to significant fluctuations, a Kalman filter was used to smoothen the probability estimates. The probabilities were used as input in the scenario-based model-prediction control (SB-MPC) COLAV method of [(Johansen et al. 2016)].
+In [(Tengesdal et al. 2020)] such probabilities were evaluated based on the assumption that the future trajectory of the obstacle ship can be modeled by a straight line motion. Then, the probability density function of the relative motion can be integrated over those initial states that would lead to a collision, to give the collision probability.  See also Example 5.4 in Page 80 in [the sensor fusion book] for a more elaborate explanation. The probabilities were used as input in the scenario-based model-prediction control (SB-MPC) COLAV method of [(Johansen et al. 2016)].
 
 A slightly different approach was taken in [(Tengesdal et al. 2022)]. Here, an instantaneous collision probability was evaluated by integrating the target ship probability density function over the ownship safety zone. The Cross-Entropy method was used to implement a more efficient Importance sampler. However, the instantaneous interpretation is problematic if one wants to accumulate the probability of collision over several segments in a trajectory, because the sample time will affect the result. 
 
 ## Scope
-The main goal of the project is to provide formulas or algorithms for reliable quantification of collision probability under sufficiently general circumstances to be of practical utility. 
+The main goal of the project is to develop a method for evaluating collision probabilities that is more efficient than [(Tengesdal et al. 2020)], but which retains the invariance to time step length. 
 
 ## Proposed Tasks for the 5th year project
 
