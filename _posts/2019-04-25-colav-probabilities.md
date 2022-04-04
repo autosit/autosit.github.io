@@ -4,14 +4,10 @@ title: Collision probabilities
 category: LTP
 ---
 ## Background
-Risk evaluations are an obvious component of a collision avoidance (COLAV) system. But what exactly is meant by risk? Is it a qualitative or a quantitative concept? A related concept is probability. Whether or not a collision is likely to happen if a ship follows a given course is clearly something that matters for whether that course is safe. 
-It is hoped that automatic COLAV methods that are able to calculate and make use of such probabilities and risk measures can make better decisions than more basic COLAV methods, and also assist human captains through decision support systems. 
+Risk evaluations are an obvious component of a collision avoidance (COLAV) system. But what exactly is meant by risk? Is it a qualitative or a quantitative concept? We often think of risk as related to probability. This leads to the research question: Can we estimate the probability that a future collision will occur given some knowledge about the autonomous ship and other ships in its vicinity? 
 
-There are several tricky issues that must be addressed when attempting to define and calculate such probabilities. 
-The steering of a ship is not just a random process, but something that is governed by willful actions. 
-Interactions between different ships play a central role. 
-If we ignore these concerns, it will seem natural to model the motion of the ships as stochastic processes in two dimensions, for example governed by the constant-velocity with white-noise acceleration model. 
-It is then of interest to evaluate the probability that two such processes at some point in the future (presumably not too far into the future) come sufficiently close to each other. 
+In [(Tengesdal et al. 2020)] such probabilities were evaluated under an assumption of straight line motion. Monte-Carlo integration was used because the collision zone constraints necessarily are of a non-linear nature. See also Example 5.4 in Page 80 in [the sensor fusion book] for a more elaborate explanation. Since the random sampling leads to significant fluctuations, a Kalman filter was used to smoothen the probability estimates. The probabilities were used as input in the scenario-based model-prediction control (SB-MPC) COLAV method of [(Johansen et al. 2016)].
+
 
 ## Scope
 The main goal of the project is to provide formulas or algorithms for reliable quantification of collision probability
@@ -49,5 +45,10 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 * Tengesdal, T., Johansen, T. A. and Brekke, E. (2022): [“Ship Collision Avoidance Utilizing the Cross-Entropy Method for Collision Risk Assessment”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828), IEEE Transactions on Intelligent Transportation Systems.
 
+* Johansen, T. A., Perez, T. and Cristofaro, A. (2016): [“Ship collision avoidance and COLREGS compliance using simulation-based control behavior selection with predictive hazard assessment”](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2469879), IEEE Transactions on Intelligent Transportation Systems, vol. 17 no. 12.
 
+
+[the sensor fusion book]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
+[(Tengesdal et al. 2020)]: https://folk.ntnu.no/torarnj/TTengesdal_2020_On_collision_risk_assessment_for_autonomous_ships_using_scenario_based_mpc.pdf
+[(Johansen et al. 2016)]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2469879
