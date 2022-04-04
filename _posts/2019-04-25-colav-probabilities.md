@@ -8,6 +8,7 @@ Risk evaluations are an obvious component of a collision avoidance (COLAV) syste
 
 In [(Tengesdal et al. 2020)] such probabilities were evaluated under an assumption of straight line motion. Monte-Carlo integration was used because the collision zone constraints necessarily are of a non-linear nature. See also Example 5.4 in Page 80 in [the sensor fusion book] for a more elaborate explanation. Since the random sampling leads to significant fluctuations, a Kalman filter was used to smoothen the probability estimates. The probabilities were used as input in the scenario-based model-prediction control (SB-MPC) COLAV method of [(Johansen et al. 2016)].
 
+A slightly different approach was taken in [(Tengesdal et al. 2022)]. Here, ownship uncertainty was neglected. 
 
 ## Scope
 The main goal of the project is to provide formulas or algorithms for reliable quantification of collision probability
@@ -52,3 +53,4 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [(Tengesdal et al. 2020)]: https://folk.ntnu.no/torarnj/TTengesdal_2020_On_collision_risk_assessment_for_autonomous_ships_using_scenario_based_mpc.pdf
 [(Johansen et al. 2016)]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2469879
+[(Tengesdal et al. 2022)]: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828
