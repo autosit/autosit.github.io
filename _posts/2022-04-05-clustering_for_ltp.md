@@ -6,10 +6,10 @@ category: LTP
 ## Background
 
 
-A core requirement for collision avoidance systems for autonomous ships are the ability to predict the trajectories of the neighboring target ships over a longer time horizon. Model based predictions generally use linear models that are insufficient to make such predictions, particularly in the maneuvering scenarios. Consequently, data driven methods such as Single Point Neighbor Search (SPNS) [(Hexeberg et al. 2017)],  Neighbor Course Distribition Method (NCDM) [(Dalsnes et al. 2018)], Gaussian Process (GP) methods [(Håvard, 2021)] and Particle Filter (Praveen Jain et al. 2022b) methods are developed to utilize the availablity of historical AIS dataset to aid the predictions. 
+A core requirement for collision avoidance systems for autonomous ships are the ability to predict the trajectories of the neighboring target ships over a longer time horizon. Model based predictions generally use linear models that are insufficient to make such predictions, particularly in the maneuvering scenarios. Consequently, data driven methods such as Single Point Neighbor Search (SPNS) [(Hexeberg et al. 2017)],  Neighbor Course Distribition Method (NCDM) [(Dalsnes et al. 2018)], Gaussian Process (GP) methods [(Håvard, 2021)] and Particle Filter (PF) (Praveen Jain et al. 2022b) methods are developed to utilize the availability of historical AIS dataset to aid the predictions. 
 
 
-However, these methods do not exploit the inherent structure in the dataset represented by marine traffic lanes. Therefore, an unsupervised clustering method (Praveen Jain et al. 2022a) based on Mean Shift algorithm, Agglomerative Heirarchical Clustering algorithm couple with Longest Common Subsequence trajectory similarity measure was developed to cluster the trajectories in the AIS dataset. The clustered dataset were used to make multi-modal probabilistic predictions using the NCDM and PF methods (See Figure 1 and 2 ) 
+However, these methods do not exploit the inherent structure in the dataset represented by marine traffic lanes. Therefore, an unsupervised clustering method (Praveen Jain et al. 2022a) based on Mean Shift algorithm, Agglomerative Heirarchical Clustering algorithm coupled with Longest Common Subsequence trajectory similarity measure was developed to cluster the trajectories in the AIS dataset. The clustered dataset were used to make multi-modal probabilistic predictions using the NCDM and PF methods (See Figure 1 and 2 ) 
 
 |<img src="{{site.url}}/assets/clustering.png" width="700"> | 
 | Figure 1: The unsupervised clustering framework  |
@@ -20,17 +20,17 @@ However, these methods do not exploit the inherent structure in the dataset repr
 
 ## Scope
 
-During this assignment, the goal is to extend the preliminary results on clustering to incorporate larger areas of the marine environment in order to make them usable for long term prediction methods. In addition, the work could steer towards development of long term prediction algorithms that uses the clustered dataset building off on the existing work on Gaussian Processes or Particle Filters. 
+During this assignment, the goal is to extend the preliminary results on clustering and incorporate larger areas of the marine environment in order to extend their utility for long term prediction methods. In addition, the work could steer towards development of long term prediction algorithms that uses the clustered dataset - building off on the existing work on Gaussian Processes or Particle Filters. 
 
 ## Proposed Tasks for the 5th year project
 
-The structure in the dataset, such as stop points, ports, etc can be exploited to further cluster the trajectories efficiently. To this end, the objectives for the 5th year project can be stated as follows:
+The structure in the AIS dataset, such as stop points, ports, etc can be exploited to further cluster the trajectories efficiently. To this end, the objectives for the 5th year project can be stated as follows:
 
-* Review of relevant clutering methods, starting points are the publications [(Pallotta et al. 2013)] and (Praveen Jain et al. 2022a).
+* Review of relevant clutering methods in the context of maritime environment, starting points are the publications [(Pallotta et al. 2013)] and (Praveen Jain et al. 2022a).
 * Review of long term prediction methods, starting points are the publications [(Håvard, 2021)] and (Praveen Jain et al. 2022b).
 * Explore the use of ports information to cluster dataset over a larger marine area.
 * Formulation of a framework for efficient clustering of the dataset.
-* Set up simulation environment for clustering and long term prediction using Python. Preliminary python scripts wil be made available to the candidate.
+* Set up the simulation environment for clustering and long term prediction using Python. Preliminary python scripts wil be made available to the candidate.
 * Documentation of the findings.
 
 
@@ -39,8 +39,8 @@ The structure in the dataset, such as stop points, ports, etc can be exploited t
 The results of clustering can be used in the master thesis for developing long term trajectory prediction methods. To this end,
 
 * Gaussian process methods can further be explored and its utility towards collision avoidance can be investigated.
-* How can the clustered dataset over larger marine areas be exploited to make predictions for presence of multiple targets?
-* Investigate the impact of prediction methods on the collision avoidance methods [(Johansen et al. 2016)]. Support with the control algorithm for collision avoidance will be provided to the candidate.
+* How can the clustered dataset over larger marine areas be exploited to make predictions and further, how can such algorithms be scaled for the presence of multiple targets?
+* Investigate the impact of prediction methods on the collision avoidance algorithm [(Johansen et al. 2016)]. Support with the collision avoidance algorithm will be provided to the candidate.
 * Extensive simulation results and documentation.
 
 
