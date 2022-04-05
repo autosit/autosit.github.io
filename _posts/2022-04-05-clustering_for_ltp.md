@@ -6,10 +6,10 @@ category: LTP
 ## Background
 
 
-A core requirement for collision avoidance systems for autonomous ships are the ability to predict the trajectories of the neighboring target ships over a longer time horizon. Model based predictions generally use linear models that are insufficient to make such predictions, particularly in the maneuvering scenarios. Consequently, data driven methods such as [Single Point Neighbor Search] (SPNS),  [Neighbor Course Distribition Method] (NCDM), [Gaussian Process] (GP) methods  and [Particle Filter] methods are developed to utilize the availablity of historical AIS dataset to aid the predictions. 
+A core requirement for collision avoidance systems for autonomous ships are the ability to predict the trajectories of the neighboring target ships over a longer time horizon. Model based predictions generally use linear models that are insufficient to make such predictions, particularly in the maneuvering scenarios. Consequently, data driven methods such as Single Point Neighbor Search (SPNS) [(Hexeberg et al. 2017)],  Neighbor Course Distribition Method (NCDM) [(Dalsnes et al. 2018)], Gaussian Process (GP) methods [(Håvard, 2021)] and Particle Filter (Praveen Jain et al. 2022b) methods are developed to utilize the availablity of historical AIS dataset to aid the predictions. 
 
 
-However, these methods do not exploit the inherent structure in the dataset represented by marine traffic lanes. Therefore, an unsupervised clustering method (Praveen Jain et al. 2022) based on Mean Shift algorithm, Agglomerative Heirarchical Clustering algorithm couple with Longest Common Subsequence trajectory similarity measure was developed to cluster the trajectories in the AIS dataset. The clustered dataset were used to make multi-modal probabilistic predictions using the NCDM and PF methods (See Figure 1 and 2 ) 
+However, these methods do not exploit the inherent structure in the dataset represented by marine traffic lanes. Therefore, an unsupervised clustering method (Praveen Jain et al. 2022a) based on Mean Shift algorithm, Agglomerative Heirarchical Clustering algorithm couple with Longest Common Subsequence trajectory similarity measure was developed to cluster the trajectories in the AIS dataset. The clustered dataset were used to make multi-modal probabilistic predictions using the NCDM and PF methods (See Figure 1 and 2 ) 
 
 |<img src="{{site.url}}/assets/clustering.png" width="700"> | 
 | Figure 1: The unsupervised clustering framework  |
@@ -24,39 +24,47 @@ During this assignment, the goal is to extend the preliminary results on cluster
 
 ## Proposed Tasks for the 5th year project
 
+The structure in the dataset, such as stop points, ports, etc can be exploited to further cluster the trajectories efficiently. To this end, the objectives for the 5th year project can be stated as follows:
 
-The wake problem has previously been addressed in a single-target context by [(Brekke et al. 2012)] and [(Vo et al. 2008)], and in the multi-target Joint Probabilistic Data Assocation (JPDA) by [(Rødningsby et al. 2009)]. A natural stepping stone will be to make solution to the wake problem in the Joint Integrated Probabilistic Data Asociation (JIPDA), which also involves an existence probability for each track. The following tasks are suggested:
+* Review of relevant clutering methods, starting points are the publications [(Pallotta et al. 2013)] and (Praveen Jain et al. 2022a).
+* Review of long term prediction methods, starting points are the publications [(Håvard, 2021)] and (Praveen Jain et al. 2022b).
+* Explore the use of ports information to cluster dataset over a larger marine area.
+* Formulation of a framework for efficient clustering of the dataset.
+* Set up simulation environment for clustering and long term prediction using Python. Preliminary python scripts wil be made available to the candidate.
+* Documentation of the findings.
 
-* Summarize similarities and differences between [(Brekke et al. 2012)], [(Vo et al. 2008)] and [(Rødningsby et al. 2009)].
-* Make a simple simulation environment to study targets with and without wakes.
-* Specify a complete model for multi-target tracking with wakes and existence uncertainty. Pay particular attention to how the cardinalities of bona-fide clutter measurements and wake measurements are modeled.
-* Revise an existing JIPDA implementation to work in accordance with the new models.
-* Run experiments on both simulated data and real data (radar or lidar). Is the accuracy acceptable? Is the track-loss rate acceptable? Is the algorithm capable of fast initiation of new tracks?
-* Write report.
 
-## Proposed Tasks for the master thesis
+## Proposed tasks for master thesis
 
-In the master thesis the goal is to make a PMBM filter that can account for wake clutter. If time permits, the candidate may also include other non-standard elements such as targets spawning other targets, merged measurements or extended objects. In principle, the same modeling framework that was used in the specialization project can also be used here, but care must be exercised since the PMBM filter is more complex than the JIPDA.
+The results of clustering can be used in the master thesis for developing long term trajectory prediction methods. To this end,
 
-* Consider whether any adjustments or more fundamental changes should be made to the work in the specialization project to improve performance.
-* The presence of a wake will lead to considerably more non-target measurements. This is likely to make hypothesis exploration and cluster management more challenging. How can this be handled? 
-* Should wake targets be treated in a different way than regular targets? If so, the multiple models framework may be appropriate. 
-* Implement a PMBM filter, based on an existing code base and the models developed. 
-* Investigate performance of the wake-PMBM filter in simulations and on real radar/lidar data.
-* Write report.
+* Gaussian process methods can further be explored and its utility towards collision avoidance can be investigated.
+* How can the clustered dataset over larger marine areas be exploited to make predictions for presence of multiple targets?
+* Investigate the impact of prediction methods on the collision avoidance methods [(Johansen et al. 2016)]. Support with the control algorithm for collision avoidance will be provided to the candidate.
+* Extensive simulation results and documentation.
+
+
+## References
+
+(Hexeberg et al. 2017), Hexeberg, S., Flåten, A. L., & Brekke, E. F. (2017, July). "[AIS-based vessel trajectory prediction][(Hexeberg et al. 2017)]". In 2017 20th International Conference on Information Fusion (Fusion) (pp. 1-8). IEEE.
+
+(Dalsnes et al. 2018) B. R. Dalsnes, S. Hexeberg, A. L. Flåten, B. -O. H. Eriksen and E. F. Brekke, "[The Neighbor Course Distribution Method with Gaussian Mixture Models for AIS-Based Vessel Trajectory Prediction][(Dalsnes et al. 2018)]" 21st International Conference on Information Fusion (FUSION), 2018.
+
+(Håvard, 2021) Håvard Skåra Mellbye, "[Gaussian Processes for long-term trajectory prediction using historical AIS data][(Håvard, 2021)]", Masters thesis, NTNU, 2021.
+
+(Praveen Jain et al. 2022a) Praveen Jain, Edmund Brekke, Adil Rasheed, "Unsupervised Clustering of Marine Vessel Trajectories in Historical AIS Database", under review, International Conference of Information Fusion, 2022.
+
+(Praveen Jain et al. 2022b) Praveen Jain, Edmund Brekke, Adil Rasheed, "Particle Filter methods for Vessel Trajectory Prediction using Historical AIS Data", under preparation.
+
+(Pallotta et al. 2013), Pallotta, G., Vespe, M., & Bryan, K. (2013). "[Vessel pattern knowledge discovery from AIS data: A framework for anomaly detection and route prediction][(Pallotta et al. 2013)]". Entropy, 15(6), 2218-2245.
+
+(Johansen et al. 2016) T. A. Johansen, T. Perez and A. Cristofaro, "[Ship Collision Avoidance and COLREGS Compliance Using Simulation-Based Control Behavior Selection With Predictive Hazard Assessment][(Johansen et al. 2016)]," in IEEE Transactions on Intelligent Transportation Systems, 2016.
+
+
 
 ## Prerequisites
 
 The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallell with the specialization project. Experience with sensor fusion from extracurricular activities will also be useful. 
-
-## References
-Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.]([Williams2015)]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
-
-Brekke, E., Hallingstad, O. and Glattetre, J. (2012) "[Improved target tracking in the presence of wakes.][(Brekke et al. 2012)]" IEEE Transactions on Aerospace and Electronic Systems, vol. 48, no. 2.
-
-Rødningsby, A., Bar-Shalom, Y., Hallingstad, O. and Glattetre, J. (2012) "[Multitarget multisensor tracking in the presence of wakes.][(Rødningsby et al. 2009)]" Journal of Advances in Information Fusion, vol. 4, no. 2.
-
-Vo, B.-T., Vo, B.-N. and Cantoni, A. (2012) "[Bayesian filtering with random finite set observations.][(Vo et al. 2008)]" IEEE Transactions on Signal Processing, vol. 56, no. 4.
 
 
 ## Autosit
@@ -75,6 +83,13 @@ Supervisor: [Edmund Brekke].
 
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
+
+[(Hexeberg et al. 2017)]: https://ieeexplore.ieee.org/abstract/document/8009762
+[(Dalsnes et al. 2018)]: https://ieeexplore.ieee.org/abstract/document/8455607
+[(Håvard, 2021)]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2831564
+[(Pallotta et al. 2013)]: https://www.mdpi.com/1099-4300/15/6/2218
+[(Johansen et al. 2016)]: https://ieeexplore.ieee.org/document/7464354
+
 [(Williams 2015)]: https://ieeexplore.ieee.org/document/7272821
 [Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
