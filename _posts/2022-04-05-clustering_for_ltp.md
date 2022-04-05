@@ -20,7 +20,7 @@ However, these methods do not exploit the inherent structure in the dataset repr
 
 ## Scope
 
-During this assignment, the goal is to extend the preliminary results on clustering and incorporate larger areas of the marine environment in order to extend their utility for long term prediction methods. In addition, the work could steer towards development of long term prediction algorithms that uses the clustered dataset - building off on the existing work on Gaussian Processes or Particle Filters. 
+During this assignment, the goal is to extend the preliminary results on clustering and incorporate larger areas of the marine environment in order to extend their utility for long term prediction methods. In addition, the work would steer towards development of long term prediction algorithms that uses the clustered dataset - building off on the existing work on Gaussian Processes or Particle Filters. 
 
 ## Proposed Tasks for the 5th year project
 
