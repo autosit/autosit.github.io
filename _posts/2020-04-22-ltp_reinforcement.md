@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COLREG-compliant path following and collision avoidance with moving obstacles in the Trondheim fjord
-category: LTP
+category: nonsense
 ---
 ## Background
 
