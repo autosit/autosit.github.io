@@ -79,10 +79,11 @@ A list of students who previous have written master theses on autonomous ship te
 
 ## Contact
 
-Supervisor: [Edmund Brekke].  
+Supervisor: [Edmund Brekke].  Co-supervisor [Praveen Jain].
 
 
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
+[Praveen Jain]: https://www.ntnu.edu/employees/ravinder.p.k.jain
 
 [(Hexeberg et al. 2017)]: https://ieeexplore.ieee.org/abstract/document/8009762
 [(Dalsnes et al. 2018)]: https://ieeexplore.ieee.org/abstract/document/8455607
