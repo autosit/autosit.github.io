@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The PMBM filter 1 - The world's most powerful tracker
+title: The PMBM filter 1 - An efficient and reliable gold standard for multi-target traking
 category: SF
 ---
 ## Background
@@ -24,7 +24,7 @@ The primary objective of this project is to implement a PMBM filter which can be
 ## Proposed Tasks for the 5th year project
 
 * Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
-* Design the software architecture of an overall PMBM filter, taking the pipelines used in [Autoferry] og [Autosit] into account. 
+* Design the software architecture of an overall PMBM filter, taking the pipelines used in [AUTOFERRY] og [AUTOSIT] into account. 
 * Identify bottlenecks, and open source code elements that can be used as part of the implementation. 
 * Implement procedures for prediction, estimation, cluster merging, hypothesis generation, pruning and cluster merging.
 * Verify the procedures and combine them in a complete PMBM filter.
@@ -34,7 +34,7 @@ The primary objective of this project is to implement a PMBM filter which can be
 
 In the MSc thesis the focus should be on allowing the user to chose the right trade-off between run-time and performance. The following tasks are meant to support this goal.
 
-* Implement visualization tools for the PMBM filter. 
+* Implement visualisation tools for the PMBM filter. 
 * Implement solutions to bottlenecks in C, C++ or similar.
 * Develop additional heuristics to control the number of clusters, hypotheses etc. 
 * Investigate whether it is possible to include a limited level of JPDA-style hypothesis merging. 
@@ -45,6 +45,15 @@ In the MSc thesis the focus should be on allowing the user to chose the right tr
 
 The candidate should have had the course [TTK4250 Sensor Fusion]. Strong programming skills are essential.
 
+
+## Autosit
+
+The candidate will be associated with the [AUTOSIT] project, 
+which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics.
+The goal of the [AUTOSIT] project is 
+to deliver algorithms for situational awareness that enable autonomous surface vessels (ASVs) to guess and predict the intentions of other vessels. 
+The [AUTOSIT] project is a direct successor of the [AUTOSEA] project, which focused on [sensor fusion and collision avoidance for ASVs]. 
+A list of students who previous have written master theses on autonomous ship technology at NTNU can be found [here].
 
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
@@ -58,12 +67,14 @@ Garcia-Fernandez, A., Williams, J., Granström, K and Svensson, L. (2018). "[Poi
 
 Supervisor: [Edmund Brekke].  
 
+[AUTOSEA]: https://www.ntnu.edu/autosea/
+[here]: https://folk.ntnu.no/edmundfo/autoseastudents/autoseastudents.html
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
 [Williams2015]: https://ieeexplore.ieee.org/document/7272821
 [Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
-[Autosit]: https://www.ntnu.edu/autosit
-[Autoferry]: https://www.ntnu.edu/autoferry
+[AUTOSIT]: https://www.ntnu.edu/autosit
+[AUTOFERRY]: https://www.ntnu.edu/autoferry
 [(Garcia-Fernandez et al. 2018)]: https://ieeexplore.ieee.org/document/8289337
 [(Brekke and Tokle 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf
 [TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
