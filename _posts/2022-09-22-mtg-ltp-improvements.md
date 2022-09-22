@@ -11,29 +11,29 @@ category: LTP
 When a larger vessel enters the Trondheimsfjord, there is a limited finite number of possible destinations it can consider. It is natural that knowledge on the intended destination for the vessel will help in predicting its future trajectory. Better predictions of vessel trajectories at sea will improve maritime situational awareness systems and future autonomous ships that are to navigate at sea. A key component here will be the use of the Automatic Identification System (AIS).
 
 AIS was introduced with the intent of enhancing safety at sea, and is an automatic data exchange system for ship-to-ship and ship-to-shore.
-All passenger ships, ships carrying 500+ gross tonnage, and ships carrying 300+ gross tonnage during international voyage are obligated to use an Automatic Identification System (AIS) transponder. Furthermore, there has been an increased interest in buying such AIS transponders for use also on smaller recreational vessels. This increased usage of AIS transponders, has lead to a growing pile of historical data, which can be utilized for machine learning applications such as maritime traffic pattern extraction and vessel prediction.
+All passenger ships, ships carrying 500+ gross tonnage, and ships carrying 300+ gross tonnage during international voyage are obligated to use an Automatic Identification System (AIS) transponder. Furthermore, there has been an increased interest in buying such AIS transponders for use also on smaller recreational vessels. This increased usage of AIS transponders, has lead to a growing pile of historical AIS data, which can be utilized for machine learning applications such as maritime traffic pattern extraction and vessel prediction.
 
-In (Tengesdal et al. 2022a) a maritime graph was created to represent traffic patterns in the Trondheimsfjord based on historical AIS data from the area, and used in a method for jointly inferring the kinematics (position, velocity) and destination of a vessel. The method uses an Ornstein-Uhlenbeck process [(Millefiori et al. 2016)] to predict the vessel trajectory along the maritime graph. When the prediction reaches a graph node which is closest to a considered destination, a so-called bridge model is used to predict the vessel convergence towards the destination. A challenge here is that it can be hard to tune and configure this bridging model to correctly estimate the arrival time of the vessel.
+In (Tengesdal et al. 2022a) a maritime traffic graph was created to represent traffic patterns in the Trondheimsfjord based on historical AIS data from the area, and used in a method for jointly inferring the kinematics (position, velocity) and destination of a vessel. The method uses an Ornstein-Uhlenbeck process [(Millefiori et al. 2016)] to predict the vessel trajectory along the maritime graph. When the prediction reaches a graph node which is closest to a considered destination, a so-called bridge model is used to predict the vessel convergence towards the destination. A challenge here is that it can be hard to tune and configure this bridging model to correctly estimate the arrival time of the vessel.
 
 Furthermore, the method only captures the vessel behavior on the maritime traffic graph, whereas off-pattern behavior not captured by the majority of AIS data is not considered. Here, it would be very beneficial to consider also the vessel type when predicting its behavior. Where cargo ships mostly adhere to regular patterns with constant speed and a fixed course changes at typical turning points, recreational vessels with AIS transponders will typically maneuver to a larger degree about and off these regularized patterns.
 
-A video demonstrating the joint vessel destination and kinematics prediction is shown here [LTP movie](https://studntnu-my.sharepoint.com/:v:/g/personal/trymte_ntnu_no/EUs2eh9VArhPsI3fCeOqZREBJ4vNnxHXrwELZllEMDE9_A?e=FqX6di), where a vessel entering the Trondheimsfjord going towards Orkanger is considered. A set of four possible destinations D1 - D4 is considered in the inference.)
+A video demonstrating the joint vessel destination and kinematics prediction is shown [here](https://studntnu-my.sharepoint.com/:v:/g/personal/trymte_ntnu_no/EUs2eh9VArhPsI3fCeOqZREBJ4vNnxHXrwELZllEMDE9_A?e=FqX6di), where a vessel entering the Trondheimsfjord going towards Orkanger is considered. A set of four possible destinations D1 - D4 is considered in the inference.)
 
 |<img src="{{site.url}}/assets/mtg_ltp_illustration.png" width="750" > |
-| <span style="color:#959595">Illustration of the prediction method in [(Tengesdal et al. 2022a)]. </span> |
+| <span style="color:#959595">Illustration of the prediction method in [(Tengesdal et al. 2022a)] with two possible destinations. The dashed straight lines represent edges in the traffic graph.  </span> |
 
 ## Scope
 
-The main goal of the project is to improve the arrival time estimation in the mentioned long-term prediction method, and possibly extend the method to take into account off-pattern vessel behavior, vessel ship type etc.
+The main goal of the project is to improve the arrival time estimation in the mentioned long-term prediction method, and possibly extend the method to take into account off-pattern vessel behavior and the vessel ship type.
 
 ## Proposed Tasks for the 5th year project
 
-The focus in the 5th year project shall be on exploring the collision probability problem. The following tasks and research questions should be addressed.
+The focus in the 5th year project shall be on exploring the joint destination and kinematics problem. A suggested workflow is the following
 
 1. Write a survey on long-term prediction methods that incorporate extra information such as knowledge on possible destinations, traffic patterns, ship types etc., by searching the scientific literature. Discuss assumptions, approximations, strengths and weaknesses of the surveyed methods.
-2. Use an existing implementation of the method [(Tengesdal et al. 2022)] or from scratch if preferable, become familiar with the method`s strengths and weaknesses.
+2. Use an existing implementation of the method [(Tengesdal et al. 2022)] or from scratch if preferable, test in different scenarios and become familiar with the method`s strengths and weaknesses.
 3. Suggest improvements/changes in the method [(Tengesdal et al. 2022)] to make the vessel arrival time estimation better, and possibly also the prediction accuracy.
-4. Compare the method with your suggested improvements against existing state of the art methods (some implementations of these are already given), on real AIS data.
+4. Compare the method with the suggested improvements against existing state of the art methods (some implementations of these are already given), on real AIS data.
 5. Write report/paper.
 
 ## Proposed Tasks for the master thesis
@@ -56,7 +56,7 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## References
 
-- Tengesdal, T., Millefiori, L. M., Braca, P. and Brekke, E. (2022a): [“Joint Stochastic Prediction of Vessel Kinematics and Destination based on a Maritime Traffic Graph”], Proc. of the International Conference on Electrical, Computer, Communications and Mechatronics Engineering  (ICECCME), 16-18 November 2022, Maldives, In press.
+- Tengesdal, T., Millefiori, L. M., Braca, P. and Brekke, E. (2022a): “Joint Stochastic Prediction of Vessel Kinematics and Destination based on a Maritime Traffic Graph”, Proc. of the International Conference on Electrical, Computer, Communications and Mechatronics Engineering  (ICECCME), 16-18 November 2022, Maldives, In press.
 
 - Tengesdal, T., Johansen, T. A. and Brekke, E. (2022b): [“Ship Collision Avoidance Utilizing the Cross-Entropy Method for Collision Risk Assessment”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828), IEEE Transactions on Intelligent Transportation Systems.
 
