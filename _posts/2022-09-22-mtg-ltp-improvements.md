@@ -1,21 +1,23 @@
 ---
 layout: post
-title: Joint destination and kinematics prediction
+title: Joint vessel destination and kinematics prediction
 category: LTP
 ---
 ## Background
 
-|<img src="{{site.url}}/assets/mg_w_ais_density3-eps-converted-to.pdf" width="750" > |
-| <span style="color:#959595">A maritime traffic graph representation of AIS data [(Tengesdal et al. 2022)]. </span> |
+|<img src="{{site.url}}/assets/mtg_tfjord.png" width="750" > |
+| <span style="color:#959595">A maritime traffic graph representation of AIS data (Tengesdal et al. 2022a). </span> |
 
 When a larger vessel enters the Trondheimsfjord, there is a limited finite number of possible destinations it can consider. It is natural that knowledge on the intended destination for the vessel will help in predicting its future trajectory. All passenger ships, ships carrying 500+ gross tonnage, and ships carrying 300+ gross tonnage during international voyage are obliged to use an Automatic Identification System (AIS) transponder.
 
-In [(Tengesdal et al. 2022)] a maritime graph was created to represent traffic patterns in the Trondheimsfjord based on historical AIS data from the area, and used in a method for jointly inferring the kinematics (position, velocity) and destination of a vessel. The method uses an Ornstein-Uhlenbeck process [(Millefiori et al. 2016)] to predict the vessel trajectory along the maritime graph. When the prediction reaches a graph node which is closest to a considered destination, a so-called bridge model is used to predict the vessel convergence towards the destination. A challenge here is that it can be hard to tune and configure this bridging model to correctly estimate the arrival time of the vessel.
+In [(Tengesdal et al. 2022a)] a maritime graph was created to represent traffic patterns in the Trondheimsfjord based on historical AIS data from the area, and used in a method for jointly inferring the kinematics (position, velocity) and destination of a vessel. The method uses an Ornstein-Uhlenbeck process [(Millefiori et al. 2016)] to predict the vessel trajectory along the maritime graph. When the prediction reaches a graph node which is closest to a considered destination, a so-called bridge model is used to predict the vessel convergence towards the destination. A challenge here is that it can be hard to tune and configure this bridging model to correctly estimate the arrival time of the vessel.
 
 Furthermore, the method only captures the vessel behavior on the maritime traffic graph, whereas off-pattern behavior not captured by the majority of AIS data is not considered. Here, it would be very beneficial to consider also the vessel type when predicting its behavior. Where cargo ships mostly adhere to regular patterns with constant speed and a fixed course changes at typical turning points, recreational vessels with AIS transponders will typically maneuver to a larger degree about and off these regularized patterns.
 
-|<img src="{{site.url}}/assets/maritime_graph_easier-eps-converted-to.pdf" width="750" > |
-| <span style="color:#959595">Illustration of the prediction method in [(Tengesdal et al. 2022)]. </span> |
+A video demonstrating the joint vessel destination and kinematics prediction is shown here [LTP movie](https://studntnu-my.sharepoint.com/:v:/g/personal/trymte_ntnu_no/EUs2eh9VArhPsI3fCeOqZREBJ4vNnxHXrwELZllEMDE9_A?e=FqX6di)
+
+|<img src="{{site.url}}/assets/mtg_ltp_illustration.png" width="750" > |
+| <span style="color:#959595">Illustration of the prediction method in [(Tengesdal et al. 2022a)]. </span> |
 
 ## Scope
 
@@ -37,9 +39,9 @@ The project work aims to be extended into a master thesis for the spring of 2023
 
 - Create a long-term prediction benchmark from AIS data, consisting of a selection of different vessel trajectories to consider.
 - Suggest ways of taking into account off-pattern behavior in the prediction method. Can the type of vessel be incorporated here?
-- Incorporate the method in a long-term collision avoidance (COLAV) framework such as the PSB-MPC [(Tengesdal et al. 2022b)] (code exists)
-- Test the COLAV system on historical AIS data
-- Design of new MPC-based COLAV methods capable of using collision probabilities or related risk measures in a meaningful way.
+- Incorporate the method in a long-term collision avoidance (COLAV) framework such as the PSB-MPC [(Tengesdal et al. 2022b)] (code exists) for enhanced dynamic obstacle predictions
+- Test the enhanced COLAV system on historical AIS data against a baseline with simpler means for predicting nearby vessel behaviors.
+- Write thesis and possibly paper.
 
 ## Prerequisites
 
@@ -51,13 +53,12 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## References
 
-- Tengesdal, T., Millefiori, L. M., Braca, P. and Brekke, E. (2022): [“Joint Stochastic Prediction of Vessel Kinematics and Destination based on a Maritime Traffic Graph”], Proc. of the International Conference on Electrical, Computer, Communications and Mechatronics Engineering  (ICECCME), 16-18 November 2022, Maldives, In press.
+- Tengesdal, T., Millefiori, L. M., Braca, P. and Brekke, E. (2022a): [“Joint Stochastic Prediction of Vessel Kinematics and Destination based on a Maritime Traffic Graph”], Proc. of the International Conference on Electrical, Computer, Communications and Mechatronics Engineering  (ICECCME), 16-18 November 2022, Maldives, In press.
 
-- Tengesdal, T., Johansen, T. A. and Brekke, E. (2022): [“Ship Collision Avoidance Utilizing the Cross-Entropy Method for Collision Risk Assessment”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828), IEEE Transactions on Intelligent Transportation Systems.
+- Tengesdal, T., Johansen, T. A. and Brekke, E. (2022b): [“Ship Collision Avoidance Utilizing the Cross-Entropy Method for Collision Risk Assessment”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828), IEEE Transactions on Intelligent Transportation Systems.
 
 - Millefiori, L. M., Braca, P., Bryan, K., and Willett, P., ["Long-term vessel kinematics prediction exploiting mean-reverting processes"](https://ieeexplore.ieee.org/document/7527893) in 2016 19th International Conference on Information Fusion (FUSION), Jul. 2016, pp. 232-239.
 
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
-[(Tengesdal et al. 2022a)]:
 [(Tengesdal et al. 2022b)]: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9508828>
 [(Millefiori et al. 2016)]: <https://ieeexplore.ieee.org/document/7527893>
