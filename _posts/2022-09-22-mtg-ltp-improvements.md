@@ -5,16 +5,19 @@ category: LTP
 ---
 ## Background
 
-|<img src="{{site.url}}/assets/mtg_tfjord.png" width="750" > |
-| <span style="color:#959595">A maritime traffic graph representation of AIS data (Tengesdal et al. 2022a). </span> |
+|<img src="{{site.url}}/assets/mtg_tfjord.png" width="750" > | |<img src="{{site.url}}/assets/destinations.png" width="200" > |
+| <span style="color:#959595">A maritime traffic graph representation of AIS data (Tengesdal et al. 2022a) and the destination set considered. </span> |
 
-When a larger vessel enters the Trondheimsfjord, there is a limited finite number of possible destinations it can consider. It is natural that knowledge on the intended destination for the vessel will help in predicting its future trajectory. All passenger ships, ships carrying 500+ gross tonnage, and ships carrying 300+ gross tonnage during international voyage are obliged to use an Automatic Identification System (AIS) transponder.
+When a larger vessel enters the Trondheimsfjord, there is a limited finite number of possible destinations it can consider. It is natural that knowledge on the intended destination for the vessel will help in predicting its future trajectory. Better predictions of vessel trajectories at sea will improve maritime situational awareness systems and future autonomous ships that are to navigate at sea. A key component here will be the use of the Automatic Identification System (AIS).
 
-In [(Tengesdal et al. 2022a)] a maritime graph was created to represent traffic patterns in the Trondheimsfjord based on historical AIS data from the area, and used in a method for jointly inferring the kinematics (position, velocity) and destination of a vessel. The method uses an Ornstein-Uhlenbeck process [(Millefiori et al. 2016)] to predict the vessel trajectory along the maritime graph. When the prediction reaches a graph node which is closest to a considered destination, a so-called bridge model is used to predict the vessel convergence towards the destination. A challenge here is that it can be hard to tune and configure this bridging model to correctly estimate the arrival time of the vessel.
+AIS was introduced with the intent of enhancing safety at sea, and is an automatic data exchange system for ship-to-ship and ship-to-shore.
+All passenger ships, ships carrying 500+ gross tonnage, and ships carrying 300+ gross tonnage during international voyage are obligated to use an Automatic Identification System (AIS) transponder. Furthermore, there has been an increased interest in buying such AIS transponders for use also on smaller recreational vessels. This increased usage of AIS transponders, has lead to a growing pile of historical data, which can be utilized for machine learning applications such as maritime traffic pattern extraction and vessel prediction.
+
+In (Tengesdal et al. 2022a) a maritime graph was created to represent traffic patterns in the Trondheimsfjord based on historical AIS data from the area, and used in a method for jointly inferring the kinematics (position, velocity) and destination of a vessel. The method uses an Ornstein-Uhlenbeck process [(Millefiori et al. 2016)] to predict the vessel trajectory along the maritime graph. When the prediction reaches a graph node which is closest to a considered destination, a so-called bridge model is used to predict the vessel convergence towards the destination. A challenge here is that it can be hard to tune and configure this bridging model to correctly estimate the arrival time of the vessel.
 
 Furthermore, the method only captures the vessel behavior on the maritime traffic graph, whereas off-pattern behavior not captured by the majority of AIS data is not considered. Here, it would be very beneficial to consider also the vessel type when predicting its behavior. Where cargo ships mostly adhere to regular patterns with constant speed and a fixed course changes at typical turning points, recreational vessels with AIS transponders will typically maneuver to a larger degree about and off these regularized patterns.
 
-A video demonstrating the joint vessel destination and kinematics prediction is shown here [LTP movie](https://studntnu-my.sharepoint.com/:v:/g/personal/trymte_ntnu_no/EUs2eh9VArhPsI3fCeOqZREBJ4vNnxHXrwELZllEMDE9_A?e=FqX6di)
+A video demonstrating the joint vessel destination and kinematics prediction is shown here [LTP movie](https://studntnu-my.sharepoint.com/:v:/g/personal/trymte_ntnu_no/EUs2eh9VArhPsI3fCeOqZREBJ4vNnxHXrwELZllEMDE9_A?e=FqX6di), where a vessel entering the Trondheimsfjord going towards Orkanger is considered. A set of four possible destinations D1 - D4 is considered in the inference.)
 
 |<img src="{{site.url}}/assets/mtg_ltp_illustration.png" width="750" > |
 | <span style="color:#959595">Illustration of the prediction method in [(Tengesdal et al. 2022a)]. </span> |
