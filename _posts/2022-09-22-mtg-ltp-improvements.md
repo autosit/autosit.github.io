@@ -20,7 +20,7 @@ Furthermore, the method only captures the vessel behavior on the maritime traffi
 A video demonstrating the joint vessel destination and kinematics prediction is shown [here](https://studntnu-my.sharepoint.com/:v:/g/personal/trymte_ntnu_no/EUs2eh9VArhPsI3fCeOqZREBJ4vNnxHXrwELZllEMDE9_A?e=FqX6di), where a vessel entering the Trondheimsfjord going towards Orkanger is considered. A set of four possible destinations D1 - D4 is considered in the inference.)
 
 |<img src="{{site.url}}/assets/mtg_ltp_illustration.png" width="750" > |
-| <span style="color:#959595">Illustration of the prediction method in [(Tengesdal et al. 2022a)] with two possible destinations. The dashed straight lines represent edges in the traffic graph.  </span> |
+| <span style="color:#959595">Illustration of the prediction method in (Tengesdal et al. 2022a) with two possible destinations. The dashed straight lines represent edges in the traffic graph.  </span> |
 
 ## Scope
 
