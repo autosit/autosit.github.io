@@ -27,6 +27,9 @@ These tasks can be performed as a collaboration between multiple candidates if p
 
 The scope of the specialization project will be to investigate one of the models and assess it with one preliminary validity metric. The master thesis will then look at more models or more and better metrics, or a combination.
 
+|![MS MOT dashboard]({{site.url}}/assets/MSMOTdashboard.jpg)|
+|A MS MOT dashboard showing the fusing of infrared, lidar, and radar|
+
 ## Supervisors
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).<br>
 Co-supervisor: [Lars-Christian Ness Tokle](https://www.ntnu.no/ansatte/lars-christian.n.tokle).<br>
