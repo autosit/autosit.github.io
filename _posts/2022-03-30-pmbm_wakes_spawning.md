@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The PMBM filter 3 -  Beyond the standard model
-category: SF
+category: OTHER
 ---
 ## Background
 
@@ -30,7 +30,8 @@ The wake problem has previously been addressed in a single-target context by [(B
 
 ## Proposed Tasks for the master thesis
 
-In the master thesis the goal is to make a PMBM filter that can account for wake clutter. If time permits, the candidate may also include other non-standard elements such as targets spawning other targets, merged measurements or extended objects. In principle, the same modeling framework that was used in the specialization project can also be used here, but care must be exercised since the PMBM filter is more complex than the JIPDA.
+In the master thesis the goal is to make a PMBM filter that can account for wake clutter. If time permits, the candidate may also include other non-standard elements such as targets spawning other targets, merged measurements or extended objects. 
+In principle, the same modeling framework that was used in the specialization project can also be used here, but care must be exercised since the PMBM filter is more complex than the JIPDA.
 
 * Consider whether any adjustments or more fundamental changes should be made to the work in the specialization project to improve performance.
 * The presence of a wake will lead to considerably more non-target measurements. This is likely to make hypothesis exploration and cluster management more challenging. How can this be handled? 
