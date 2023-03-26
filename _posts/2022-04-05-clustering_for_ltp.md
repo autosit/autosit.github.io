@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unsupervised clustering of historical AIS dataset for long term trajectory prediction
-category: LTP
+category: OTHER
 ---
 ## Background
 
