@@ -1,44 +1,44 @@
 ---
 layout: post
-title: The PMBM filter 1 - An efficient and reliable gold standard for multi-target traking
+title: Multiple hypothesis tracking with mixture reduction
 category: SF
 ---
 ## Background
 
 
 The [Poisson Multi-Bernoulli Mixture (PMBM) filter] is a gold standard for multi-target tracking. It is a sophisticated variation of Multiple Hypothesis Tracking (MHT), where the probabilities of all sufficiently plausible data association hypotheses are calculated. 
-For each of the data association hypotheses in the prior distribution, there will be several new association hypotheses in the posterior distribution. This differs from tracking methods such as Joint Probabilistic Data Association (JPDA) where the data association hypotheses are combined after every estimation cycle in order to mitigate complexity. 
+An alternative is the Joint Integrated Probabilistic Data Association (JIPDA). 
+In this method, the association hypoteses are merged by means of mixture reduction, so that each target can be represented by a single Gaussian. 
+This imposes significantly lower computational demands, and is therefore typically preferred in real-time systems. 
 
-To make a PMBM filter run in real time, one has to use other heuristics and approximations. These including pruning and cluster management. 
-The core principle in cluster management is to work with tracks that are far apart independently. Cluster management depends on procedures to merge clusters when the clusters get so close that they cannot be separated, and procedures to split clusters when a cluster safely can be decomposed into several independent tracking problems. 
-Cluster management is important because multi-target tracking in reality reduces to single-target tracking 99&#37; of the time. The number of hypotheses needed to describe the posterior distribution in a single-target tracking problem will be much lower than the number of hypotheses needed in a tracking problem with several targets. 
+For single-target tracking, compromises between these two philosophies have been explored. 
+One could for instance design the tracking method so that the posterior probability distribution of the target consists of maximally 5 Gaussians. 
+In multi-target tracking it is not straightforward to do similar things, because different targets are present in different hypotheses, and the overall knowledge about the targets must be represented by something more complex than a conventional probability density function, such as a random finite set density. 
 
-A Matlab implementation of a PMBM filter without cluster management was recently reported in [(Garcia-Fernandez et al. 2018)].  Since then, a Matlab implementation of PMBM with cluster management has been made, which uses a novel algorithm for combined hypothesis search and cluster merging [(Brekke and Tokle 2022)]. 
+Yet another approach to multi-target tracking is found in the Probability Hypothesis Density (PHD) filter, where the knowledge about the targets is approximated by a Poisson point process (PPP). Related to this is the idea of recycling: To take low-quality tracks out of the association hypotheses (i.e. the MBM component of the PMBM filter) and insert them into a PPP (i.e. the P component of the PMBM filter) or a separate dummy hypothesis. 
 
+In a current MSc project, we have studied how marginal track probabilities can be calculated for PMBM filter, in order to support recycling. The proposed project is intended to build upon this work. 
 
 
 ## Scope
 
-The primary objective of this project is to implement a PMBM filter which can be used as part of the autonomy pipelines in maritime surface autonomy at NTNU. All of the algorithmic building blocks are ready, although there is certainly room for improvement. Core challenges are to implement the building blocks in a suitable language (possible a combination of Python and C), improve run-time and make sure the code is streamlined, transparent and configurable.  
+The long-term goal of this project is to develop a tracking method which can be tuned so that it behaves like a PMBM filter, JIPDA or PHD filter to arbitrary degrees. This could enable real-time systems to utilise the full power of PMBM when it is possible, for limited parts of the problem where it is deemed advisable, while reducing to JIPDA or PHD filter for other parts of the problem where this is believed to be sufficient. 
+
 
 ## Proposed Tasks for the 5th year project
 
-* Make yourself familiar with multi-target tracking, random finite sets, MHT and PMBM. 
-* Design the software architecture of an overall PMBM filter, taking the pipelines used in [AUTOFERRY] og [AUTOSIT] into account. 
-* Identify bottlenecks, and open source code elements that can be used as part of the implementation. 
-* Implement procedures for prediction, estimation, cluster merging, hypothesis generation, pruning and cluster merging.
-* Verify the procedures and combine them in a complete PMBM filter.
+* Make yourself familiar with multi-target tracking, random finite sets, mixture reduction and graphical models.
+* Conduct a literature study on existing techniques for mixture reduction of Gaussians, Bernoulli merging and moment-based approximations of random finite sets. Perform simulations to investigate the behaviour of some of the approaches. 
+* Consider then the case of a JIPDA for simple scenarios: Can you use mixture reduction to produce two or three merged hypotheses instead of a single merged hypothesis?
+* Implement, simulate and compare performance with standard JIPDA and full-scale PMBM. 
 * Write report.
 
 ## Proposed Tasks for the master thesis
 
-In the MSc thesis the focus should be on allowing the user to chose the right trade-off between run-time and performance. The following tasks are meant to support this goal.
+In the MSc thesis the focus should be on generalizing the developments from the specialization project in order to achieve a flexible combination of PMBM, JIPDA and PHD. The following topics may play a central role:
 
-* Implement visualisation tools for the PMBM filter. 
-* Implement solutions to bottlenecks in C, C++ or similar.
-* Develop additional heuristics to control the number of clusters, hypotheses etc. 
-* Investigate whether it is possible to include a limited level of JPDA-style hypothesis merging. 
-* Design benchmark scenarios, and compare with other state-of-the-art tracking methods.
+* Loopy belief propagation or Bayes tree techniques for direct evaluation of marginal track probabilities. 
+* Efficient generalizations of Murty's method for hypothesis exploration. 
 
 
 ## Prerequisites
