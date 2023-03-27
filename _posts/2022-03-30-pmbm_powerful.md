@@ -47,7 +47,7 @@ In the MSc thesis the focus should be on generalizing the developments from the 
 
 ## Prerequisites
 
-The candidate should have had the course [TTK4250 Sensor Fusion]. Strong programming skills are essential.
+This is a core [Sensor Fusion] project. 
 
 
 ## Autosit
@@ -81,6 +81,6 @@ Supervisor: [Edmund Brekke].
 [AUTOFERRY]: https://www.ntnu.edu/autoferry
 [(Garcia-Fernandez et al. 2018)]: https://ieeexplore.ieee.org/document/8289337
 [(Brekke and Tokle 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf
-[TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
+[Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
 [Poisson Multi-Bernoulli Mixture (PMBM) filter]: https://ieeexplore.ieee.org/document/7272821
 [currently ongoing MSc project]: https://folk.ntnu.no/edmundfo/msc2023-2024/odin_fordypningsprosjekt.pdf
