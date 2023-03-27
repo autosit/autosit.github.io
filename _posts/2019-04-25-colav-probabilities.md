@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collision probabilities
-category: LTP
+category: OTHER
 ---
 ## Background
 Risk evaluations are an obvious component of a collision avoidance (COLAV) system. But what exactly is meant by risk? Is it a qualitative or a quantitative concept? We often think of risk as related to probability. This leads to the research question: Can we estimate the probability that a future collision will occur given some knowledge about the autonomous ship and other ships in its vicinity? 
@@ -29,17 +29,25 @@ The focus in the 5th year project shall be on exploring the collision probabilit
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2020. Here, verification and utilization of the results from the specialization project will be central. 
+The project work aims to be extended into a master thesis for the spring of 2020. Here, the ambition is to verify, improve and utilise the results from the specialisation project. The following tasks are suggested:
 
-- Verify that the evaluated probabilities make sense, ideally both from an intuitive perspective and according to simulations (i.e., a frequentist perspective).
-- Combination with approaches to long-term prediction, as explored in the bridging densities project or in the master theses of Hexeberg (2017) and Dalsnes (2018). 
-- Further generalization of the work done in the specialization project. 
-- Approximations needed to utilize the work in COLAV methods.
-- Design of new MPC-based COLAV methods capable of using collision probabilities or related risk measures in a meaningful way. 
+1. Probabilities cannot be arbitrary. If collision happens in 50 percent of the cases, and the collision probability never is larger than 0.01, then clearly something is wrong. How can you verify that the probabilities are meaningful in simulations? The challenge here is that the collision probabilities typically should be rather small. 
+2. Once a framework is in place for verification, it may be worthwhile to strive for further improvements in accuracy and run-time. Keep in mind that very accurate evaluation may not be meaningful. 
+3. Can the probabilities be used as input to an MPC-based COLAV method?
+4. Should the traffic rules at sea (COLREGS) and other means for predicting the intentions of obstacle vessels be taken into account?
 
 ## Prerequisites
 
 The candidate should have taken the course [TTK4250 Sensor fusion]  before this project, or take it in parallell. Additional courses in statistic, estimation or probability will be useful. 
+
+## Autosit
+
+The candidate will be associated with the [AUTOSIT] project, 
+which is a collaborative research project between NTNU, DNV GL, Kongsberg Maritime and Maritime Robotics.
+The goal of the [AUTOSIT] project is 
+to deliver algorithms for situational awareness that enable autonomous surface vessels (ASVs) to guess and predict the intentions of other vessels. 
+The [AUTOSIT] project is a direct successor of the [AUTOSEA] project, which focused on [sensor fusion and collision avoidance for ASVs]. 
+A list of students who previous have written master theses on autonomous ship technology at NTNU can be found [here].
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
@@ -52,7 +60,9 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 * Johansen, T. A., Perez, T. and Cristofaro, A. (2016): [“Ship collision avoidance and COLREGS compliance using simulation-based control behavior selection with predictive hazard assessment”](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2469879), IEEE Transactions on Intelligent Transportation Systems, vol. 17 no. 12.
 
-
+[AUTOSEA]: https://www.ntnu.edu/autosea/
+[here]: https://folk.ntnu.no/edmundfo/autoseastudents/autoseastudents.html
+[AUTOSIT]: https://www.ntnu.edu/autosit
 [the sensor fusion book]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [(Tengesdal et al. 2020)]: https://folk.ntnu.no/torarnj/TTengesdal_2020_On_collision_risk_assessment_for_autonomous_ships_using_scenario_based_mpc.pdf
