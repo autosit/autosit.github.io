@@ -67,6 +67,8 @@ Salmond, D. J. (1990). "[Mixture reduction algorithms for target tracking in clu
 
 Brekke, E. and Tokle, L.-C. (2022): “[Hypothesis Exploration in Multiple Hypothesis Tracking with Multiple Clusters](https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf)”, Proceedings of FUSION. 
 
+Fontana, M., Garcia-Fernandez, A. and Maskell, S. (2020): “[Bernoulli merging for the Poisson multi-Bernoulli mixture filter](https://ieeexplore.ieee.org/abstract/document/9190443)”, Proceedings of FUSION. 
+
 
 ## Contact
 
