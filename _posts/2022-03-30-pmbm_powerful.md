@@ -41,8 +41,9 @@ The long-term goal of this project is to develop a tracking method which can be 
 
 In the MSc thesis the focus should be on generalizing the developments from the specialization project in order to achieve a flexible combination of PMBM, JIPDA and PHD. The following topics may play a central role:
 
-* Loopy belief propagation or Bayes tree techniques for direct evaluation of marginal track probabilities. 
+* LBP or Bayes tree techniques for direct evaluation of marginal track probabilities. 
 * Efficient generalizations of Murty's method for hypothesis exploration. 
+* N-scan merging, [target labels] and [sets of trajectories].
 
 
 ## Prerequisites
@@ -84,3 +85,5 @@ Supervisor: [Edmund Brekke].
 [Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
 [Poisson Multi-Bernoulli Mixture (PMBM) filter]: https://ieeexplore.ieee.org/document/7272821
 [currently ongoing MSc project]: https://folk.ntnu.no/edmundfo/msc2023-2024/odin_fordypningsprosjekt.pdf
+[target labels]: https://ba-ngu.vo-au.com/vo/VV_Conjugate_TSP13.pdf
+[sets of trajectories]: https://ieeexplore.ieee.org/document/8731733
