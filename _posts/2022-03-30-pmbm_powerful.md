@@ -11,6 +11,9 @@ An alternative is the Joint Integrated Probabilistic Data Association (JIPDA).
 In this method, the association hypoteses are merged by means of mixture reduction, so that each target can be represented by a single Gaussian. 
 This imposes significantly lower computational demands, and is therefore typically preferred in real-time systems. 
 
+|<img src="{{site.url}}/assets/ravens_jipda_pmbm.png" width="700"> | 
+| Comparison of a JIPDA-style method and a PMBM filter on simulated data. |
+
 For single-target tracking, compromises between these two philosophies have been explored. 
 One could for instance design the tracking method so that the posterior probability distribution of the target consists of maximally 5 Gaussians. 
 In multi-target tracking it is not straightforward to do similar things, because different targets are present in different hypotheses, and the overall knowledge about the targets must be represented by something more complex than a conventional probability density function, such as a random finite set density. 
@@ -44,6 +47,8 @@ In the MSc thesis the focus should be on generalizing the developments from the 
 * LBP or Bayes tree techniques for direct evaluation of marginal track probabilities. 
 * Efficient generalizations of Murty's method for hypothesis exploration. 
 * N-scan merging, [target labels] and [sets of trajectories].
+
+
 
 
 ## Prerequisites
