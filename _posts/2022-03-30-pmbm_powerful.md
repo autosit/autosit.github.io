@@ -17,8 +17,7 @@ In multi-target tracking it is not straightforward to do similar things, because
 
 Yet another approach to multi-target tracking is found in the Probability Hypothesis Density (PHD) filter, where the knowledge about the targets is approximated by a Poisson point process (PPP). Related to this is the idea of recycling: To take low-quality tracks out of the association hypotheses (i.e. the MBM component of the PMBM filter) and insert them into a PPP (i.e. the P component of the PMBM filter) or a separate dummy hypothesis. 
 
-In a current MSc project, we have studied how marginal track probabilities can be calculated for PMBM filter, in order to support recycling. The proposed project is intended to build upon this work. 
-
+In a [currently ongoing MSc project], we are studying how marginal track probabilities can be calculated for PMBM filter by means of loopy belief propagation (LBP), in order to support recycling. The proposed project is intended to build upon this work. 
 
 ## Scope
 
@@ -79,3 +78,4 @@ Supervisor: [Edmund Brekke].
 [(Brekke and Tokle 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf
 [TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
 [Poisson Multi-Bernoulli Mixture (PMBM) filter]: https://ieeexplore.ieee.org/document/7272821
+[currently ongoing MSc project]: https://folk.ntnu.no/edmundfo/msc2023-2024/odin_fordypningsprosjekt.pdf
