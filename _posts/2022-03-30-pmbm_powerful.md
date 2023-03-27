@@ -21,8 +21,7 @@ In a [currently ongoing MSc project], we are studying how marginal track probabi
 
 
 |<img src="{{site.url}}/assets/mhthypos.png" width="700"> | 
-| The top 5 hypotheses, out of 602, for a simple tracking scenario. Can we combine the hypotheses into a smaller collection which 
-still maintain essentially the same information? |
+| The top 5 hypotheses, out of 602, for a simple tracking scenario. Can we combine the hypotheses into a smaller collection which still maintain essentially the same information? |
 
 ## Scope
 
