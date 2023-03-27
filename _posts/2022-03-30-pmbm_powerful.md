@@ -58,9 +58,9 @@ A list of students who previous have written master theses on autonomous ship te
 ## References
 Williams, J. (2015). "[Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member.][Williams2015]" IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3.
 
-Garcia-Fernandez, A., Williams, J., Granström, K and Svensson, L. (2018). "[Poisson multi-Bernoulli mixture filter: direct derivation and implementation.][(Garcia-Fernandez et al. 2018)]" IEEE Transactions on Aerospace and Electronic Systems.
+Salmond, D. J. (1990). "[Mixture reduction algorithms for target tracking in clutter.][Salmond1990]" Proceedings of SPIE.
 
-* Brekke, E. and Tokle, L.-C. (2022): “[Hypothesis Exploration in Multiple Hypothesis Tracking with Multiple Clusters](https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf)”, Submitted to Fusion 2022. 
+Brekke, E. and Tokle, L.-C. (2022): “[Hypothesis Exploration in Multiple Hypothesis Tracking with Multiple Clusters](https://folk.ntnu.no/edmundfo/fusion2022preprints/BrekkeTokleExploration.pdf)”, Proceedings of FUSION. 
 
 
 ## Contact
@@ -71,7 +71,7 @@ Supervisor: [Edmund Brekke].
 [here]: https://folk.ntnu.no/edmundfo/autoseastudents/autoseastudents.html
 [Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
 [Williams2015]: https://ieeexplore.ieee.org/document/7272821
-[Habtemariam2014]: https://www.sciencedirect.com/science/article/pii/S0165168414003636
+[Salmond1990]: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/1305/0000/Mixture-reduction-algorithms-for-target-tracking-in-clutter/10.1117/12.2321784.full?SSO=1
 [Liland2017]: https://brage.bibsys.no/xmlui/bitstream/handle/11250/2452107/16477_FULLTEXT.pdf?sequence=1
 [AUTOSIT]: https://www.ntnu.edu/autosit
 [AUTOFERRY]: https://www.ntnu.edu/autoferry
