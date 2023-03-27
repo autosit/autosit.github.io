@@ -20,12 +20,13 @@ Yet another approach to multi-target tracking is found in the Probability Hypoth
 In a [currently ongoing MSc project], we are studying how marginal track probabilities can be calculated for the PMBM filter by means of loopy belief propagation (LBP), in order to support recycling. The proposed project is intended to build upon this work. 
 
 
-|<img src="{{site.url}}/assets/mhthypos.png" width="700"> | 
-| The top 5 hypotheses, out of 602, for a simple tracking scenario. Can we combine the hypotheses into a smaller collection which still maintain essentially the same information? |
 
 ## Scope
 
 The long-term goal of this project is to develop a tracking method which can be tuned so that it behaves like a PMBM filter, JIPDA or PHD filter to arbitrary degrees. This could enable real-time systems to utilise the full power of PMBM when it is possible, for limited parts of the problem where it is deemed advisable, while reducing to JIPDA or PHD filter for other parts of the problem where this is believed to be sufficient. 
+
+|<img src="{{site.url}}/assets/mhthypos.png" width="700"> | 
+| The top 5 hypotheses, out of 602, for a simple tracking scenario. Can we combine the hypotheses into a smaller collection which still maintain essentially the same information? |
 
 
 ## Proposed Tasks for the 5th year project
