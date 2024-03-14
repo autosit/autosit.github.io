@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Towards accurate Multi-sensor object tracking
-category: SF
+category: MISC
 ---
 ## Background
 Researchers at NTNU are currently developing an autonomous ferry designed for carrying pedestrians and cyclists between Ravnkloa and Brattøra. The development of a robust collision avoidance system for this ferry relies on having an accurate multi-sensor (MS) multi-object tracking (MOT) system using radar, lidar, optical cameras, and infrared cameras. The MS MOT again needs an accurate model of the environment and its sensors. More specifically there is a need for a thorough understanding of the number of vessels and kayaks in the region with their behavior pattern, as well as sensor true/false positives rates.
