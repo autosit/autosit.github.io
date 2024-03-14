@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AIS-guided radar clustering
-category: SF
+category: MISC
 ---
 ## Background
 
