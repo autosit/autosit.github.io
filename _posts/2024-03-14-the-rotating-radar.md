@@ -27,18 +27,18 @@ The main goal of this project is to include radar rotation compensation into met
 
 
 ## Proposed tasks for the 5th year project
-The main goals of the specialization project will be to become familiar with the underlying mathematics, sensors and methods, and to implement a radar clustering algorithm which can receive input from AIS measurements. The proposed tasks are
-*	xx
-*	xx
-*	xx
-*	xx
-*	xx
+While a simple method for rotation compensation has been investigated in automotive autonomy, no such analysis has been done for maritime radar-based localization. The specialization project should therefore try to answer the questions: How much does it matter? Can it be improved? To make this analysis easier, a simulation-based approach is recommended. 
 
-
+The proposed tasks are
+*	Simulate data that mimic real data for radar-based vessel odometry and SLAM with a rotating radar.
+*	Implement radar rotation compensation assuming constant velocity during each radar scan. 
+*	Analyze impact of rotation compensation for a variety of maneuvering scenarios. 
+*	Implement and experiment with motion models that relax the piecewise straight motion assumption. 
+*	Write the report. 
 
 
 ## Proposed tasks for the master’s thesis
-For the master’s thesis, the inclusion of the radar clustering process from the project can be included in a larger tracking framework, to be tested on experimental data. Another option is to combine the use of AIS in extended object tracking, which shares some similarities with the tasks from the project, but as part of a larger target tracking structure.
+For the master’s thesis, the ambition is to move from simulated data to the real world. Relevant radar data are available from a variety of projects. It may also be desirable to collect new radar data with a high-resolution radar that we plan to purchase. This could also be part of a paid summer internship in the summer 2024. 
 
 ## Prerequisites
 The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallel with the specialization project. 
