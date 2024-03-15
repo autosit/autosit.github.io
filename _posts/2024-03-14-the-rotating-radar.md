@@ -41,16 +41,17 @@ The proposed tasks are
 For the master’s thesis, the ambition is to move from simulated data to the real world. Relevant radar data are available from a variety of projects. It may also be desirable to collect new radar data with a high-resolution radar that we plan to purchase. This could also be part of a paid summer internship in the summer 2024. 
 
 ## Prerequisites
-The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallel with the specialization project. 
+The candidate should have had the course [TTK4250 Sensor Fusion], or take it in parallel with the specialization project. Background in computer vision or radar signal processing may also be useful. 
 
 
 
 ## References
-Martin Ester, Hans-Peter Kriegel, Jörg Sander, and Xiaowei Xu. 1996. "[A density-based algorithm for discovering clusters in large spatial databases with noise.][Ester1996]" In Proceedings of the Second International Conference on Knowledge Discovery and Data Mining (KDD'96). AAAI Press, 226–231.
 
-Audun Gullikstad Hem. "[Maritime multi-target tracking with radar and asynchronous transponder measurements.][Hem2021]" Master’s thesis, NTNU, September 2021 
+Keenan Burnett, Angela Schoellig and Timothy Barfoot. 2021. "[Do We Need to Compensate for Motion Distortion and Doppler Effects in Spinning Radar Navigation?][Buernett2021]". In IEEE Robotics and Automation Letters. Vol. 6, No. 2,  p. 771-778.
 
-J. A Sagild, A. G. Hem, and E. F. Brekke. "[Counting technique versus single-time test for track-to-track association.][Sagild2021]" In International Conference on Information Fusion, Sun City, 2021. 
+A. G. Hem, and E. F. Brekke. "[Compensating radar rotation in target tracking.][Hem2022]" In International Conference on Information Fusion, Sun City, 2021. 
+
+* Wilthil, Flåten & Brekke (2017): "[A target tracking system for ASV collision avoidance based on the PDAF][WFB]", in Sensing and Control for Autonomous Vehicles, Springer. 
 
 
 
