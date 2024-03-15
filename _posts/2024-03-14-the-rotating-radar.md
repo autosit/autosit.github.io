@@ -8,8 +8,9 @@ category: SF
 Radar plays a crucial role for maritime navigation, for three reasons: It can see further than other sensors. It is more resilient to bad weather conditions than other sensors. It provides both range and bearing measurements. The fact that it can measure distance, makes radar data much easier to work with than camera data, which do not provide any direct measurements of distance. The range-and-bearing measurements can typically be converted to Cartesian coordinates, so that linear measurement models can be used. 
 
  
-|<img src="{{site.url}}/assets/radar_illustration.pdf" width="700"> | 
-| Different clustering schemes. From [Hem2021]|
+|<img src="{{site.url}}/assets/rotatingtwice.png" width="700"> | 
+| Possible impact of radar rotation in target tracking. |
+
 
 However, traditional maritime radars tend to use a rotating beam, whose period can be a few seconds. This artefact is often ignored in literature on maritime radar tracking and localization. As an example, in the pipeline described in [Wilthil, Flåten And Brekke (2017)][WFB] radar measurements were translated from polar coordinates to Cartesian coordinates at the time they were observed, but the entire radar scan was subsequently processed with the final time of the radar scan as a common time stamp, leading to a potential time error up to 2.7 seconds. 
 
@@ -19,8 +20,6 @@ For radar-based navigation, such as techniques for simultaneous localization and
 
 
 
-|<img src="{{site.url}}/assets/ClusterAnalysis_Mouse.svg" width="700"> | 
-| Different clustering schemes. From: https://commons.wikimedia.org/w/index.php?curid=11765684|
 
 ## Scope
 The main goal of this project is to include radar rotation compensation into methods for radar-based localization for autonomous surface vessels. 
