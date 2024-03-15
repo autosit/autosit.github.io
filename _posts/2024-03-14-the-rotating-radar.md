@@ -51,7 +51,7 @@ Keenan Burnett, Angela Schoellig and Timothy Barfoot. 2021. "[Do We Need to Comp
 
 A. G. Hem, and E. F. Brekke. "[Compensating radar rotation in target tracking.][Hem2022]" In International Conference on Information Fusion, Sun City, 2021. 
 
-* Wilthil, Flåten & Brekke (2017): "[A target tracking system for ASV collision avoidance based on the PDAF][WFB]", in Sensing and Control for Autonomous Vehicles, Springer. 
+Wilthil, Flåten & Brekke (2017): "[A target tracking system for ASV collision avoidance based on the PDAF][WFB]", in Sensing and Control for Autonomous Vehicles, Springer. 
 
 
 
