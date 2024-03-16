@@ -60,9 +60,8 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 ## Relevant literature
 
 * Ruud, K., Brekke, E., & Eidsvik, J. (2018): “[LIDAR Extended Object Tracking of a Maritime Vessel Using an Ellipsoidal Contour Model](https://www.researchgate.net/publication/328890666_LIDAR_Extended_Object_Tracking_of_a_Maritime_Vessel_Using_an_Ellipsoidal_Contour_Model)”, SDF 2018.
-* Granström, K., Reuter, S., Meissner, D. & Scheel, A. (2014): “[A multiple model PHD approach to tracking of cars under an assumed rectangular shape](https://ieeexplore.ieee.org/document/6915991/)”, FUSION 2014.
 * Granström, K., Baum, M. & Reuter, S. (2016): “[Extended Object Tracking: Introduction, Overview and Applications](https://arxiv.org/abs/1604.00970)”, Journal of Advances in Information Fusion.
-* Schuster, M. & Reuter, J. (2015): “[Target tracking in marine environment using automotive radar and laser range sensor](https://ieeexplore.ieee.org/document/7284009/)”, MMAR 2015.
+
 
 
 See also some of the media coverage that the autonomous ferry project has received:
