@@ -9,6 +9,12 @@ category: SF
 
 Collision avoidance and situational awareness for autonomous surface vessels depend on methods for detection and tracking to know where other vehicles are and where they are heading. Vessels in confined waters such as canals and harbors often need to pass each other with small margins of error. This poses requirements to the tracking system, which only can be fulfilled by extended object tracking (EOT) utilizing the high resolution of modern sensors such as lidars, cameras or high-frequency radar. 
 
+
+| <img src="{{site.url}}/assets/munkholmdeparting.png" width="370"> | | <img src="{{site.url}}/assets/lidar-and-camera.jpg" width="370"> |
+|:---:| :---: |:---:|
+| The Munkholmen tourist ferry as seen by a lidar (different colors are data from different time steps). | | The experimental setup where the lidar were recorded. It is evident that the boats in the background will cover several degrees in the field of view.|
+
+
 EOT is more complicated than point-based tracking because the algorithm must estimate the extent, or shape, of other vessels, in addition to their kinematic states. Thus, any EOT method must utilize some kind of representation of the extent. Representations such as random matrices, fixed shapes, Gaussian processes or Fourier expansions all have shortcomings. Ships come in all kinds of shapes and sizes, and it is difficult to specify a model that both is sufficiently flexible, computationally efficient and which achieves the ideal precision. 
 
 As a solution to this, we have recently proposed a model where the ship perimeter is expressed by means of principal component analysis (PCA) over a large set of CAD models, which include many different shapes of relevance. This approach can be thought of as a form of soft classification or machine learning, where a fundamental form of the model is given, and the parameters are learned partly from offline training data, and partly from online sensor data. A major benefit with this approach is that is able to represent a wide range of ship shapes with a low number of parameters.  
@@ -19,9 +25,6 @@ As a solution to this, we have recently proposed a model where the ship perimete
 The goal of this project is to contribute to the development of a complete EOT method that uses this kind of representation that is learned from offline candidate shapes. You will be working closely with a PhD candidate who developed this representation. 
 
 
-| <img src="{{site.url}}/assets/munkholmdeparting.png" width="370"> | | <img src="{{site.url}}/assets/lidar-and-camera.jpg" width="370"> |
-|:---:| :---: |:---:|
-| The Munkholmen tourist ferry as seen by a lidar (different colors are data from different time steps). | | The experimental setup where the lidar were recorded. It is evident that the boats in the background will cover several degrees in the field of view.|
 
 ## Proposed tasks for the specialization project
 
