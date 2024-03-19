@@ -42,11 +42,10 @@ Yet another possibility is to directly estimate the vessel pose from the camera 
 |A still frame from a simulator of the region|
 
 ## Prerequisites
-The candidate should have some prior knowledge of computer vision or SLAM, and for the master thesis good knowledge about optimization might be needed. Otherwise, courses on these topics should be taken in parallel. Relevant courses are [TTK4255](https://www.ntnu.no/studier/emner/TTK4255#tab=omEmnet), [TTK21](https://www.itk.ntnu.no/emner/fordypning/TTK21), and possibly [TTK4250](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet).
+[TTK4250](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet) is recommended background knowledge. 
 
 
 ## Supervisors
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).<br>
-Co-supervisor: [Lars-Christian Ness Tokle](https://www.ntnu.no/ansatte/lars-christian.n.tokle).<br>
+Co-supervisor: [Martin Baerveldt](https://www.ntnu.no/ansatte/martin.baerveldt).<br>
 
-![UrbanFerge]({{site.url}}/assets/Ferge.png)
