@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Heading and size
+title: High precision extended object tracking
 category: SF
 ---
 ## Background
@@ -13,8 +13,10 @@ We have developed an EOT method based on Gaussian Processes that is suitable for
 
 However, in all closed-loop experiments so far we have used simpler tracking methods based on the point measurement assumption. The current state of the art in point-based tracking is the VIMMJIPDA tracker, which uses multiple motion models to improve the velocity estimation. 
 
-![GPEX]({{site.url}}/assets/gpex.png)
-|An example of how the GP method estimates extent based on lidar data. |
+
+|<img src="{{site.url}}/assets/headingests.png" width="700"> | 
+| Example of lidar data where both the correct and a wrong heading estimate may seem plausible. |
+
 
 ## Scope
 
