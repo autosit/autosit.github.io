@@ -17,6 +17,8 @@ Several approaches to LTP have been studied in the literature. These include bot
 The goal of this project is to compare different methods for long-term prediction, and to develop the pipeline needed to make on or more of these methods applicable to utilization in real-world autonomy. 
 To strengthen the relevance to maritime surface autonomy, this pipeline should involve training on radar data recorded in Trondheimsfjorden or Trondheim Harbor. In other words, the goal is to build a long-term prediction model based on output from a radar tracking system. 
 
+|<img src="{{site.url}}/assets/canaltracks.png" width="700"> | 
+| Radar tracks from a data set of 1027 scenarios in the Trondheim City Canal. | 
 
 
 ## Proposed Tasks for the 5th year project
