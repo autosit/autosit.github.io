@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building marine traffic prediction models
-category: SITAW
+category: LTP
 ---
 ## Background
 
