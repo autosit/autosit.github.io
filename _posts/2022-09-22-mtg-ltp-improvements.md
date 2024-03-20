@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Joint vessel destination and kinematics prediction
-category: LTP
+category: NA
 ---
 ## Background
 
