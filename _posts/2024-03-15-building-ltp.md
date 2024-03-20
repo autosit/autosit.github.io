@@ -47,5 +47,4 @@ Such features could be:
 
 ## Contact
 
-Supervisor: [Edmund Brekke] 
-[Edmund Brekke]: www.ntnu.edu/employees/edmund.brekke
+Supervisor: [Edmund Brekke](www.ntnu.edu/employees/edmund.brekke) 
