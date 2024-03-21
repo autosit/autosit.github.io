@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a game-world from camera and lidar data
-category: SF
+category: NA
 ---
 ## Background
 Researchers at NTNU are currently developing an autonomous ferry designed for carrying pedestrians and cyclists between Ravnkloa and Brattøra. The development of a robust collision avoidance system for this ferry can benefit from a proper 3D model akin to a "game scene" of the area. Such a 3D model can potentially aid in the localization of the ferry itself, the detection of other boats, and in simulating scenarios.
