@@ -51,7 +51,7 @@ The MSc thesis will continue in the same direction as the specialization project
 This is a list of *recommended* prerequisites for this master project.
 
 - Strong programming skills in either Matlab, Python or C++. 
-- You should have had the course [TTK4250 Sensor Fusion], or take it in parallel with the specialization project. Background in computer vision will also be useful. 
+- You should have had the course [TTK4250 Sensor Fusion](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet), or take it in parallel with the specialization project. Background in computer vision will also be useful. 
 
 
 ## Contact 
@@ -61,7 +61,7 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 * Ruud, K., Brekke, E., & Eidsvik, J. (2018): “[LIDAR Extended Object Tracking of a Maritime Vessel Using an Ellipsoidal Contour Model](https://www.researchgate.net/publication/328890666_LIDAR_Extended_Object_Tracking_of_a_Maritime_Vessel_Using_an_Ellipsoidal_Contour_Model)”, SDF 2018.
 * Granström, K., Baum, M. & Reuter, S. (2016): “[Extended Object Tracking: Introduction, Overview and Applications](https://arxiv.org/abs/1604.00970)”, Journal of Advances in Information Fusion.
-
+* Lopez, E., Brekke, E., Mester, R. and Stahl, A. (2023): “[Multiscan Shape Estimation for Extended Object Tracking](https://ieeexplore.ieee.org/document/10224154), Fusion 2023.
 
 
 See also some of the media coverage that the autonomous ferry project has received:
