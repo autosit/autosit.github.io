@@ -24,7 +24,6 @@ However, in all closed-loop experiments so far we have used simpler tracking met
 The primary goal of this project is to equip the Gaussian Process EOT method with multiple motion models, thereby improving its performance and building a bridge between the two approaches to vessel tracking. A secondary goal is to further improve the resulting method by fusion with camera data which also can provide information about the velocity and size of other vessels.
 
 
-
 ## Proposed Tasks
 ### Specialization project
 1. Make yourself familiar with current theory and implementations of GP-EOT and VIMMJIPDA. 
@@ -32,15 +31,15 @@ The primary goal of this project is to equip the Gaussian Process EOT method wit
 3. Perform simulations, and investigate how multiple motion models affect the performance. 
 4. Report your findings. 
 
+|<img src="{{site.url}}/assets/lidarcam.png" width="700"> | 
+| Example of lidar data superimposed on a camera image after calibration. |
+
+
 ### Master thesis
 
 For the master thesis, the goal is to also include camera. This can be done in a variety of ways. One possibility is to build on a master thesis from the spring 2023, where the GP-EOT is being enhanced by optical flow measurements from camera. 
 Another possibility is to focus on the information that can be extracted from YOLO bounding boxes and object masks. 
 Yet another possibility is to directly estimate the vessel pose from the camera images. 
-
-
-|<img src="{{site.url}}/assets/lidarcam.png" width="700"> | 
-| Example of lidar data superimposed on a camera image after calibration. |
 
 ## Prerequisites
 [TTK4250](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet) is recommended background knowledge. 
