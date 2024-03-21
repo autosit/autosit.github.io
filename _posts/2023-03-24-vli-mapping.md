@@ -26,7 +26,7 @@ The goal of this project is to see if we can develop such a "game scene" from ou
 For the master thesis, two main branches can be followed. Either improve the model or use the model. The specialization project might show that improvements are necessary in order to use the model at all, in which case this must be addressed first. Otherwise one could address one or more of the tasks of localization, detection, and scenario simulation.
 
 |![Simulation]({{site.url}}/assets/simunity.png)|
-|A still frame from a simulator of the region|
+|A still frame from a simulator of the regionx|
 
 ## Prerequisites
 The candidate should have some prior knowledge of computer vision or SLAM, and for the master thesis good knowledge about optimization might be needed. Otherwise, courses on these topics should be taken in parallel. Relevant courses are [TTK4255](https://www.ntnu.no/studier/emner/TTK4255#tab=omEmnet), [TTK21](https://www.itk.ntnu.no/emner/fordypning/TTK21), and possibly [TTK4250](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet).
