@@ -36,7 +36,7 @@ The specialization project will pursue answers to research questions such as the
 
 * How is it best to do state estimation using this model? Is it preferable with a filtering approach or a smoothing approach?
 * How can data association be done using this model? To which extent can feature information (colors, signal strength) aid the data association?
-* For which sensors is this approach suitable? Much of the motivation stems for research lidar tracking. The model is also relevant for stereo cameras, which also can provide a similar point cloud, although with lower accuracy. A 2-dimensional version may also be relevant to high-resolution radar. 
+* For which sensors is this approach suitable? Much of the motivation stems from research on lidar tracking. The model is also relevant for stereo cameras, which also can provide a similar point cloud, although with lower accuracy. A 2-dimensional version may also be relevant to high-resolution radar. 
 
 
 ## Proposed tasks for the MSc thesis 
