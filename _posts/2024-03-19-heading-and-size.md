@@ -13,7 +13,7 @@ Furthermore, autonomy system should be able to estimate the course and velocity 
 
 We have developed an EOT method based on Gaussian Processes that is suitable for marine vessels. This method models the perimeter a target vessel as a Gaussian Process, which is estimated from lidar data. 
 
-However, in all closed-loop experiments so far we have used simpler tracking methods based on the point measurement assumption. The current state of the art in point-based tracking is the VIMMJIPDA tracker, which uses multiple motion models to improve the velocity estimation. 
+However, in all closed-loop experiments so far we have used simpler tracking methods based on the point measurement assumption. Our current state of the art in point-based tracking is the [VIMMJIPDA](https://codeocean.com/capsule/3448343/tree/v1) tracker, which uses multiple motion models to improve the velocity estimation. 
 
 
 |<img src="{{site.url}}/assets/headingests.png" width="700"> | 
