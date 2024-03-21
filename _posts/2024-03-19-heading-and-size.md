@@ -9,7 +9,7 @@ category: SF
 
 As maritime surface autonomy is tackling more challenging use cases such as urban passenger ferries and unmanned cargo transport the need for precision increases. It is not sufficient to merely detect and track other vessels. 
 The autonomy system must also know something about the size of other vessels in order to calculate feasible safety margins. 
-Furthermore, autonomy system should be able to estimate the course and velocity of other vessels as accurately as possible, in order to plan its own trajectory. This is achieved by methods of extended object tracking (EOT). 
+Furthermore, the autonomy system should be able to estimate the course and velocity of other vessels as accurately as possible, in order to plan its own trajectory. This is achieved by methods of [extended object tracking (EOT)](https://www.youtube.com/watch?v=rolckWON8Xo). 
 
 We have developed an EOT method based on Gaussian Processes that is suitable for marine vessels. This method models the perimeter a target vessel as a Gaussian Process, which is estimated from lidar data. 
 
