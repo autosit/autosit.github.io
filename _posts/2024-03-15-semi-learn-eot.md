@@ -12,7 +12,7 @@ Collision avoidance and situational awareness for autonomous surface vessels dep
 
 | <img src="{{site.url}}/assets/munkholmdeparting.png" width="370"> | | <img src="{{site.url}}/assets/lidar-and-camera.jpg" width="370"> |
 |:---:| :---: |:---:|
-| The Munkholmen tourist ferry as seen by a lidar (different colors are data from different time steps). | | The experimental setup where the lidar were recorded. It is evident that the boats in the background will cover several degrees in the field of view.|
+| The Munkholmen tourist ferry as seen by a lidar (different colors are data from different time steps). | | Setup where the lidar were recorded. It is evident that the boats in the background will cover several degrees in the field of view.|
 
 
 The goal in AOT, as opposed to point-based tracking, is to estimate the extent, or shape, of other vessels, in addition to their kinematic states. Thus, any EOT method must utilize some kind of representation of the extent. Representations such as random matrices, fixed shapes, Gaussian processes or Fourier expansions all have shortcomings. Ships come in all kinds of shapes and sizes, and it is difficult to specify a model that both is sufficiently flexible, computationally efficient and which achieves the ideal precision. 
