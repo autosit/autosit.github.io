@@ -25,7 +25,7 @@ As a solution to this, we have recently proposed a model where the ship perimete
 
 ## Scope
 
-The goal of this project is to contribute to the development of a complete EOT method that uses this kind of representation that is learned from offline candidate shapes. You will be working closely with a PhD candidate who developed this representation. 
+The goal of this project is to contribute to the development of a complete EOT method that uses this kind of representation that is learned from offline candidate shapes. You will be working closely with a [PhD candidate](https://www.ntnu.no/ansatte/ernesto.lopez) who developed this representation. 
 
 
 
