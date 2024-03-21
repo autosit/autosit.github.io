@@ -17,7 +17,7 @@ However, in all closed-loop experiments so far we have used simpler tracking met
 
 
 |<img src="{{site.url}}/assets/headingests.png" width="700"> | 
-| Example of lidar data where both the correct and a wrong heading estimate may seem plausible. |
+| Example of lidar data where both the correct and 180 a degrees wrong heading estimate may seem plausible. |
 
 
 ## Scope
@@ -54,6 +54,6 @@ Co-supervisor: [Martin Baerveldt](https://www.ntnu.no/ansatte/martin.baerveldt).
 * M. Baerveldt, E. Lopez and E. Brekke (2023). "<a href="hhttps://ieeexplore.ieee.org/document/10224156">Extended target PMBM tracker with a Gaussian Process target model on LiDAR data.</a>" Proceedings of Fusion 2023.
 * A. Hem (2021). "<a href="hhttps://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2781021?show=full&locale-attribute=no">Maritime multi-target tracking with radar and asynchronous transponder measurements.</a>" MSc thesis, NTNU. 
 
-|<img src="{{site.url}}/assets/modelprobs.png" width="570"> | 
-| Example of how multiple motion models can attain different probabilities depending on the behavior of a boat. |
+|<img src="{{site.url}}/assets/maincanal.png" width="670"> | 
+| The autonomous ferry milliAmpere has a sensor rig for recording of lidar, radar, camera and infrared data. |
 
