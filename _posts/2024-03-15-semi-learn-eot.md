@@ -63,6 +63,8 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 * Granström, K., Baum, M. & Reuter, S. (2016): “[Extended Object Tracking: Introduction, Overview and Applications](https://arxiv.org/abs/1604.00970)”, Journal of Advances in Information Fusion.
 * Lopez, E., Brekke, E., Mester, R. and Stahl, A. (2023): “[Multiscan Shape Estimation for Extended Object Tracking](https://ieeexplore.ieee.org/document/10224154), Fusion 2023.
 
+| <img src="{{site.url}}/assets/radarlidar.png" width="700"> | 
+| Radar and lidar data recorded in the Trondheim City Canal. |
 
 See also some of the media coverage that the autonomous ferry project has received:
 
