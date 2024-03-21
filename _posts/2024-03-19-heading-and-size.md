@@ -5,6 +5,8 @@ category: SF
 ---
 ## Background
 
+|<img src="{{site.url}}/assets/lidarcam.png" width="700"> | 
+
 As maritime surface autonomy is tackling more challenging use cases such as urban passenger ferries and unmanned cargo transport the need for precision increases. It is not sufficient to merely detect and track other vessels. 
 The autonomy system must also know something about the size of other vessels in order to calculate feasible safety margins. 
 Furthermore, autonomy system should be able to estimate the course and velocity of other vessels as accurately as possible, in order to plan its own trajectory. This is achieved by methods of extended object tracking (EOT). 
@@ -31,8 +33,7 @@ The primary goal of this project is to equip the Gaussian Process EOT method wit
 3. Perform simulations, and investigate how multiple motion models affect the performance. 
 4. Report your findings. 
 
-|<img src="{{site.url}}/assets/lidarcam.png" width="700"> | 
-| Example of lidar data superimposed on a camera image after calibration. |
+
 
 
 ### Master thesis
