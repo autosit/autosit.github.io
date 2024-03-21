@@ -28,9 +28,9 @@ The goal of this project is to simulate infrared textures for the digital twin A
 
 The MSc thesis will build on the specialization project, and pursue a topic such as one of the following in greater depth:
 
-* aa
-* aa
-* aa
+* Can simulated infrared textures be used to train infrared detectors?
+* Can simulated infrared textures be used to test infrared detectors?
+
 
 ## Prerequisites
 This is a list of *recommended* prerequisites for this master project.
