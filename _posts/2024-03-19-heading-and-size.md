@@ -50,6 +50,10 @@ Yet another possibility is to directly estimate the vessel pose from the camera 
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).<br>
 Co-supervisor: [Martin Baerveldt](https://www.ntnu.no/ansatte/martin.baerveldt).<br>
 
+## References
+* M. Baerveldt, E. Lopez and E. Brekke (2023). "<a href="hhttps://ieeexplore.ieee.org/document/10224156">Extended target PMBM tracker with a Gaussian Process target model on LiDAR data.</a>" Proceedings of Fusion 2023.
+* A. Hem (2021). "<a href="hhttps://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2781021?show=full&locale-attribute=no">Maritime multi-target tracking with radar and asynchronous transponder measurements.</a>" MSc thesis, NTNU. 
+
 |<img src="{{site.url}}/assets/modelprobs.png" width="570"> | 
 | Example of how multiple motion models can attain different probabilities depending on the behavior of a boat. |
 
