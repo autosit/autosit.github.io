@@ -39,9 +39,8 @@ Another possibility is to focus on the information that can be extracted from YO
 Yet another possibility is to directly estimate the vessel pose from the camera images. 
 
 
-
-|![Simulation]({{site.url}}/assets/gpex.png)|
-|A still frame from a simulator of the region|
+|<img src="{{site.url}}/assets/modelprobs.png" width="700"> | 
+| Example of how multiple motion models can attain different probabilities depending on the behavior of a boat. |
 
 ## Prerequisites
 [TTK4250](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet) is recommended background knowledge. 
