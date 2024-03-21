@@ -39,8 +39,8 @@ Another possibility is to focus on the information that can be extracted from YO
 Yet another possibility is to directly estimate the vessel pose from the camera images. 
 
 
-|<img src="{{site.url}}/assets/modelprobs.png" width="700"> | 
-| Example of how multiple motion models can attain different probabilities depending on the behavior of a boat. |
+|<img src="{{site.url}}/assets/lidarcam.png" width="700"> | 
+| Example of lidar data superimposed on a camera image after calibration. |
 
 ## Prerequisites
 [TTK4250](https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet) is recommended background knowledge. 
@@ -49,4 +49,7 @@ Yet another possibility is to directly estimate the vessel pose from the camera 
 ## Supervisors
 Main supervisor: [Edmund Brekke](http://www.ntnu.no/ansatte/edmund.brekke).<br>
 Co-supervisor: [Martin Baerveldt](https://www.ntnu.no/ansatte/martin.baerveldt).<br>
+
+|<img src="{{site.url}}/assets/modelprobs.png" width="570"> | 
+| Example of how multiple motion models can attain different probabilities depending on the behavior of a boat. |
 
