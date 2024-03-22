@@ -4,6 +4,8 @@ title: Stable diffusion infrared texturing
 category: LTP
 ---
 
+| <img src="{{site.url}}/assets/irboats.png" width="700"> | 
+|Ground truth labels and detection results using EfficientDet and YOLOv3 in infrared image. |
 
 ## Background
 
@@ -43,5 +45,5 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## Relevant literature
 
-* K. Vasstein, E. Brekke, R. Mester and E. Eide (2020): “Autoferry Gemini: a real-time simulation platform for electromagnetic radiation sensors on autonomous ships](https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032)”, ICCV 2023.
-
+* K. Vasstein, E. Brekke, R. Mester and E. Eide (2020): “[Autoferry Gemini: a real-time simulation platform for electromagnetic radiation sensors on autonomous ships](https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032)”, ICCV 2023.
+* I. Kjønås (2021): “[Maritime Object Detection in LWIR- images using Deep Learning methods with Data Augmentation](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2789448?locale-attribute=no)”, Master thesis, NTNU.
