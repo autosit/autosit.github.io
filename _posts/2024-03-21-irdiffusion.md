@@ -37,7 +37,7 @@ The MSc thesis will build on the specialization project, and pursue a topic such
 ## Prerequisites
 This is a list of *recommended* prerequisites for this master project.
 
-- Strong programming skills in either Matlab, Python or C++. 
+- Strong programming skills in Python and/or C++. 
 - You should have had courses in machine learning and/or computer vision. 
 
 ## Contact 
