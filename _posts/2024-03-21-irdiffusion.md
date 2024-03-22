@@ -33,6 +33,9 @@ The MSc thesis will build on the specialization project, and pursue a topic such
 * Can simulated infrared textures be used to train infrared detectors?
 * Can simulated infrared textures be used to test infrared detectors?
 
+| <img src="{{site.url}}/assets/opticaldiffusion.png" width="700"> | 
+| Workflow of Stable Diffusion used to generate optical textures on boats. |
+
 
 ## Prerequisites
 This is a list of *recommended* prerequisites for this master project.
