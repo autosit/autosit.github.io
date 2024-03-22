@@ -5,7 +5,7 @@ category: LTP
 ---
 
 | <img src="{{site.url}}/assets/irboats.png" width="700"> | 
-|Ground truth labels and detection results in an infrared image. |
+|Ground truth labels and detection results in an infrared image. From Kjønås (2021). |
 
 ## Background
 
