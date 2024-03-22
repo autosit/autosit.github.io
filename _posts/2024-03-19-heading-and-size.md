@@ -38,7 +38,7 @@ The primary goal of this project is to equip the Gaussian Process EOT method wit
 
 ### Master thesis
 
-For the master thesis, the goal is to also include camera. This can be done in a variety of ways. One possibility is to build on a master thesis from the spring 2023, where the GP-EOT is being enhanced by optical flow measurements from camera. 
+For the master thesis, the goal is to also include camera. This can be done in a variety of ways. One possibility is to build on a master thesis from the spring 2024, where the GP-EOT is being enhanced by optical flow measurements from camera. 
 Another possibility is to focus on the information that can be extracted from YOLO bounding boxes and object masks. 
 Yet another possibility is to directly estimate the vessel pose from the camera images. 
 
